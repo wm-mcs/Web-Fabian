@@ -51,5 +51,11 @@ enviarMensaje:function(){
 }
 
 },
+template:'
+
+
+
+
+'
 
 });
