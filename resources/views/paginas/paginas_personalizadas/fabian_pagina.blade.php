@@ -198,9 +198,9 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
    
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
-        <img src="{{url()}}/imagenes/PaginasPersonalizadas/paginas-webs-mauricio-costanzo-responsive.jpg" class="imagen-medio-de-web">
+        <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
         <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto">Tu pagina web será tu carta de presentación ante el mundo.  </div>
+          <div class="contiene-texto-imagen-medio-texto">¿Prestaste tu casa y no te la quieren devolver?, no pierdas más tiempo. Actuá cuanto antes. Soy abogado experto en desalojos. Fabian Delpino</div>
           
         </div>
       </div>
