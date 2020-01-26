@@ -4,7 +4,7 @@
 
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
-{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/mauricio-costanzo-desarrollador-prgramador.jpg'/*--}}
+{{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-experto-en-desalojo-uruguay-montevideo.jpg'/*--}}
 {{--*/ $Titulo                = 'Páginas web para PyMes' /*--}} 
 {{--*/ $DescriptionEtiqueta   = 'Una página web es la vidriera perfecta para una PyMe 
 Estoy convencido de que tener un sitio web es algo muy importante, seas un emprendedor que recién comienza, seas una empresa pequeña o una gran empresa, o si tu mercado es global o local: contar con una página web te permitirá dar a conocer tus beneficios de forma masiva y de forma muy simple. ¿Tu objetivo es aumentar las ventas de tu negocio? ¿Conseguir nuevos clientes? ¿Mejorar la imagen de tu empresa?  todo esto lo puedes lograr con una página web.
