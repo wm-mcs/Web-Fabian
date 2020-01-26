@@ -27,6 +27,11 @@
 
 
   <div id="app" class="site-wrap">
+  <div v-if="cargando" class="contiene-cargador">
+    <div class="cssload-container">
+      <div class="cssload-tube-tunnel"></div>
+    </div>
+  </div>
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
