@@ -8,6 +8,8 @@
     @include flex-direction(row);
     @include align-items(center); 
     @include justify-content(space-around); 
+    z-index: 999;
+    background-color: white;
 }
 
 
