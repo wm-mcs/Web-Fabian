@@ -6,8 +6,8 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-experto-en-desalojo-uruguay-montevideo.jpg'/*--}}
 {{--*/ $Titulo                = 'Abogado experto en desalojos en Uruguay | Fabian Delpino' /*--}} 
-{{--*/ $DescriptionEtiqueta   = 'Una página web es la vidriera perfecta para una PyMe 
-Estoy convencido de que tener un sitio web es algo muy importante, seas un emprendedor que recién comienza, seas una empresa pequeña o una gran empresa, o si tu mercado es global o local: contar con una página web te permitirá dar a conocer tus beneficios de forma masiva y de forma muy simple. ¿Tu objetivo es aumentar las ventas de tu negocio? ¿Conseguir nuevos clientes? ¿Mejorar la imagen de tu empresa?  todo esto lo puedes lograr con una página web.
+{{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+.
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
 {{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
@@ -129,10 +129,16 @@ Estoy convencido de que tener un sitio web es algo muy importante, seas un empre
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">{{$Titulo}}</h1>
-                <p class="text-secondary"> Autogestionables | Diseño web responsive </p>
-                <p  class="lead"> Úsala para vender más, para mejorar tu imagen, para que te encuentren en Google</p>
-                <p><a href="#about-section" class="btn smoothscroll btn-primary"> Más información </a></p>
+                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">¿Quieres desalojar a alguien?</h1>
+                <p class="text-secondary">Fabian Delpino | Abogado experto en desalojos </p>
+                <p  class="lead"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
+                
+                <div class="flex-row-center">
+                 <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
+                 <a href="#about-section" class="btn smoothscroll btn-primary">  </a>
+
+                </div>
+                
               </div>
             </div>
           </div>
