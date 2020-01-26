@@ -36,7 +36,11 @@ class Home_Public_Controller extends Controller
            
         $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
 
-        return view('paginas.paginas_personalizadas.fabian_pagina', compact('Empresa'));
+        
+        $blogs          = /*$this->NoticiasRepo->getUltimosBlogs();*/[];
+        
+
+        return view('paginas.paginas_personalizadas.fabian_pagina', compact('Empresa','blogs'));
     }
 
 
