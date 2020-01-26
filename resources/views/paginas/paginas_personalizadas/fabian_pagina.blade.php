@@ -98,7 +98,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#precios-section" class="nav-link">Precios</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mi</a></li>
                 <li><a href="#contact-section" class="nav-link">Contacto</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
@@ -155,47 +155,29 @@
 
 
 
-  <div  class="site-section bg-light" id="about-section">
+  <div  class="site-section bg-light" id="sobre-mi">
       <div class="container">
         <div class="row ">
           <div class="col-lg-6 order-2 order-lg-1">
           <h2 class="section-title mb-4">Una página web es la vidriera perfecta para PyMes  </h2>
-          <p>Estoy convencido de que tener un sitio web es algo muy importante, seas un emprendedor que recién comienza, seas una empresa pequeña o una gran empresa, o si tu mercado es global o local: contar con una página web te permitirá dar a conocer tus beneficios de forma masiva y de forma muy simple.
+          <p>Soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+
           </p>   
 
-          <p>Tu objetivo es aumentar las ventas de tu negocio? ¿Conseguir nuevos clientes? ¿Mejorar la imagen de tu empresa?  todo esto lo puedes lograr con una página web. 
+          <p>Soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+
           </p> 
 
-          <p>
-            Una página web te genera visibilidad, es decir estará disponible las 24hs los 365 del año. Cuando alguien escuche algo de tu negocio, es muy probable que lo primero que haga sea buscarlo en internet. 
-          </p>
-
-          <p>
-            Un sitio web te genera buena imagen. Si la web esta bien diseñada y cuenta con contenido atractivo te generará una buena imagen. 
-          </p>
-
-          <p>
-            Llegarás a un público que antes no, y esto se traduce en nuevas oportunidades de venta. 
-          </p>
-
-          <p>
-            Podrás mantener actualizado a tus clientes, sobre los nuevos productos, servicios o beneficios que lances. 
-
-          </p>
-
-          
-
-          <p>
-            En el momento en el que te decidas por una página web como vidriera ante el mundo, debes saber cómo están hechas, cuáles son sus beneficios y las funcionalidades que te ofrece para ayudarte a destacar en el mundo digital de internet. <strong><a href="#about-responsive">Más información</a></strong>
-          </p>
-
+         
 
 
 
 
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/PaginasPersonalizadas/pagina-web-la-vidriera-de-la-pymes.jpg" alt="Estoy convencido de que tener un sitio web es algo muy importante, seas un emprendedor que recién comienza, seas una empresa pequeña o una gran empresa, o si tu mercado es global o local: contar con una página web te permitirá dar a conocer tus beneficios de forma masiva y de forma muy simple.">
+            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
           </div>
         </div>
       </div>
@@ -208,7 +190,7 @@
 
 
 
-     @include('paginas.paginas_personalizadas.partial_caracteristicas_paginas_web')
+     
 
 
 
@@ -225,36 +207,6 @@
 
 
 
-
-     <section class="site-section bg-light" id="precios-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Precio</h2>
-            
-          </div>
-
-           <div class=" mb-5 mb-lg-0 get_width_100 flex-row-center flex-justifice-space-around  flex-wrap">
-            @include('paginas.home.home_precios')
-           </div>
-
-
-
-          <div class="get_width_100 flex-row-center flex-justifice-space-around">
-             <div class="Seccion_precio_aclaracion">
-                * El primer año el Hosting y mantenimiento son gratis y si tu dominio es ".com" también. A partir del segundo año deberás abonar U$S 150 (cada año) por dichos conceptos. <br>* Si quieres un dominio por ejemplo "tudominio.com.ar o tudominio.com.uy" deberás comprarlo con el respectivo proveedor, te voy a ayduar con eso. <br>* En Uruguay sería con ANTEL y ellos te van a cobrar algo así como $500 por año. 
-                <br>* Los precios no incluyen inpuestos.     
-
-                     
-             </div>
-          </div>
-           
-           
-
-        </div>
-      </div>
-    </section>
 
 
 
