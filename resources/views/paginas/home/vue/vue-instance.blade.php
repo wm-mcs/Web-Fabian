@@ -7,7 +7,7 @@
     data:{
       empresa: {!! json_encode($Empresa) !!},
       blogs:   {!! json_encode($blogs) !!},
-      cargando:false
+      cargando:true
 
       
 
