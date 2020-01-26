@@ -36,12 +36,7 @@ class Home_Public_Controller extends Controller
            
         $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
 
-        
-        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
-        $Trayectorias   = $this->TrayectoriaRepo->getTrayectoriaSegunTipoOrdenadas('experiencia');
-        $Educacion      = $this->TrayectoriaRepo->getTrayectoriaSegunTipoOrdenadas('educacion');
-
-        return view('paginas.home.home', compact('Empresa','blogs','Trayectorias','Educacion'));
+        return view('paginas.paginas_personalizadas.fabian_pagina', compact('Empresa'));
     }
 
 
