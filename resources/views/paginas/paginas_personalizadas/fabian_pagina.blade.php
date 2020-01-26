@@ -3,7 +3,7 @@
 
 
 
-{{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/pagina-webs-para-pymes-al-mejor-precio-mauricio-costanzo.jpg'/*--}}
+{{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/PaginasPersonalizadas/mauricio-costanzo-desarrollador-prgramador.jpg'/*--}}
 {{--*/ $Titulo                = 'Páginas web para PyMes' /*--}} 
 {{--*/ $DescriptionEtiqueta   = 'Una página web es la vidriera perfecta para una PyMe 
