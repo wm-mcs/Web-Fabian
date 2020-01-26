@@ -135,7 +135,7 @@
                 
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#about-section" class="btn smoothscroll btn-primary">  </a>
+                 <a href="#about-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
 
                 </div>
                 
