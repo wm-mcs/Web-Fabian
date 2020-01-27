@@ -201,7 +201,13 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
       <div class="contiene-todo-image-centrada">
         <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
         <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupo tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Soy abogado experto en desalojos dentro de Uruguay Montevideo | Fabian Delpino  <a href="#contact-section" > Contáctame ahora </a> </div>
+          <div class="contiene-texto-imagen-medio-texto">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupo tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Soy abogado experto en desalojos dentro de Uruguay Montevideo | Fabian Delpino  </div>
+          <div class="flex-row-center">
+                 <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
+                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
+
+                </div>
           
         </div>
       </div>
