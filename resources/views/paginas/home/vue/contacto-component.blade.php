@@ -123,20 +123,24 @@ template:'
 
     <div class="row mb-4">
       
-      <div class="form-group col-12">
-        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre">
+      <div class="form-group col-sm-6">
+        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
+      </div>
+
+      <div class="form-group col-sm-6">
+        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
       </div>
     </div>
 
-    <div class="row mb-4">
-      <div class="form-group col-12">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email ">
-      </div>
+   
     </div>
    
     <div class="row mb-4">
-      <div class="form-group col-12">
-        <input type="text" v-model="data_enviar.mensaje" cols="30" rows="10" class="form-control" placeholder="Escribe">
+      <div class="form-group col-sm-6">
+        <input type="text" v-model="data_enviar.celular" cols="30" rows="10" class="form-control" placeholder="Escribe tu celular">
+      </div>
+      <div class="form-group col-sm-6">
+        <input type="text" v-model="data_enviar.mensaje" cols="30" rows="10" class="form-control" placeholder="Escribe un mensaje (opcional)">
       </div>
     </div>
 
