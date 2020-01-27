@@ -59,13 +59,13 @@
       padding: 10px;
       border-radius: 6px; 
       width: 48%;
-      border:solid 2px #eee;
+      border:solid 1px $color-grey1;
       cursor:pointer;
      }
 
      .contacto-contiene-opcion-individual:hover{
       
-      border:solid 2px white;
+      border:solid 1px white;
       background-color: $color-3-primary_hover;
      }
 
