@@ -19,7 +19,7 @@ data:function(){
 
       inquilino:'inquilino',
       ocupante:'ocupante',
-      cargando:false;
+      cargando:false
     }
 }, 
 
