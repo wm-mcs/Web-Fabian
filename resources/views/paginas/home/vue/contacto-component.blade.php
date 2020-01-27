@@ -86,7 +86,7 @@ computed:{
      return true;
    }
    } 
-  },
+  
 },
 template:'
  <section class="site-section bg-primary" id="contact-section">
