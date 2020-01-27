@@ -71,7 +71,7 @@ template:'
         </div>
         <div class="contacto-contiene-opcion-individual">
             <label for="ocupante" class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</label>  
-            <input type="radio" name="ocupante" value="ocupante" id="inquilino" v-model="data_enviar.inquilino_ocupante">        
+            <input type="radio" name="ocupante" value="ocupante" id="ocupante" v-model="data_enviar.inquilino_ocupante">        
         </div>
       </div>
       
