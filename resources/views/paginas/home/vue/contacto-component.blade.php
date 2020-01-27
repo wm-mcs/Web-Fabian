@@ -30,12 +30,15 @@ enviarMensaje:function(){
   var url  = '/post_contacto_form';
   var vue  = this;
 
+  app.cargando = true;
+
    axios.post(url,data).then(function (response){  
             var data = response.data;  
             
 
             if(data.Validacion == true)
             {  
+               app.cargando = false;
                gtag('event', 'contacto');
                vue.se_envio = true; 
                vue.mensaje_se_envio = data.Validacion_mensaje; 
@@ -43,6 +46,7 @@ enviarMensaje:function(){
             }
             else
             {
+              app.cargando = false;
               $.notify(response.data.Validacion_mensaje, "error");
               vue.errores = data.Errores;
             }
@@ -55,6 +59,34 @@ enviarMensaje:function(){
 
 }
 
+},
+computed:{
+  eligio_inquilino_ocupante:function(){
+    if(this.data_enviar.inquilino_ocupante != '')
+    {
+      return true;
+    }
+  },
+  eligio_problema:function(){
+    if(this.data_enviar.problema != '')
+    {
+      return true;
+    }
+   }, 
+
+   mostrar_campos:function(){
+    if(this.eligio_inquilino_ocupante && this.eligio_problema )
+    {
+       return true;
+    }
+   },
+   mostrar_boton:function(){
+   if(this.mostrar_campos && this.data_enviar.name != '' && this.data_enviar.email != '' && this.data_enviar.celular != '')
+   {
+     return true;
+   }
+   } 
+  },
 },
 template:'
  <section class="site-section bg-primary" id="contact-section">
@@ -84,7 +116,7 @@ template:'
     </div>
 
 
-     <div v-if="$root.comparar_si_son_iguales(inquilino, data_enviar.inquilino_ocupante)" class="row mb-4">
+     <div v-if="$root.comparar_si_son_iguales(inquilino, data_enviar.inquilino_ocupante) && eligio_inquilino_ocupante" class="row mb-4">
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el inquilino?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
@@ -102,7 +134,7 @@ template:'
 
     </div>
 
-    <div v-if="$root.comparar_si_son_iguales(ocupante, data_enviar.inquilino_ocupante)" class="row mb-4">
+    <div v-if="$root.comparar_si_son_iguales(ocupante, data_enviar.inquilino_ocupante) && eligio_inquilino_ocupante" class="row mb-4">
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el ocupante?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
@@ -122,38 +154,41 @@ template:'
 
 
 
-    <div class="row mb-4">
+    <div v-if="mostrar_campos" class="row mb-4">
       
-      <div class="form-group col-sm-6">
+      <div class="form-group col-sm-4">
         <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
       </div>
 
-      <div class="form-group col-sm-6">
+      <div class="form-group col-sm-4">
         <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
+      </div>
+
+      <div class="form-group col-sm-4">
+        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
       </div>
     </div>
 
    
     
    
-    <div class="row mb-4">
+    <div v-if="mostrar_campos" class="row mb-4">
 
-      <div class="form-group col-sm-6">
-        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
-      </div>
-      <div class="form-group col-sm-6">
+      
+      <div class="form-group col-sm-12">
         <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
       </div>
     </div>
 
-    <div class="row">
+    <div v-if="mostrar_boton"  class="row">
 
       <div v-if="errores" >
         <div v-for="error in errores">@{{error}}</div>
       </div>
 
       <div class="col-md-6">
-        <input type="submit" class="btn btn-dark" v-on:click="enviarMensaje" value="Enviar mensaje">
+        <div v-if="$root.cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
+        <input v-else type="submit" class="btn btn-dark" v-on:click="enviarMensaje" value="Enviar mensaje">
       </div>
     </div>
     
