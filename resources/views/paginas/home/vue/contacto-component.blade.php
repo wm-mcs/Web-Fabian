@@ -134,9 +134,10 @@ template:'
     </div>
 
    
-    </div>
+    
    
     <div class="row mb-4">
+
       <div class="form-group col-sm-6">
         <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
       </div>
