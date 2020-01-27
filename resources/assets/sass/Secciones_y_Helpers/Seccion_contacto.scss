@@ -34,6 +34,42 @@
 }
 
 
+/* personalización contacto abogado */
+.contacto-titulo-pregunta{
+  font-size:24px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  color: white;
+}
+
+  .contacto-contiene-opciones{
+    @include flexbox;       
+    @include flex-direction(row);
+    @include align-items(center); 
+    @include justify-content(space-around);
+
+    width: 100%;
+  }
+
+     .contacto-contiene-opcion-individual{
+      @include flexbox;       
+      @include flex-direction(column);
+      @include align-items(center); 
+      padding: 10px;
+      border-radius: 6px;
+      width: 48%;
+     }
+
+         .contacto-contiene-opcion-individual-titulo{
+          width: 100%;
+          font-weight: bold;
+          font-size: 16px;
+          margin-bottom: 10px;
+
+         }
+
+
 
 
 
