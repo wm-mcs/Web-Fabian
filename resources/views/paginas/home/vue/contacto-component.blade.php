@@ -138,10 +138,10 @@ template:'
    
     <div class="row mb-4">
       <div class="form-group col-sm-6">
-        <input type="text" v-model="data_enviar.celular"  class="form-control" placeholder="Escribe tu celular">
+        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
       </div>
       <div class="form-group col-sm-6">
-        <input type="text" v-model="data_enviar.mensaje" class="form-control" placeholder="Escribe un mensaje (opcional)">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
       </div>
     </div>
 
