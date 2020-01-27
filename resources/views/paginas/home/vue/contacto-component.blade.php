@@ -94,9 +94,9 @@ template:'
  <section class="site-section bg-primary" id="contact-section">
 <div v-if="!se_envio" class="container">
   <div class="row">
-    <div class="col-12 mb-5 position-relative">
+    <div class="col-12 mb-3 position-relative">
       <h2 class="section-title text-center text-white mb-2">¿Quieres qué te ayude?</h2>
-      <p class="text-center text-white mb-5 helper-reduce-texto">Si quieres recibir mi ayuda me tienes que dar algunos datos para que te pueda decir cuánto va a demorar el proceso y cuanto te costará todo el trámite.</p>
+      <p class="text-center text-white  helper-reduce-texto">Si quieres recibir mi ayuda me tienes que dar algunos datos para que te pueda decir cuánto va a demorar el proceso y cuanto te costará todo el trámite.</p>
     </div>
   </div>
   <div action="#" class="form">
@@ -144,7 +144,7 @@ template:'
             <input type="radio" name="inquilino" value="Presté la casa y no me la devuelven" id="inquilino" v-model="data_enviar.problema">      
         </label>
         <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Me ocuparon la casa</div>  
+            <div  class="contacto-contiene-opcion-individual-titulo">Me ocuparon la casa sin mi permiso</div>  
             <input type="radio" name="inquilino" value="Me ocuparon la casa" id="inquilino" v-model="data_enviar.problema">      
         </label>
         
