@@ -77,6 +77,24 @@ template:'
       
 
     </div>
+
+
+     <div v-if"comparar_si_son_iguales('inquilino', data_enviar.inquilino_ocupante)" class="row mb-4">
+      <div class="contacto-titulo-pregunta">Elige una de estas opciones</div>
+      <div class="contacto-contiene-opciones">
+        <label class="contacto-contiene-opcion-individual">
+            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
+            <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
+        </label>
+        
+      </div>
+      
+
+    </div>
+
+
+
+
     <div class="row mb-4">
       
       <div class="form-group col-12">
