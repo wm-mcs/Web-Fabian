@@ -51,7 +51,7 @@ enviarMensaje:function(){
               vue.errores = data.Errores;
               $.notify(response.data.Validacion_mensaje, "error",{ position:"right bottom" });
               
-            },
+            }
            
            }).catch(function (error){
 
