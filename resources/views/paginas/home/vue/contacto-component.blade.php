@@ -43,14 +43,15 @@ enviarMensaje:function(){
                gtag('event', 'contacto');
                vue.se_envio = true; 
                vue.mensaje_se_envio = data.Validacion_mensaje; 
-               $.notify(response.data.Validacion_mensaje, "success");
+               $.notify(response.data.Validacion_mensaje, "success",{ position:"right bottom" });
             }
             else
             {
               this.cargando = false;
-              $.notify(response.data.Validacion_mensaje, "error");
               vue.errores = data.Errores;
-            }
+              $.notify(response.data.Validacion_mensaje, "error",{ position:"right bottom" });
+              
+            },
            
            }).catch(function (error){
 
