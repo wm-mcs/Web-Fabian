@@ -8,6 +8,7 @@ data:function(){
                    name:'',
                    email:'',
                    mensaje:'',
+                   celular:'',
                    inquilino_ocupante:'',
                    problema:''
       
@@ -137,10 +138,10 @@ template:'
    
     <div class="row mb-4">
       <div class="form-group col-sm-6">
-        <input type="text" v-model="data_enviar.celular" cols="30" rows="10" class="form-control" placeholder="Escribe tu celular">
+        <input type="text" v-model="data_enviar.celular"  class="form-control" placeholder="Escribe tu celular">
       </div>
       <div class="form-group col-sm-6">
-        <input type="text" v-model="data_enviar.mensaje" cols="30" rows="10" class="form-control" placeholder="Escribe un mensaje (opcional)">
+        <input type="text" v-model="data_enviar.mensaje" class="form-control" placeholder="Escribe un mensaje (opcional)">
       </div>
     </div>
 
