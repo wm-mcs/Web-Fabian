@@ -57,7 +57,7 @@ template:'
   <div class="row">
     <div class="col-12 mb-5 position-relative">
       <h2 class="section-title text-center text-white mb-2">¿Quieres qué te ayude?</h2>
-      <p class="text-center text-white mb-5">Si quieres recibir mi ayuda me tienes que dar algunos datos para que te pueda decir cuánto va a demorar el proceso y cuanto te costará todo el trámite.</p>
+      <p class="text-center text-white mb-5 helper-reduce-texto">Si quieres recibir mi ayuda me tienes que dar algunos datos para que te pueda decir cuánto va a demorar el proceso y cuanto te costará todo el trámite.</p>
     </div>
   </div>
   <div action="#" class="form">
