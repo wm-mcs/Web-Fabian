@@ -9,6 +9,7 @@ data:function(){
                    email:'',
                    mensaje:'',
                    inquilino_ocupante:'',
+                   problema:''
       
       },
       se_envio:false,
@@ -86,9 +87,14 @@ template:'
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el inquilino?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
-            <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
+            <div  class="contacto-contiene-opcion-individual-titulo">Mal pagador</div>  
+            <input type="radio" value="Mal pagador" v-model="data_enviar.problema">      
         </label>
+        <label class="contacto-contiene-opcion-individual">
+            <div  class="contacto-contiene-opcion-individual-titulo">Incumplimiento del plazo</div>  
+            <input type="radio" value="Incumplimiento del plazo" v-model="data_enviar.problema">      
+        </label>
+       
         
       </div>
       
@@ -99,8 +105,12 @@ template:'
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el ocupante?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
-            <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
+            <div  class="contacto-contiene-opcion-individual-titulo">Presté la casa y no me la devuelven</div>  
+            <input type="radio" name="inquilino" value="Presté la casa y no me la devuelven" id="inquilino" v-model="data_enviar.problema">      
+        </label>
+        <label class="contacto-contiene-opcion-individual">
+            <div  class="contacto-contiene-opcion-individual-titulo">Me ocuparon la casa</div>  
+            <input type="radio" name="inquilino" value="Me ocuparon la casa" id="inquilino" v-model="data_enviar.problema">      
         </label>
         
       </div>
