@@ -67,11 +67,11 @@ template:'
       <div class="contacto-contiene-opciones">
         <div class="contacto-contiene-opcion-individual">
             <label for="inquilino" class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</label>  
-            <input type="radio" name="inquilino" value="inquilino" v-model="data_enviar.inquilino_ocupante">      
+            <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
         </div>
         <div class="contacto-contiene-opcion-individual">
             <label for="ocupante" class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</label>  
-            <input type="radio" name="ocupante" value="ocupante" v-model="data_enviar.inquilino_ocupante">        
+            <input type="radio" name="ocupante" value="ocupante" id="inquilino" v-model="data_enviar.inquilino_ocupante">        
         </div>
       </div>
       
