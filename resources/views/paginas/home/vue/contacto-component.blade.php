@@ -66,12 +66,12 @@ template:'
       <div class="contacto-titulo-pregunta">¿Cuál es tu caso?</div>
       <div class="contacto-contiene-opciones">
         <div class="contacto-contiene-opcion-individual">
-            <div class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
-            <input type="radio" name="" value="inquilino" v-model="data_enviar.inquilino_ocupante">        
+            <label for="inquilino" class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</label>  
+            <input type="radio" name="inquilino" value="inquilino" v-model="data_enviar.inquilino_ocupante">      
         </div>
         <div class="contacto-contiene-opcion-individual">
-            <div class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
-            <input type="radio" name="" value="ocupante" v-model="data_enviar.inquilino_ocupante">        
+            <label for="ocupante" class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</label>  
+            <input type="radio" name="ocupante" value="ocupante" v-model="data_enviar.inquilino_ocupante">        
         </div>
       </div>
       
