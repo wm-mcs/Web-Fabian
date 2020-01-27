@@ -19,6 +19,7 @@ data:function(){
 
       inquilino:'inquilino',
       ocupante:'ocupante',
+      cargando:false;
     }
 }, 
 
@@ -30,7 +31,7 @@ enviarMensaje:function(){
   var url  = '/post_contacto_form';
   var vue  = this;
 
-  app.cargando = true;
+  this.cargando = true;
 
    axios.post(url,data).then(function (response){  
             var data = response.data;  
@@ -38,7 +39,7 @@ enviarMensaje:function(){
 
             if(data.Validacion == true)
             {  
-               app.cargando = false;
+               this.cargando = false;
                gtag('event', 'contacto');
                vue.se_envio = true; 
                vue.mensaje_se_envio = data.Validacion_mensaje; 
@@ -46,7 +47,7 @@ enviarMensaje:function(){
             }
             else
             {
-              app.cargando = false;
+              this.cargando = false;
               $.notify(response.data.Validacion_mensaje, "error");
               vue.errores = data.Errores;
             }
@@ -187,7 +188,7 @@ template:'
       </div>
 
       <div class="col-md-6">
-        <div v-if="$root.cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
+        <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
         <input v-else type="submit" class="btn btn-dark" v-on:click="enviarMensaje" value="Enviar mensaje">
       </div>
     </div>
