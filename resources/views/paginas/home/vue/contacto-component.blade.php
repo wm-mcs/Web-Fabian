@@ -82,7 +82,7 @@ template:'
     </div>
 
 
-     <div v-if="comparar_si_son_iguales(inquilino, data_enviar.inquilino_ocupante)" class="row mb-4">
+     <div v-if="$root.comparar_si_son_iguales(inquilino, data_enviar.inquilino_ocupante)" class="row mb-4">
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el inquilino?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
@@ -95,7 +95,7 @@ template:'
 
     </div>
 
-    <div v-if="comparar_si_son_iguales(ocupante, data_enviar.inquilino_ocupante)" class="row mb-4">
+    <div v-if="$root.comparar_si_son_iguales(ocupante, data_enviar.inquilino_ocupante)" class="row mb-4">
       <div class="contacto-titulo-pregunta">¿Cuál es la situación con el ocupante?</div>
       <div class="contacto-contiene-opciones">
         <label class="contacto-contiene-opcion-individual">
