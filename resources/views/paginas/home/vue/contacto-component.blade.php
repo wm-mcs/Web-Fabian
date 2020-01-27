@@ -65,14 +65,14 @@ template:'
     <div class="row mb-4">
       <div class="contacto-titulo-pregunta">¿Cuál es tu caso?</div>
       <div class="contacto-contiene-opciones">
-        <div class="contacto-contiene-opcion-individual">
-            <label for="inquilino" class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</label>  
+        <label class="contacto-contiene-opcion-individual">
+            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
             <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
-        </div>
-        <div class="contacto-contiene-opcion-individual">
-            <label for="ocupante" class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</label>  
+        </label>
+        <label class="contacto-contiene-opcion-individual">
+            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</div>  
             <input type="radio" name="ocupante" value="ocupante" id="ocupante" v-model="data_enviar.inquilino_ocupante">        
-        </div>
+        </label>
       </div>
       
 
