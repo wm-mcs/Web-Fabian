@@ -22,7 +22,9 @@ class Empresa extends Model
                            'img_atencion',
                            'imagen_quien_soy_url',
                            'imagen_quien_soy_url2',
-                           'link_whatsapp_send'];
+                           'link_whatsapp_send',
+                           'img_logo_cuadrado',
+                           'img_logo_horizontal'];
 
     /**
      * para verificar si no es null o no es cadena vacia
