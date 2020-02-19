@@ -375,7 +375,7 @@
 		.site-menu {
 			> li {
 				> a {
-					color: rgba($black, .7)!important;
+					color: $color-gris-text!important;
 					&:hover, &.active {
 						color: $black!important;
 					}
@@ -403,7 +403,7 @@
 			.site-menu {
 				> li {
 					> a {
-						color: $black!important;
+						color: $color-gris-text!important;
 						&:hover, &.active {
 							color: $primary!important;
 						}
