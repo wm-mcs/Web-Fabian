@@ -86,7 +86,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="{{url()}}" class="nav-link">
-                  <img style="height: 40px;" :src="empresa.img_logo_horizontal">
+                  <img style="height: 50px;" :src="empresa.img_logo_horizontal">
 
                 </a></li>
                 
@@ -138,7 +138,7 @@
                 
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos </a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
@@ -204,10 +204,10 @@ Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de te
       <div class="contiene-todo-image-centrada">
         <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
         <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto mb-4">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupo tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Soy abogado experto en desalojos dentro de Uruguay Montevideo | Fabian Delpino  </div>
+          <div class="contiene-texto-imagen-medio-texto mb-4">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupó tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Somos abogados expertos en desalojos dentro de Uruguay Montevideo  </div>
           <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctame ahora </a>
+                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos</a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
                 </div>
