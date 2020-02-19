@@ -36,7 +36,7 @@
 					display: inline-block;
 					text-decoration: none!important;
 
-					color: rgba($white, .7)!important;
+					color:$color-gris-text!important;
 					&:hover, &.active {
 						color: $color-gris-text!important;
 					}
