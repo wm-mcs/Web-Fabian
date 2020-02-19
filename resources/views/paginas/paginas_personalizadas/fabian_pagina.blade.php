@@ -132,9 +132,9 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-white">¿Quieres desalojar a alguien?</h1>
+                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-dark">¿Quieres desalojar a alguien?</h1>
                 <p class="text-secondary">Fabian Delpino | Abogado experto en desalojos </p>
-                <p  class="lead"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
+                <p  class="lead text-dark"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
                 
                 <div class="flex-row-center">
                  <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
