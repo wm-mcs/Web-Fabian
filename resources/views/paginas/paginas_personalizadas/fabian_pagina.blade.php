@@ -85,7 +85,10 @@
           <div class="">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="{{url()}}" class="nav-link">Home</a></li>
+                <li><a href="{{url()}}" class="nav-link">
+                  <img style="height: 40px;" :src="empresa.logo_horizontal">
+
+                </a></li>
                 
                 
               </ul>
