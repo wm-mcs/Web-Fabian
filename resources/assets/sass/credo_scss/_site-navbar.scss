@@ -375,9 +375,9 @@
 		.site-menu {
 			> li {
 				> a {
-					color: rgba($white, .7)!important;
+					color: rgba($black, .7)!important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $black!important;
 					}
 				}
 			}
