@@ -133,7 +133,7 @@
             <div class="row">
               <div class="col-lg-8">
                 <h1 v-if="se_muestra(empresa.home_titulo)" class="text-dark">¿Quieres desalojar a alguien?</h1>
-                <p class="text-secondary">Fabian Delpino | Abogado experto en desalojos </p>
+                
                 <p  class="lead text-dark"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
                 
                 <div class="flex-row-center">
@@ -163,16 +163,25 @@
       <div class="container">
         <div class="row ">
           <div class="col-lg-6 order-2 order-lg-1">
-          <h2 class="section-title mb-4">Sobre mi  </h2>
-          <p>Soy Fabian Delpino abogado experto en desalojos en Uruguay. 
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+          <h2 class="section-title mb-4">Quienes somos  </h2>
+          <p>Doctor en Derecho y Ciencias sociales, egresado de la Universidad de la República. Miembro del Colegio de Abogados del Uruguay.</p> 
+          <p>Especialista y asesor legal con experiencia en materia de desalojos en todo el territorio
+nacional.</p>  
+          <p>Brindamos soluciones eficaces y rápidas, a los efectos de una pronta recuperación de
+inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de
+forma segura y con la mayor celeridad posible, brindando un servicio personalizado y a la
+medida de cada necesidad, con bajos aranceles.</p> 
+          <p>La dedicación exclusiva y experiencia en materia de desalojos nos permiten el uso de
+soluciones inteligentes y lógicas para recuperar el o los inmuebles que se encuentran en
+manos de terceros u ocupantes con menos derechos sobre el bien.</p> 
+          <p>Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio
+nacional, siendo el único estudio especializado en desalojos.</p> 
+          <p>La ética, la responsabilidad y la búsqueda constante de la excelencia, son pilares
+fundamentales de nuestro equipo en la práctica del derecho, posibilitando mediante un trato
+personalizado y dedicado, un vínculo de confianza y satisfacción en la relación con nuestros
+clientes.</p> 
 
-          </p>   
 
-          <p>Soy Fabian Delpino abogado experto en desalojos en Uruguay. 
-Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
-
-          </p> 
 
          
 
