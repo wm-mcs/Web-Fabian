@@ -80,7 +80,7 @@
 <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
       <div class="container-fluid">
-        <div class="row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-between">
           
           <div class="">
             <nav class="site-navigation position-relative text-right" role="navigation">
