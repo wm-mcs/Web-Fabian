@@ -38,11 +38,11 @@
 
 					color: rgba($white, .7)!important;
 					&:hover, &.active {
-						color: $white!important;
+						color: $color-gris-text!important;
 					}
 					
 					&:hover {
-						color: $primary;
+						color: $color-black;
 						
 					}
 				}

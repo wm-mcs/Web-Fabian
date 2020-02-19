@@ -126,7 +126,7 @@
 @section('contenido')
    
 
-     <div class="site-blocks-cover overlay bg-light" id="home-section">
+     <div class="site-blocks-cover overlay " id="home-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
