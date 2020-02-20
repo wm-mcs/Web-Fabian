@@ -72,7 +72,7 @@
 
 @section('vue')
   @include('paginas.home.vue.contacto-component')
-  
+  @include('paginas.home.vue.blog-list-component')
   @include('paginas.home.vue.vue-instance')
 @stop
 
