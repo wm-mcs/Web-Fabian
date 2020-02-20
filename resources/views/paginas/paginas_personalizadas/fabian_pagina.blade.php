@@ -260,20 +260,6 @@ clientes.</p>
 
     
 
-    <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Blog</h2>
-          </div>
-
-           <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
-
-           
-
-        </div>
-      </div>
-    </section>
+    
 
 @stop
