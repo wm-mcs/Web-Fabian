@@ -149,7 +149,8 @@
         </div>
       </div>
       
-       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Software simple de usar para gestionar tu gimnasio, centro de fitness, box de crossfit o entrenamiento funcional"> 
+       <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
+      
        
 
     </div>  
@@ -212,6 +213,7 @@ clientes.</p>
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
         <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
+         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
         <div class="sub-contiene-texto-imagen-medio">
           <div class="contiene-texto-imagen-medio-texto mb-4">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupó tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Somos abogados expertos en desalojos dentro de Uruguay Montevideo  </div>
           <div class="flex-row-center">

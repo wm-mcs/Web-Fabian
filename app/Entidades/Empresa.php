@@ -24,7 +24,8 @@ class Empresa extends Model
                            'imagen_quien_soy_url2',
                            'link_whatsapp_send',
                            'img_logo_cuadrado',
-                           'img_logo_horizontal'];
+                           'img_logo_horizontal',
+                           'img_logo_horizontal_blanco'];
 
     /**
      * para verificar si no es null o no es cadena vacia
@@ -69,6 +70,12 @@ class Empresa extends Model
     {
         
         return url().'/imagenes/'.$this->logo_horizontal;
+    }
+
+    public function getImgLogoHorizontalBlancoAttribute()
+    {
+        
+        return url().'/imagenes/Empresa/logo-rectangular-estudio-de-abogados-blanco.png';
     }
 
     public function getImgLogoVerticalAttribute()
