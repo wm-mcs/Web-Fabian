@@ -9,8 +9,7 @@
 
    .contiene-cada-div-presentacion{
     width: 98%;
-    margin-top: 4px;
-    height: 150px;
+    margin-top: 4px;    
     padding: 10px;
     
    }
@@ -31,10 +30,26 @@
 
     }
 
+    .boton-contactar-presentacion{
+      font-family: $font-primary;
+      font-size: 28px;
+      padding:20px 10px;
+      text-align: center;
+      width: 50%;
+      color:$color-3;
+      border:solid 1px $color-3;
+    }
+    .boton-contactar-presentacion:hover{
+      background-color: $color-3;
+      color:$color-white;
+      border:solid 1px $color-white;
+    }
+
     .contiene-p-presentacion{
       font-size: 14px;
       color:$color-gris-text;
       letter-spacing: 1;
+      width: 70%;
     }
 
 

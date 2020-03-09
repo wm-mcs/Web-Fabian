@@ -164,15 +164,15 @@
 
   <div  class="site-section " id="sobre-mi">
       <div class="container">
-        <div class="row ">
+        <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
             <h1 class="contiene-h1-presentacion ">Recuperación de inmuebles</h1>
 
           </div>
-          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil">2</div>
+          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <div >Contactar</div>
+            <div class="boton-contactar-presentacion">Contactar</div>
 
           </div>
           <div class="contiene-cada-div-presentacion">
