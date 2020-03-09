@@ -38,7 +38,7 @@
 
 					color:$color-gris-text!important;
 					&:hover, &.active {
-						color: $color-gris-text!important;
+						color: $color-white!important;
 					}
 					
 					&:hover {
@@ -405,7 +405,7 @@
 					> a {
 						color: $color-gris-text!important;
 						&:hover, &.active {
-							color: $color-white!important;
+							color: $primary!important;
 						}
 					}
 				}
