@@ -67,12 +67,14 @@ methods:{
 },
 computed:{
   mostrar_logo_nav:function(){
-  if(this.scrolled > 0)
-    return true;
-  }
-  else
-  {
-   return false;
+    if(this.scrolled > 0)
+    {
+      return true;
+    }  
+    else
+    {
+     return false;
+    }
   }
 
 },
