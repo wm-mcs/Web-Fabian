@@ -57,11 +57,11 @@ methods:{
     }
     },
     handleScroll: function() {
-        if(this.scrolled == false)
-        {
-          this.scrolled = window.scrollY ;
+        
+          this.scrolled = window.scrollY > 0;
           
-        }        
+         
+
       },   
     
 },
