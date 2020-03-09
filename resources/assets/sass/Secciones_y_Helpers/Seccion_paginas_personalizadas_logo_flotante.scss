@@ -15,11 +15,17 @@
     
    }
 
+   .ajuste-de-posicion-para-presentacion{
+    @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(flex-start);
+   }
+
     .contiene-h1-presentacion{
       letter-spacing: -2;
       font-family: $font-primary;
       text-align: left;
-      width: 100%;
+      width: 70%;
       font-size: 35px;
       font-weight: bold;
 
@@ -111,5 +117,9 @@
 .contiene-h1-presentacion{ 
   text-align: right;  
  }
+
+ .ajuste-de-posicion-para-presentacion{    
+    @include align-items(flex-end);
+   }
 
 }
