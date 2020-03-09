@@ -66,7 +66,7 @@ methods:{
     
 },
 computed:{
-  mostrar-logo-nav:function(){
+  mostrar_logo_nav:function(){
   if(this.scrolled > 0)
     return true;
   }
@@ -74,7 +74,7 @@ computed:{
 },
  watch: {
     windowHeight(newHeight, oldHeight) {
-     /*this.txt = `it changed to ${newHeight} from ${oldHeight}`;*/
+     
     }
     },  
 
