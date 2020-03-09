@@ -1,4 +1,20 @@
+.contiene-presentacion{
+  width: 100%;
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(center);
+  @include justify-content(space-around); 
+  @include flex-wrap(wrap); 
+}
 
+   .contiene-cada-div-presentacion{
+    width: 98%;
+    margin-top: 4px;
+    height: 80px;
+    background-color: grey;
+   }
+
+   
 
 
 .imagen-medio-de-web{

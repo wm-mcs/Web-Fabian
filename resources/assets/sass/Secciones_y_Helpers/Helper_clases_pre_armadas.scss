@@ -160,6 +160,10 @@
 
 }
 
+.no-mostrar-solo-mobil{
+display: none;
+}
+
 
 /*simula un link*/
 .simula_link{
@@ -196,6 +200,11 @@
 .mostrar-solo-mobil{
   display: none;
 }
+
+.no-mostrar-solo-mobil{
+ display: block;
+}
+
 
 
 }  

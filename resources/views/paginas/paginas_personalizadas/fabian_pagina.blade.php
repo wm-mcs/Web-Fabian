@@ -165,36 +165,14 @@
   <div  class="site-section " id="sobre-mi">
       <div class="container">
         <div class="row ">
-          <div class="col-lg-6 order-2 order-lg-1">
-          <h2 class="section-title mb-4">Quienes somos  </h2>
-          <p>Doctor en Derecho y Ciencias sociales, egresado de la Universidad de la República. Miembro del Colegio de Abogados del Uruguay.</p> 
-          <p>Especialista y asesor legal con experiencia en materia de desalojos en todo el territorio
-nacional.</p>  
-          <p>Brindamos soluciones eficaces y rápidas, a los efectos de una pronta recuperación de
-inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de
-forma segura y con la mayor celeridad posible, brindando un servicio personalizado y a la
-medida de cada necesidad, con bajos aranceles.</p> 
-          <p>La dedicación exclusiva y experiencia en materia de desalojos nos permiten el uso de
-soluciones inteligentes y lógicas para recuperar el o los inmuebles que se encuentran en
-manos de terceros u ocupantes con menos derechos sobre el bien.</p> 
-          <p>Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio
-nacional, siendo el único estudio especializado en desalojos.</p> 
-          <p>La ética, la responsabilidad y la búsqueda constante de la excelencia, son pilares
-fundamentales de nuestro equipo en la práctica del derecho, posibilitando mediante un trato
-personalizado y dedicado, un vínculo de confianza y satisfacción en la relación con nuestros
-clientes.</p> 
-
-
-
-         
-
-
-
-
-          </div>
-          <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <img class="img-fluid mb-4 helper-border-radius-16" src="{{url()}}/imagenes/Empresa/home_imagen_queien_soy.jpg" alt="Soy abogado especializado en desalojo en Uruguay. Me llamo Fabian Delpino y te podré ayudar con tu caso sea cual sea. Experto en desalojo. Inquilinos (alquileres), ocupantes, y mucho más">
-          </div>
+         <div class="contiene-presentacion">
+          <div class="contiene-cada-div-presentacion">1</div>
+          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil">2</div>
+          <div class="contiene-cada-div-presentacion">3</div>
+          <div class="contiene-cada-div-presentacion">4</div>
+           
+         </div>
+          
         </div>
       </div>
     </div>
