@@ -32,7 +32,7 @@
 			> li, div {
 				display: inline-block;
 				> a {
-					padding: 5px 20px;
+					padding: 5px 15px;
 					display: inline-block;
 					text-decoration: none!important;
 
@@ -42,7 +42,7 @@
 					}
 					
 					&:hover {
-						color: $color-black;
+						color: $color-white;
 						
 					}
 				}
