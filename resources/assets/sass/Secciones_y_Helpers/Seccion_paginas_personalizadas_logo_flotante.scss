@@ -1,3 +1,12 @@
+  .logo-float-easy-socio-portada{
+  
+  position: absolute;  
+  display: block;
+  height: 35px;
+  bottom: 10%;
+  right: 10%;
+}
+
 .contiene-presentacion{
   width: 100%;
   @include flexbox;       
