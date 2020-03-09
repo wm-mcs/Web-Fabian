@@ -67,7 +67,7 @@ methods:{
 },
 computed:{
   mostrar_logo_nav:function(){
-    if(this.scrolled > 0)
+    if(this.scrolled)
     {
       return true;
     }  
