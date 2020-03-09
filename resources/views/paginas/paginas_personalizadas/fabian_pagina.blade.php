@@ -88,7 +88,7 @@
                 <li>
                     <a v-show="mostrar_logo_nav" href="{{url()}}" class="nav-link">
                       <img v-if="mostrar_para_grande" style="height: 30px;" :src="empresa.img_logo_horizontal">
-                      <img v-if="mostrar_para_celuar" style="height: 25px;" :src="empresa.img_logo_horizontal_v2">
+                      <img v-if="mostrar_para_celuar" style="height: 35px;" :src="empresa.img_logo_horizontal_v2">
                     </a>
                 </li>
                 
