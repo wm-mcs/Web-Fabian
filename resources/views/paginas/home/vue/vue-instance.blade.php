@@ -79,8 +79,10 @@ computed:{
 
 },
  watch: {
-    windowHeight(newHeight, oldHeight) {
-     
+    windowWidth(newHeight, oldHeight) {
+     window.addEventListener('resize', () => {
+      this.windowWidth = window.innerWidth
+    });
     }
     },  
 
