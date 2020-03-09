@@ -66,8 +66,29 @@ methods:{
     
 },
 computed:{
-  mostrar_logo_nav:function(){
+  mostrar_logo_nav:function(){    
+
     if(this.scrolled)
+    {
+      return true;
+    }  
+    else
+    {
+     return false;
+    }
+  },
+  mostrar_para_grande:function(){
+    if(this.windowWidth > 990)
+    {
+      return true;
+    }  
+    else
+    {
+     return false;
+    }
+  },
+  mostrar_para_celuar:function(){
+   if(this.windowWidth <= 990)
     {
       return true;
     }  

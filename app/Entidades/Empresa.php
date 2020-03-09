@@ -25,7 +25,8 @@ class Empresa extends Model
                            'link_whatsapp_send',
                            'img_logo_cuadrado',
                            'img_logo_horizontal',
-                           'img_logo_horizontal_blanco'];
+                           'img_logo_horizontal_blanco',
+                           'img_logo_horizontal_v2'];
 
     /**
      * para verificar si no es null o no es cadena vacia
@@ -76,6 +77,12 @@ class Empresa extends Model
     {
         
         return url().'/imagenes/Empresa/logo-rectangular-estudio-de-abogados-blanco.png';
+    }
+
+    public function getImgLogoHorizontalV2Attribute()
+    {
+        
+        return url().'/imagenes/Empresa/logo-rectangular-fabian-delpino-v2.png';
     }
 
     public function getImgLogoVerticalAttribute()
