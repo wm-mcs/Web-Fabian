@@ -14,6 +14,16 @@
     background-color: grey;
    }
 
+    .contiene-h1-presentacion{
+      letter-spacing: 2;
+      font-family: $font-primary;
+      text-align: right;
+      width: 100%;
+      font-size: 28px;
+      font-weight: bold;
+
+    }
+
 
 
 
@@ -88,8 +98,11 @@
 }
 
 .contiene-cada-div-presentacion{
-    width: 49%;
-    
-   }
+    width: 49.5%;
+}
+
+.contiene-h1-presentacion{ 
+  text-align: left;  
+ }
 
 }
