@@ -171,8 +171,16 @@
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil">2</div>
-          <div class="contiene-cada-div-presentacion">3</div>
-          <div class="contiene-cada-div-presentacion">4</div>
+          <div class="contiene-cada-div-presentacion ">
+            <div >Contactar</div>
+
+          </div>
+          <div class="contiene-cada-div-presentacion">
+            <p class="contiene-p-presentacion">
+              Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una prnta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
+            </p>
+
+          </div>
            
          </div>
           
