@@ -70,6 +70,10 @@ computed:{
   if(this.scrolled > 0)
     return true;
   }
+  else
+  {
+   return false;
+  }
 
 },
  watch: {
