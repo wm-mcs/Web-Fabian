@@ -85,10 +85,11 @@
           <div class="">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="{{url()}}" class="nav-link">
-                  <img style="height: 50px;" :src="empresa.img_logo_horizontal">
-
-                </a></li>
+                <li>
+                    <a v-if="mostrar-logo-nav" href="{{url()}}" class="nav-link">
+                      <img style="height: 30px;" :src="empresa.img_logo_horizontal">
+                    </a>
+                </li>
                 
                 
               </ul>
@@ -132,7 +133,7 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                <h1 v-if="se_muestra(empresa.home_titulo)" class="text-dark">¿Quieres desalojar a alguien?</h1>
+                {{-- <h1 v-if="se_muestra(empresa.home_titulo)" class="text-dark">¿Quieres desalojar a alguien?</h1>
                 
                 <p  class="lead text-dark"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
                 
@@ -141,7 +142,7 @@
                  <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos </a>
                  <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
 
-                </div>
+                </div> --}}
                 
               </div>
             </div>
@@ -150,6 +151,7 @@
       </div>
       
        <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
+        <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
       
        
 

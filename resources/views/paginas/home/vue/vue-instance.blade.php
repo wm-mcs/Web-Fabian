@@ -8,18 +8,24 @@
       empresa: {!! json_encode($Empresa) !!},
       blogs:   {!! json_encode($blogs) !!},
       cargando:false,
+      scrolled:false,
+      windowWidth: window.innerWidth,
 
       
 
     },
-    mounted: function mounted () {        
+mounted: function mounted () {        
 
-     
+ this.$nextTick(() => {
+    window.addEventListener('resize', () => {
+      this.windowWidth = window.innerWidth
+    });
+  })
 
 
-    },
+},
 
-    methods:{ 
+methods:{ 
 
 
 
@@ -49,15 +55,44 @@
     {
       return true;
     }
-    },   
+    },
+    handleScroll: function() {
+        if(this.scrolled == false)
+        {
+          this.scrolled = window.scrollY > 0;
+          
+        }        
+      },   
     
+},
+computed:{
+  mostrar-logo-nav:function(){
+  if(this.scrolled > 0)
+    return true;
+  }
+
+},
+ watch: {
+    windowHeight(newHeight, oldHeight) {
+     /*this.txt = `it changed to ${newHeight} from ${oldHeight}`;*/
     }
+    },  
+
+     
+      created () {
+        window.addEventListener('scroll', this.handleScroll);
+      },
+      destroyed () {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+
+}
 
      
 
    
 
-   });
+   );
 
 
 
