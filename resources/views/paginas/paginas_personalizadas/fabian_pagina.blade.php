@@ -86,7 +86,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
-                    <a v-if="mostrar_logo_nav" href="{{url()}}" class="nav-link">
+                    <a v-show="mostrar_logo_nav" href="{{url()}}" class="nav-link">
                       <img v-if="mostrar_para_grande" style="height: 30px;" :src="empresa.img_logo_horizontal">
                       <img v-if="mostrar_para_celuar" style="height: 25px;" :src="empresa.img_logo_horizontal_v2">
                     </a>
