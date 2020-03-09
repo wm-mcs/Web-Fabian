@@ -55,11 +55,12 @@
 
 @media (min-width: $BrackPoint-Secundario){
   .logo-float-easy-socio-portada{
-  height: 60px;
-  position: absolute;
-  bottom: 40px;
-  right: 40px; 
+  
+  position: absolute;  
   display: block;
+  height: 40px;
+  bottom: 10%;
+  right: 10%;
 }
 
 
@@ -68,9 +69,7 @@
 @media (min-width: $BrackPoint-Tercer){
 
 .logo-float-easy-socio-portada{
-  height: 80px;
-   bottom: 30px;
-  right: 30px;
+  
   
 }
 
