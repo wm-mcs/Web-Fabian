@@ -59,7 +59,7 @@ methods:{
     handleScroll: function() {
         if(this.scrolled == false)
         {
-          this.scrolled = window.scrollY > 0;
+          this.scrolled = window.scrollY ;
           
         }        
       },   
