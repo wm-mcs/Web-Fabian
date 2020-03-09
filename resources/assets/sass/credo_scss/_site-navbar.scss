@@ -364,7 +364,7 @@
 		.site-menu-toggle {
 			color: $white;
 			.icon-menu {
-				color: $black;
+				color: $color-white;
 			}
 		}
 		.site-logo {
@@ -377,7 +377,7 @@
 				> a {
 					color: $color-gris-text!important;
 					&:hover, &.active {
-						color: $black!important;
+						color: $color-white;
 					}
 				}
 			}
