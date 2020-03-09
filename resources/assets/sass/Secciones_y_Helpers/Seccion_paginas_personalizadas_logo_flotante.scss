@@ -33,7 +33,7 @@
     .boton-contactar-presentacion{
       font-family: $font-primary;
       font-size: 22px;
-      padding:20px 10px;
+      padding:10px 20px;
       text-align: center;      
       color:$color-3;
       border:solid 1px $color-3;
@@ -49,9 +49,11 @@
     .contiene-p-presentacion{
       font-size: 14px;
       color:$color-gris-text;
-      letter-spacing: 1;
-      width: 80%;
-      line-height: 1;
+      letter-spacing: 1px;
+    width: 80%;
+    line-height: 1.5;
+    margin-top: 20px;
+
     }
 
 
@@ -138,5 +140,9 @@
  .ajuste-de-posicion-para-presentacion{    
     @include align-items(flex-end);
    }
+
+    .contiene-p-presentacion{    
+    margin-top: 0px;
+    }
 
 }
