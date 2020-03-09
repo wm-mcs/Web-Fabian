@@ -210,7 +210,7 @@
 
    
      {{-- Imagen con logo para mostrar por el medio --}}
-      <div class="contiene-todo-image-centrada">
+     {{--  <div class="contiene-todo-image-centrada">
         <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
          <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
         <div class="sub-contiene-texto-imagen-medio">
@@ -223,7 +223,7 @@
                 </div>
           
         </div>
-      </div>
+      </div> --}}
 
 
        <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
