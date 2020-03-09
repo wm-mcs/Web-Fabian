@@ -11,13 +11,13 @@
     width: 98%;
     margin-top: 4px;
     height: 150px;
-    background-color: grey;
+    
    }
 
     .contiene-h1-presentacion{
       letter-spacing: 2;
       font-family: $font-primary;
-      text-align: right;
+      text-align: left;
       width: 100%;
       font-size: 28px;
       font-weight: bold;
@@ -102,7 +102,7 @@
 }
 
 .contiene-h1-presentacion{ 
-  text-align: left;  
+  text-align: right;  
  }
 
 }
