@@ -227,8 +227,8 @@
         </div>
       </div> --}}
 
-
-       <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
+{{-- 
+    <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
       <div class="container">
         <div class="row">
           
@@ -242,7 +242,7 @@
 
         </div>
       </div>
-    </section>
+    </section> --}}
 
 
 

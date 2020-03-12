@@ -61,11 +61,11 @@
 
 
 
-    @if($Empresa->whatsapp_empresa != 'no')
+    {{-- @if($Empresa->whatsapp_empresa != 'no')
     <div class="site-section flex-row-column">      
       @include('paginas.home.whatasapp_contacto_mensaje')
     </div>
-    @endif
+    @endif --}}
 
 
 
