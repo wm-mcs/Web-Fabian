@@ -104,8 +104,8 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#sobre-mi" class="nav-link">¿Quienes somos?</a></li>
-                <li><a href="#contact-section" class="nav-link">Contacto</a></li>
+                <li><a href="#sobre-mi" class="nav-link">¿QUIENES SOMOS?</a></li>
+                <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
                   <li><a href="{{route('logout')}}" class="nav-link">Salir</a></li>
