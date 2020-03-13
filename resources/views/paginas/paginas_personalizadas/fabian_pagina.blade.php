@@ -245,7 +245,7 @@
 
           </div>
           <div class="col-lg-6 order-1 pl-lg-5 ">
-            <img src="https://mauricio.mwebs.com.uy/imagenes/PaginasPersonalizadas/uruguay-mapa.png" alt="Image" class="img-fluid mb-4 helper-border-radius-16">
+            <img src="{{url()}}/imagenes/PaginasPersonalizadas/uruguay-mapa.png" alt="Image" class="img-fluid mb-4 helper-border-radius-16">
           </div>
           
           
