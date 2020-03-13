@@ -236,7 +236,7 @@
        <div  class="site-section BackgroundGris" id="sobre-mi">
       <div class="container">
         <div class="row" >
-         <div class="col-12 mb-4 d-flex justify-content-around flex-wrap">
+         <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
           <div class="col-lg-6 order-2">
             <h1 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h1>
             <p class="contiene-p-presentacion color-text-black">
