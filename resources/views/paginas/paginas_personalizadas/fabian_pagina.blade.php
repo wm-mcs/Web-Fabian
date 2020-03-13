@@ -196,7 +196,34 @@
        <div class="presentacion-imagen-paralax"></div>
          <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
        
+      </div> 
+
+
+      <div  class="site-section BackgroundOscuro" id="sobre-mi">
+      <div class="container">
+        <div class="row" >
+         <div class="contiene-presentacion">
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <h1 class="contiene-h1-presentacion color-text-white">Desalojos de inmuebles</h1>
+
+          </div>
+          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <div class="boton-contactar-presentacion-blanco">Contactar</div>
+
+          </div>
+          <div class="contiene-cada-div-presentacion">
+            <p class="contiene-p-presentacion color-text-white">
+              Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
+            </p>
+
+          </div>
+           
+         </div>
+          
+        </div>
       </div>
+    </div>
 
 
 

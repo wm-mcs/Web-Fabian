@@ -56,6 +56,21 @@
 
     }
 
+    .boton-contactar-presentacion-blanco{
+      font-family: $font-primary;
+      font-size: 22px;
+      padding:5px 35px;
+      text-align: center;      
+      color:$color-white;
+      border:solid 1px $color-white;
+      cursor: pointer;
+    }
+    .boton-contactar-presentacion-blanco:hover{
+      background-color: $color-white;
+      color:$color-3;
+      
+    }
+
     .contiene-p-presentacion{
       font-size: 14px;
       color:$color-grey3;
