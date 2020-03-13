@@ -169,7 +169,7 @@
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h1 class="contiene-h1-presentacion ">Recuperación de inmuebles</h1>
+            <h1 class="contiene-h1-presentacion  color-text-black">Recuperación de inmuebles</h1>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
@@ -178,7 +178,7 @@
 
           </div>
           <div class="contiene-cada-div-presentacion">
-            <p class="contiene-p-presentacion">
+            <p class="contiene-p-presentacion color-text-black">
               Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
             </p>
 
