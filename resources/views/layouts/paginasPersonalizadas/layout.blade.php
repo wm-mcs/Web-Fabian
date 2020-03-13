@@ -70,7 +70,7 @@
 
 
 
-    <footer class="site-section bg-light footer">
+    <footer class="site-section  footer">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-3">
