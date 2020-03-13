@@ -239,8 +239,7 @@
          <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
           <div class="col-lg-6 order-2">
             <h1 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h1>
-            <p class="contiene-p-presentacion color-text-black">
-              Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
+            <p class="contiene-p-presentacion color-text-black">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
             </p>
 
           </div>
