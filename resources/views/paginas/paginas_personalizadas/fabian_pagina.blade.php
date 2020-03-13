@@ -104,11 +104,11 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">               
-                <li><a href="#sobre-mi" class="nav-link">¿QUIENES SOMOS?</a></li>
+                <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
                 <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
-                  <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">Administrar</a></li>
-                  <li><a href="{{route('logout')}}" class="nav-link">Salir</a></li>
+                  <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">ADMINISTRAR</a></li>
+                  <li><a href="{{route('logout')}}" class="nav-link">SALIR</a></li>
                 @endif
               </ul>
             </nav>
@@ -197,6 +197,7 @@
          <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
        
       </div> 
+      
 
 
       <div  class="site-section BackgroundOscuro" id="sobre-mi">
@@ -254,6 +255,13 @@
         </div>
       </div>
     </div>
+
+     {{-- Imagen con logo para mostrar por el medio --}}
+      <div class="contiene-todo-image-centrada">
+       <div class="presentacion-imagen-paralax-prueba"></div>
+         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+       
+      </div> 
 
 
 

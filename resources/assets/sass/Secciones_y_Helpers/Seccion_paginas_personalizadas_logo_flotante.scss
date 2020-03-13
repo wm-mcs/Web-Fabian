@@ -111,6 +111,20 @@
   background-size: cover;
 }
 
+.presentacion-imagen-paralax-prueba{
+  /* The image used */
+  background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-buildings-estudio-de-abogados-2.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 
