@@ -254,7 +254,7 @@ jQuery(document).ready(function($) {
 
   //carrusel
   $('.home_slider').carousel({
-  
+    interval: 5000
   });
 
 });
