@@ -151,23 +151,13 @@
 </div>
    
 
-     <div class="site-blocks-cover overlay " id="home-section">
+    {{--  <div class="site-blocks-cover overlay " id="home-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row">
               <div class="col-lg-8">
-                {{-- <h1 v-if="se_muestra(empresa.home_titulo)" class="text-dark">¿Quieres desalojar a alguien?</h1>
-                
-                <p  class="lead text-dark"> ¿Tu inquilino no se quiere ir?  ¿Te ocuparon tu casa sin tu permiso?</p>
-                
-                <div class="flex-row-center">
-                 <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos </a>
-                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
-
-                </div> --}}
-                
+               
               </div>
             </div>
           </div>
@@ -179,7 +169,7 @@
       
        
 
-    </div>  
+    </div>   --}}
 
 
 
