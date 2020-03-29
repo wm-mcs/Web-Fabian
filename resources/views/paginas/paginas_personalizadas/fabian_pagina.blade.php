@@ -143,8 +143,8 @@
     <div class="carousel-item active Slider-contenedor">
       <img class="post-img-slider-size Slider-img"  src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-      <div class="Slider-contenido-de-textos-y-botones">
-       <div class="Slider-wraper-contenido-de-textos-y-botones">
+      <div class="Slider-wraper-contenido-de-textos-y-botones ">
+       <div class="Slider-contenido-de-textos-y-botones">
          <h2>Hola</h2>
          <p>Hola estoy probando texto</p>
 
