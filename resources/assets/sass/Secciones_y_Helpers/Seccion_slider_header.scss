@@ -42,14 +42,18 @@
 
     .contiene-botones-slider{
 
-      @include flexbox;       
-      @include flex-direction(center);
-      @include align-items(center); 
+       @include flexbox;       
+      @include flex-direction(column);
+      @include align-items(flex-start); 
+
+      
 
     }
 
        .wraper-boton-slider{
         margin-top:10px;
+
+        width:200px;
        }
 
 
@@ -67,9 +71,11 @@
     }
 
     .contiene-botones-slider{
+
       @include flexbox;       
-      @include flex-direction(column);
-      @include align-items(flex-start); 
+      @include flex-direction(row);
+      @include align-items(center); 
+     
      }
 
 
