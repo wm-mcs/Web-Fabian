@@ -4,6 +4,9 @@
  	once: false
  });
 
+ 
+
+
 jQuery(document).ready(function($) {
 
 	"use strict";
@@ -247,5 +250,11 @@ jQuery(document).ready(function($) {
 
 	  return false;
 	});
+
+
+  //carrusel
+  $('.home_slider').carousel({
+  interval: 2000
+  });
 
 });
