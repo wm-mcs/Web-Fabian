@@ -135,12 +135,26 @@
   <div  class="carousel slide home_slider" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     
     
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
+    <div class="carousel-item active Slider-contenedor" ">
+      <img class="post-img-slider-size Slider-img"  src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
+      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+      <div class="Slider-contenido-de-textos-y-botones">
+       <div class="Slider-wraper-contenido-de-textos-y-botones">
+         <h2>Hola</h2>
+         <p>Hola estoy probando texto</p>
+         
+       </div>
+        
+      </div>
+      
+    </div>
+    <div class="carousel-item active Slider-contenedor" ">
+      <img class="post-img-slider-size Slider-img"  src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
       
     </div>
@@ -153,25 +167,7 @@
 </div>
    
 
-    {{--  <div class="site-blocks-cover overlay " id="home-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
-            <div class="row">
-              <div class="col-lg-8">
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-        <img class="post-img-slider-size Slider_cabecer_img" style="position: absolute;top: 0;" src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
-        <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-      
-       
-
-    </div>   --}}
+   
 
 
 
