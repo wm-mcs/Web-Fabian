@@ -136,6 +136,8 @@
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     
     
   </ol>
@@ -153,11 +155,26 @@
       </div>
       
     </div>
-    <div class="carousel-item active Slider-contenedor">
-      <img class="post-img-slider-size Slider-img"  src="{{$ImagenPortada}}" alt="Fabian Delpino"> 
+    <div class="carousel-item  Slider-contenedor">
+      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-strategy-header.jpg" alt="Fabian Delpino"> 
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
       
     </div>
+
+    <div class="carousel-item  Slider-contenedor">
+      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-buildings-header.jpg" alt="Fabian Delpino"> 
+      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+      
+    </div>
+
+    <div class="carousel-item  Slider-contenedor">
+      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-cuestaarriba-header.jpg" alt="Fabian Delpino"> 
+      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+      
+    </div>
+
+
+    
     
     
   </div>
