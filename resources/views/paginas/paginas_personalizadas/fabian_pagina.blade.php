@@ -132,12 +132,12 @@
   
 
 
-  <div id="carouselExampleIndicators"  class="carousel  auto home_slider" data-ride="carousel">
+  <div id="carouselExampleIndicators"  class="carousel slide auto home_slider" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     
     
   </ol>
@@ -147,8 +147,11 @@
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
       <div class="Slider-wraper-contenido-de-textos-y-botones ">
        <div class="Slider-contenido-de-textos-y-botones">
-         <h2>Hola</h2>
-         <p>Hola estoy probando texto</p>
+         <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
+         <div class="contiene-botones-slider">
+           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco">Arrendador</div></span> 
+           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco">Arrendatario</div></span>
+         </div>
 
        </div>
         

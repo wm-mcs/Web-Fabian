@@ -21,7 +21,6 @@
   }
 
    .Slider-contenido-de-textos-y-botones{
-    
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(flex-start); 
@@ -29,3 +28,54 @@
     }
 
 
+
+    .texto-titulo-slider{
+      font-family: $font-primary;
+      text-align: left;
+      width: 100%;
+      font-size: 30px;
+      font-weight: bold;
+      color:$color-white;
+      margin-bottom:20px;
+
+    }
+
+    .contiene-botones-slider{
+
+      @include flexbox;       
+      @include flex-direction(center);
+      @include align-items(center); 
+
+    }
+
+       .wraper-boton-slider{
+        margin-top:10px;
+       }
+
+
+
+
+@media (min-width: $BrackPoint-Secundario){
+    
+
+   .texto-titulo-slider{
+      
+      width: 400px;
+      font-size: 45px;
+      margin-bottom:20px;
+
+    }
+
+    .contiene-botones-slider{
+      @include flexbox;       
+      @include flex-direction(column);
+      @include align-items(flex-start); 
+     }
+
+
+       .wraper-boton-slider{
+        margin-top:0;
+        margin-right:10px;
+       }
+
+}
