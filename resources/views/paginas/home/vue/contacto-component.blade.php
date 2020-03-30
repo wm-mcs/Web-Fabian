@@ -145,109 +145,70 @@ template:'
         
       </div>
     </div>
-  </div>
 
+    <div v-if="mostrar_campos" class="col-12 mb-3 position-relative">
 
-  <div action="#" class="form">
-
-    <div class="row mb-4">
-      <div class="contacto-titulo-pregunta">¿Cuál es tu caso?</div>
-      <div class="contacto-contiene-opciones">
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un inquilino</div>  
-            <input type="radio" name="inquilino" value="inquilino" id="inquilino" v-model="data_enviar.inquilino_ocupante">      
-        </label>
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Problemas con un ocupante</div>  
-            <input type="radio" name="ocupante" value="ocupante" id="ocupante" v-model="data_enviar.inquilino_ocupante">        
-        </label>
-      </div>
-      
-
-    </div>
-
-
-     <div v-if="$root.comparar_si_son_iguales(inquilino, data_enviar.inquilino_ocupante) && eligio_inquilino_ocupante" class="row mb-4">
-      <div class="contacto-titulo-pregunta">¿Cuál es la situación con el inquilino?</div>
-      <div class="contacto-contiene-opciones">
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Mal pagador</div>  
-            <input type="radio" value="Mal pagador" v-model="data_enviar.problema">      
-        </label>
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Incumplimiento del plazo</div>  
-            <input type="radio" value="Incumplimiento del plazo" v-model="data_enviar.problema">      
-        </label>
-       
-        
-      </div>
-      
-
-    </div>
-
-    <div v-if="$root.comparar_si_son_iguales(ocupante, data_enviar.inquilino_ocupante) && eligio_inquilino_ocupante" class="row mb-4">
-      <div class="contacto-titulo-pregunta">¿Cuál es la situación con el ocupante?</div>
-      <div class="contacto-contiene-opciones">
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Presté la casa y no me la devuelven</div>  
-            <input type="radio" name="inquilino" value="Presté la casa y no me la devuelven" id="inquilino" v-model="data_enviar.problema">      
-        </label>
-        <label class="contacto-contiene-opcion-individual">
-            <div  class="contacto-contiene-opcion-individual-titulo">Me ocuparon la casa sin mi permiso</div>  
-            <input type="radio" name="inquilino" value="Me ocuparon la casa" id="inquilino" v-model="data_enviar.problema">      
-        </label>
-        
-      </div>
-      
-
-    </div>
-
-
-
-
-    <div v-if="mostrar_campos" class="row mb-4">
-      
-      <div class="form-group col-sm-4">
-        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
+      <div  class="row mb-4">
+        <div class="form-group col-sm-4">
+          <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
+        </div>
+        <div class="form-group col-sm-4">
+          <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
+        </div>
+        <div class="form-group col-sm-4">
+          <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
+        </div>
       </div>
 
-      <div class="form-group col-sm-4">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
+      <div v-if="mostrar_campos" class="row mb-4">
+        <div class="form-group col-sm-12">
+          <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
+        </div>
       </div>
-
-      <div class="form-group col-sm-4">
-        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
-      </div>
-    </div>
 
    
-    
-   
-    <div v-if="mostrar_campos" class="row mb-4">
-
-      
-      <div class="form-group col-sm-12">
-        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
-      </div>
-    </div>
-
-    <div v-if="mostrar_boton"  class="row">
-
       <div v-if="errores" >
         <div v-for="error in errores">@{{error}}</div>
       </div>
-
       <div class="col-md-6">
         <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
-        <input v-else type="submit" class="btn btn-dark" v-on:click="enviarMensaje" value="Enviar mensaje">
+        <input v-else type="submit" class="boton-contacto-class" v-on:click="enviarMensaje" value="Enviar mensaje">
       </div>
-    </div>
     
+
+
+    </div>
+
+   
   </div>
+
+
+  
+
+   
+
+
+    
+
+   
+
+
+
+    
+
+   
+    
+   
+    
+
+   
+    
+  
 </div>
-<div v-else class="section-title text-center text-white mb-5">
-  <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
-</div>
+ <div v-else class="section-title text-center text-white mb-5">
+   <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
+ </div>
+
     
 </div>
 </div>
