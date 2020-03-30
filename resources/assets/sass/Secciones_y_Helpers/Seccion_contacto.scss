@@ -78,8 +78,36 @@
     margin-bottom: 20px;
     color: $color-white;
     font-family: $font-primary;
-    
   }
+
+
+  .contacto-contiene-opciones{
+    width: 100%;
+    @include flexbox;       
+    @include flex-direction(row);
+    @include align-items(center);
+    @include justify-content(space-around);
+    @include flex-wrap(wrap);
+    margin-bottom: 15px;
+  }
+   
+    }
+
+     .contacto-opciones{
+      width: 49%;
+      font-family: $font-secondary;
+      font-size: 22px;
+      padding:5px 35px;
+      text-align: center;      
+      color:$color-white;
+      border:solid 2px $color-white;
+      cursor: pointer;
+    }
+    .contacto-opciones{
+      background-color: $color-white;
+      color:$color-3;
+      
+    }
 
 
 

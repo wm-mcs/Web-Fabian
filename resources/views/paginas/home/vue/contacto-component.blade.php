@@ -19,11 +19,19 @@ data:function(){
 
       inquilino:'inquilino',
       ocupante:'ocupante',
-      cargando:false
+      cargando:false,
+      arrendador:'arrendador',
+      arrendatario:'arrendatario',
+      propietario:'propietario',
+      ocupante:'ocupante'
     }
 }, 
 
 methods:{
+
+cambiar_opcion:function(valor){
+  this.data_enviar.inquilino_ocupante = valor;
+},
 
 enviarMensaje:function(){
   var data = this.data_enviar;
@@ -77,7 +85,7 @@ computed:{
    }, 
 
    mostrar_campos:function(){
-    if(this.eligio_inquilino_ocupante && this.eligio_problema )
+    if(this.eligio_inquilino_ocupante )
     {
        return true;
     }
@@ -101,10 +109,18 @@ template:'
     <div class="col-12 mb-3 position-relative">
       <h2 class="contacto-titulo">Puedes consultar sin compromiso</h2>
       <p class="contacto-pregunta ">¿Cuál es tu caso?</p>
+      <div class="contacto-contiene-opciones">
+        
+        <div v-model="arrendador" class="contacto-opciones" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
+        <div v-model="arrendatario" class="contacto-opciones" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
+        <div v-model="propietario" class="contacto-opciones" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
+        <div v-model="ocupante" class="contacto-opciones" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
+        
+      </div>
     </div>
   </div>
 
-  
+
   <div action="#" class="form">
 
     <div class="row mb-4">
