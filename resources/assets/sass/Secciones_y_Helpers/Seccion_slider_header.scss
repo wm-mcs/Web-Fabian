@@ -37,14 +37,16 @@
       font-weight: bold;
       color:$color-white;
       margin-bottom:20px;
-    }
+      letter-spacing: -3px;    }
 
     .texto-detalle-slider{
       width:100%;
       color:$color-white;
       font-size:20px;
-      margin-bottom:15px;
+      margin-bottom:20px;
       font-family: $font-primary;
+      line-height: 1;
+      letter-spacing: -2px;
     }
 
     .contiene-botones-slider{
