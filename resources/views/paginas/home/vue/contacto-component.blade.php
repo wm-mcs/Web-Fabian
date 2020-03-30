@@ -32,9 +32,18 @@ methods:{
 cambiar_opcion:function(valor){
   this.data_enviar.inquilino_ocupante = valor;
 },
+comparar_si_son_iguales:function(valor1,valor2){
+  if(valor1 == valor2)
+  {
+    return true;
+  }
+  else{
+    return false;
+  }
+},
 style_clase:function(valor)
 {
-  if(app.comparar_si_son_iguales(valor,this.data_enviar.inquilino_ocupante)){
+  if(this.comparar_si_son_iguales(valor,this.data_enviar.inquilino_ocupante)){
     return {
              'contacto-opciones-seleccionada': true,
                           'contacto-opciones': true
