@@ -62,14 +62,19 @@
 
 
 /* personalización contacto abogado */
-.contacto-titulo-pregunta{
-  font-size:24px;
-  text-align: center;
+.contacto-titulo{
+  font-size:35px;
+  letter-spacing: -3px;
   width: 100%;
   margin-bottom: 20px;
   color: $color-white;
   font-family: $font-primary;
+  font-weight: bold;
 }
+
+ 
+
+
 
   .contacto-contiene-opciones{
     @include flexbox;       
