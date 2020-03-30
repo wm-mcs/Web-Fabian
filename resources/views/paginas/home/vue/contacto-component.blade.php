@@ -34,7 +34,7 @@ cambiar_opcion:function(valor){
 },
 style_clase:function(valor)
 {
-  if(app.comparar_si_son_iguales(valor,this.data_enviar.inquilino_ocupante)){
+  if($root.comparar_si_son_iguales(valor,this.data_enviar.inquilino_ocupante)){
     return {
              'contacto-opciones-seleccionada': true,
                           'contacto-opciones': true
