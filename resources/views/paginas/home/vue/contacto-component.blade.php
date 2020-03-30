@@ -32,6 +32,22 @@ methods:{
 cambiar_opcion:function(valor){
   this.data_enviar.inquilino_ocupante = valor;
 },
+style_clase:function(valor)
+{
+  if(app.comparar_si_son_iguales(valor,this.data_enviar.inquilino_ocupante)){
+    return {
+             'contacto-opciones-seleccionada': true,
+                          'contacto-opciones': true
+           };
+  }
+  else
+  {
+    return {
+             'contacto-opciones-seleccionada': false,
+                          'contacto-opciones': true
+           };
+  }
+},
 
 enviarMensaje:function(){
   var data = this.data_enviar;
@@ -71,6 +87,8 @@ enviarMensaje:function(){
 
 },
 computed:{
+
+
   eligio_inquilino_ocupante:function(){
     if(this.data_enviar.inquilino_ocupante != '')
     {
@@ -111,10 +129,10 @@ template:'
       <p class="contacto-pregunta ">¿Cuál es tu caso?</p>
       <div class="contacto-contiene-opciones">
         
-        <div v-model="arrendador" class="contacto-opciones" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
-        <div v-model="arrendatario" class="contacto-opciones" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
-        <div v-model="propietario" class="contacto-opciones" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
-        <div v-model="ocupante" class="contacto-opciones" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
+        <div v-model="arrendador" :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
+        <div v-model="arrendatario" :class="contacto-opciones" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
+        <div v-model="propietario" :class="contacto-opciones" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
+        <div v-model="ocupante" :class="contacto-opciones" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
         
       </div>
     </div>
