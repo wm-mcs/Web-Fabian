@@ -145,45 +145,10 @@ template:'
         
       </div>
     </div>
-
-    <div v-if="mostrar_campos" class="col-12 mb-3 position-relative">
-
-      <div  class="row mb-4">
-        <div class="form-group col-sm-4">
-          <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
-        </div>
-        <div class="form-group col-sm-4">
-          <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
-        </div>
-        <div class="form-group col-sm-4">
-          <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
-        </div>
-      </div>
-
-      <div v-if="mostrar_campos" class="row mb-4">
-        <div class="form-group col-sm-12">
-          <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
-        </div>
-      </div>
-
-   
-      <div v-if="errores" >
-        <div v-for="error in errores">@{{error}}</div>
-      </div>
-      <div class="col-md-6">
-        <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
-        <input v-else type="submit" class="boton-contacto-class" v-on:click="enviarMensaje" value="Enviar mensaje">
-      </div>
-    
-
-
-    </div>
-
-   
   </div>
 
 
-  
+  <div action="#" class="form">
 
    
 
@@ -194,21 +159,50 @@ template:'
 
 
 
-    
+    <div v-if="mostrar_campos" class="row mb-4">
+      
+      <div class="form-group col-sm-4">
+        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
+      </div>
+
+      <div class="form-group col-sm-4">
+        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
+      </div>
+
+      <div class="form-group col-sm-4">
+        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
+      </div>
+    </div>
 
    
     
    
-    
+    <div v-if="mostrar_campos" class="row mb-4">
 
-   
+      
+      <div class="form-group col-sm-12">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
+      </div>
+    </div>
+
+    <div v-if="mostrar_boton"  class="row">
+
+      <div v-if="errores" >
+        <div v-for="error in errores">@{{error}}</div>
+      </div>
+
+      <div class="col-md-6">
+        <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
+        <div v-else class="boton-contacto-class"  v-on:click="enviarMensaje">Enviar</div>
+        
+      </div>
+    </div>
     
-  
+  </div>
 </div>
- <div v-else class="section-title text-center text-white mb-5">
-   <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
- </div>
-
+<div v-else class="section-title text-center text-white mb-5">
+  <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
+</div>
     
 </div>
 </div>
