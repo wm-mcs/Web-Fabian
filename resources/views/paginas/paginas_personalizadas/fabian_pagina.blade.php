@@ -189,7 +189,16 @@
     <div class="carousel-item  Slider-contenedor">
       <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-cuestaarriba-header.jpg" alt="Fabian Delpino"> 
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-      
+      <div class="Slider-wraper-contenido-de-textos-y-botones ">
+       <div class="Slider-contenido-de-textos-y-botones">
+         <h2 class="texto-titulo-slider">Asesoramiento a inmobiliarias y pensiones</h2>
+        
+         <div class="contiene-botones-slider">
+           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Contactar</div></span> 
+           
+         </div>
+       </div>
+      </div>
     </div>
 
 
