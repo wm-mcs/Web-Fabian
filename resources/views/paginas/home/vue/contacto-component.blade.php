@@ -139,9 +139,9 @@ template:'
       <div class="contacto-contiene-opciones">
         
         <div v-model="arrendador" :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
-        <div v-model="arrendatario" :class="contacto-opciones" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
-        <div v-model="propietario" :class="contacto-opciones" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
-        <div v-model="ocupante" :class="contacto-opciones" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
+        <div v-model="arrendatario" :class="style_clase(arrendatario)" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
+        <div v-model="propietario" :class="style_clase(propietario)" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
+        <div v-model="ocupante" :class="style_clase(ocupante)" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
         
       </div>
     </div>
