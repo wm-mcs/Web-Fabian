@@ -91,7 +91,11 @@ computed:{
   
 },
 template:'
- <section class="site-section bg-primary" id="contact-section">
+ <section class="site-section section-contacto-class" id="contact-section">
+ <img class="section-contacto-img-background" src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-typo-contact.jpg">
+
+<div class="contacto-absolut-wraper">
+<div class="contacto-contenido-wraper">
 <div v-if="!se_envio" class="container">
   <div class="row">
     <div class="col-12 mb-3 position-relative">
@@ -200,8 +204,8 @@ template:'
   <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
 </div>
     
-
-
+</div>
+</div>
 </section>
 
 
