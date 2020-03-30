@@ -91,7 +91,7 @@ computed:{
   
 },
 template:'
- <section class="site-section section-contacto-class" id="contact-section">
+ <section class="section-contacto-class" id="contact-section">
  <img class="section-contacto-img-background" src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-typo-contact.jpg">
 
 <div class="contacto-absolut-wraper">
