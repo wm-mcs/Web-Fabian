@@ -42,8 +42,9 @@
     .texto-detalle-slider{
       width:100%;
       color:$color-white;
-      font-size:18px;
+      font-size:20px;
       margin-bottom:15px;
+      font-family: $font-primary;
     }
 
     .contiene-botones-slider{
@@ -70,10 +71,17 @@
 
    .texto-titulo-slider{
       
-      width: 400px;
+      width: 550px;
       font-size: 55px;
       margin-bottom:20px;
 
+    }
+
+    .texto-detalle-slider{
+      width: 550px;
+      color:$color-white;
+      font-size:28px;
+      
     }
 
     .contiene-botones-slider{
