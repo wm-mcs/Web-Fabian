@@ -191,7 +191,7 @@ template:'
         <div v-for="error in errores">@{{error}}</div>
       </div>
 
-      <div class="col-md-6">
+      <div v-if="mostrar_boton" class="col-md-6">
         <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
         <div v-else class="boton-contacto-class"  v-on:click="enviarMensaje">Enviar</div>
         
