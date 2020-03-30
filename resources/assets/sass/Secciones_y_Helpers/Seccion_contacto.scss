@@ -72,7 +72,16 @@
   font-weight: bold;
 }
 
- 
+  .contacto-pregunta{
+    font-size:30px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: $color-white;
+    font-family: $font-primary;
+    
+  }
+
+
 
 
 
@@ -125,7 +134,11 @@
 
    .contacto-contenido-wraper{
     width:50%;
-   }  
+   } 
+
+  .contacto-titulo{
+   font-size:45px;
+  }
 
 
 .formulario-contacto-wraper{

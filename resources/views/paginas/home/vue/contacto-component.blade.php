@@ -100,9 +100,11 @@ template:'
   <div class="row">
     <div class="col-12 mb-3 position-relative">
       <h2 class="contacto-titulo">Puedes consultar sin compromiso</h2>
-      <p class="text-center text-white  helper-reduce-texto">Si quieres recibir mi ayuda me tienes que dar algunos datos para que te pueda decir cuánto va a demorar el proceso y cuanto te costará todo el trámite.</p>
+      <p class="contacto-pregunta ">¿Cuál es tu caso?</p>
     </div>
   </div>
+
+  
   <div action="#" class="form">
 
     <div class="row mb-4">
