@@ -161,13 +161,13 @@ template:'
 
     <div v-if="mostrar_campos" class="row mb-2">
       
-      <div class="form-group col-xs-6  col-sm-4">
+      <div class="form-group col-6  col-sm-4">
         <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
       </div>
 
       
 
-      <div class="form-group col-xs-6 col-sm-4">
+      <div class="form-group col-6 col-sm-4">
         <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
       </div>
 
