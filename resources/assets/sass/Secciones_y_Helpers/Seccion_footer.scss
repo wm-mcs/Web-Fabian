@@ -2,7 +2,10 @@
 .contenedor-footer{
   background-color:$color-black;
   width: 100%;
-
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(center);
+  @include justify-content(space-around); 
 }
 
 .sub-contenedor-footer{
@@ -48,7 +51,7 @@
      }
 
      .contiene-lena-columna-texto{
-      color:$color-grey0;
+      color:$color-grey1;
       font-size: 14px;
       font-family: $font-secondary;
       cursor:pointer;

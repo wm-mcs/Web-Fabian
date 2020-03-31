@@ -104,26 +104,26 @@
                   
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
                    <div class="contiene-lena-columna-icono"><i class="fas fa-phone-square"></i></div>
-                   <span class="contiene-lena-columna-texto"> @{{empresa.telefono}}</span>  
+                   <span class="contiene-lena-columna-texto">@{{empresa.telefono}}</span>  
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.celular)" >
                     <div class="contiene-lena-columna-icono"><i class="fas fa-mobile-alt"></i></div>
-                    <span class="contiene-lena-columna-texto"> @{{empresa.celular}}</span>  
+                    <span class="contiene-lena-columna-texto">@{{empresa.celular}}</span>  
                     
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.direccion)">
                     <div class="contiene-lena-columna-icono"><i class="fas fa-map-marker-alt"></i></div>
-                    <span class="contiene-lena-columna-texto"> @{{empresa.direccion}}</span>  
+                    <span class="contiene-lena-columna-texto">@{{empresa.direccion}}</span>  
                     
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.horarios)">
                     <div class="contiene-lena-columna-icono"><i class="fas far fa-clock"></i></div>
-                    <span class="contiene-lena-columna-texto"> @{{empresa.horarios}}</span>  
+                    <span class="contiene-lena-columna-texto">@{{empresa.horarios}}</span>  
                     
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.email)">
                     <div class="contiene-lena-columna-icono"><i class="fas fa-envelope"></i></div>
-                    <span class="contiene-lena-columna-texto"> @{{empresa.email}}</span> 
+                    <span class="contiene-lena-columna-texto">@{{empresa.email}}</span> 
                   </div>
 
 
