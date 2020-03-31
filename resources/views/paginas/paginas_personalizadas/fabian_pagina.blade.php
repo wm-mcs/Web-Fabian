@@ -311,12 +311,7 @@
       </div>
     </div>
 
-     {{-- Imagen con logo para mostrar por el medio --}}
-      <div class="contiene-todo-image-centrada">
-       <div class="presentacion-imagen-paralax-prueba"></div>
-         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-       
-      </div> 
+    
 
 
 
@@ -331,38 +326,6 @@
 
 
    
-     {{-- Imagen con logo para mostrar por el medio --}}
-     {{--  <div class="contiene-todo-image-centrada">
-        <img src="{{url()}}/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-uruguayo-que-se-especializa-es-desalojos.jpg" alt="Abogado especializado en desalojos dentro de Uruguay. Fabian Delpino" class="imagen-medio-de-web">
-         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-        <div class="sub-contiene-texto-imagen-medio">
-          <div class="contiene-texto-imagen-medio-texto mb-4">¿Prestaste tu casa y no te la quieren devolver? ¿El inquilino es mal pagador? ¿Alquien te ocupó tu casa sin tu permiso?  no pierdas más tiempo actuá cuanto antes. Somos abogados expertos en desalojos dentro de Uruguay Montevideo  </div>
-          <div class="flex-row-center">
-                 <img src="{{$ImagenParaTaG}}" class="img-atencion-precios">
-                 <a href="#contact-section" class="btn smoothscroll btn-primary"> Contáctanos</a>
-                 <img class="icono-uruguay-home" src="{{url()}}/imagenes/PaginasPersonalizadas/abogado-en-uruguay-experto-en-desalojo-bandera-uruguay.png" alt="Abogado en Uruguay experto en desalojo. Mi nombre es Fabian Delpino y me especializo en desalojos.">
-
-                </div>
-          
-        </div>
-      </div> --}}
-
-{{-- 
-    <section v-if="blogs.length" class="site-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Datos de interés</h2>
-          </div>
-
-           <blog-list-component v-for="blog in blogs" :empresa="empresa" :blog="blog" :key="blog.id" ></blog-list-component>
-
-           
-
-        </div>
-      </div>
-    </section> --}}
 
 
 

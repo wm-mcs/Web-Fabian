@@ -1,4 +1,61 @@
 
+.contenedor-footer{
+  background-color:$color-black;
+  width: 100%;
+
+}
+
+.sub-contenedor-footer{
+  width: 100%;
+  max-width: 1200px;
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(flex-start);
+  @include justify-content(space-around); 
+  @include flex-wrap(wrap); 
+}
+
+ .contenedor-columna-footer{
+  @include flexbox;       
+  @include flex-direction(column);
+  @include align-items(flex-start);
+  width: 98%;
+  padding:4px;
+ }
+
+   .titulo-columna-footer{
+    font-family: $font-primary;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: -3;
+   }
+
+    .contiene-lena-columna{
+      width: 100%;
+      @include flexbox;       
+      @include flex-direction(row);
+      @include align-items(center);
+      margin-bottom: 10px;
+    }
+
+     .contiene-lena-columna-icono{
+      font-size: 22px;
+      margin-left: 10px;
+      color: $color-white;
+     }
+
+     .contiene-lena-columna-texto{
+      color:$color-grey0;
+      font-size: 18px;
+      font-family: $font-secondary;
+      cursor:pointer;
+     }
+     .contiene-lena-columna-texto:hover{
+      color:$color-grey0;
+     }
+
 
 /* contiene-cada-columna-del-footer */
 .contenedor-columna-footer{
@@ -65,6 +122,10 @@
 
         .logo-footer{
           width:180px; 
+        }
+
+        .contenedor-columna-footer{
+         width: 25%;
         }
 
   

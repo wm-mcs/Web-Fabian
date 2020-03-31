@@ -48,7 +48,7 @@
    
    
 
-    @yield('contenido')
+    @yield('contenido')  
 
 
    
@@ -62,27 +62,21 @@
 
 
 
-    {{-- @if($Empresa->whatsapp_empresa != 'no')
-    <div class="site-section flex-row-column">      
-      @include('paginas.home.whatasapp_contacto_mensaje')
-    </div>
-    @endif --}}
+   
 
 
 
-    <footer class="site-section  footer">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-3">
-            <h3 class="footer-title">@{{empresa.name}}</h3>
+    <footer class="site-section  contenedor-footer">
+      <div class="sub-contenedor-footer">
+        
+          <div class="contenedor-columna-footer">
+            <h3 class="titulo-columna-footer">@{{empresa.name}}</h3>
+            <div class="contiene-lena-columna"></div>
             <p  v-if="se_muestra(empresa.home_footer_sobre_mi)">@{{empresa.home_footer_sobre_mi}}</p>
-            <p v-if="se_muestra(empresa.direccion_empresa)"><span class="d-inline-block d-md-block">@{{empresa.direccion_empresa}}</p>
+            <p  v-if="se_muestra(empresa.direccion_empresa)"><span class="d-inline-block d-md-block">@{{empresa.direccion_empresa}}</p>
           </div>
-          <div class="col-md-6 mx-auto">
-            <div class="row">
-             
-              <div class="col-lg-6">
-                <h3 class="footer-title">Rutas de interés</h3>
+             <div class="contenedor-columna-footer">
+                <h3 class="titulo-columna-footer">Rutas de interés</h3>
                 <ul class="list-unstyled">
 
                   @yield('rutas_de_interes')
@@ -100,37 +94,99 @@
 
 
 
-               <div class="col-lg-6">
-                <h3 class="footer-title">Datos</h3>
-                <ul class="list-unstyled">
+               <div class="contenedor-columna-footer">
+                <h3 class="titulo-columna-footer">Datos de contacto</h3>
+                
 
                   
-                  <li v-if="se_muestra(empresa.telefono)"><a  href="#" ><i class="fas fa-phone-square"></i>  @{{empresa.telefono}}</a></li>
-                  <li v-if="se_muestra(empresa.celular)" ><a  href="#"  ><i class="fas fa-mobile-alt"></i> @{{empresa.celular}} </a></li>
-                  <li v-if="se_muestra(empresa.direccion)"><a  href="#" ><i class="fas fa-map-marker-alt"></i> @{{empresa.direccion}}</a></li>
-                  <li v-if="se_muestra(empresa.horarios)"><a  href="#" ><i class="far fa-clock"></i>@{{empresa.horarios}}</a></li>
-                  <li v-if="se_muestra(empresa.email)"><a  href="#" ><i class="far fa-envelope"></i> @{{empresa.email}}</a></li>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
+                   <div class="contiene-lena-columna-icono"><i class="fas fa-phone-square"></i></div>
+                   <span class="contiene-lena-columna-texto"> @{{empresa.telefono}}</span>  
+                  </div>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.celular)" >
+                    <div class="contiene-lena-columna-icono"><i class="fas fa-mobile-alt"></i></div>
+                    <span class="contiene-lena-columna-texto"> @{{empresa.celular}}</span>  
+                    
+                  </div>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.direccion)">
+                    <div class="contiene-lena-columna-icono"><i class="fas fa-map-marker-alt"></i></div>
+                    <span class="contiene-lena-columna-texto"> @{{empresa.direccion}}</span>  
+                    
+                  </div>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.horarios)">
+                    <div class="contiene-lena-columna-icono"><i class="fas far fa-clock"></i></div>
+                    <span class="contiene-lena-columna-texto"> @{{empresa.horarios}}</span>  
+                    
+                  </div>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.email)">
+                    <div class="contiene-lena-columna-icono"><i class="fas fa-envelope"></i></div>
+                    <span class="contiene-lena-columna-texto"> @{{empresa.email}}</span> 
+                  </div>
 
 
 
-                </ul>
+                
               </div> 
         
                
              
-            </div>
-          </div>
+           
           
-          <div class="col-md-3">
-            <h3 class="footer-title">Sígueme</h3>
-            <a v-if="se_muestra(empresa.twitter_url)" :href="empresa.twitter_url" class="social-circle p-2"><span class="icon-twitter"></span></a>
-            <a v-if="se_muestra(empresa.facebook_url)" :href="empresa.facebook_url" class="social-circle p-2"><span class="icon-facebook"></span></a>
-            <a v-if=" se_muestra(empresa.instagram_url)" :href="empresa.instagram_url" class="social-circle p-2"><span class="icon-instagram"></span></a>
-            <a v-if="se_muestra(empresa.youtube_url)" :href="empresa.youtube_url" class="social-circle p-2"><span class="icon-youtube"></span></a>
-            <a v-if="se_muestra(empresa.linkedin_url)" :href="empresa.linkedin_url" class="social-circle p-2"><span class="icon-linkedin"></span></a>
-            <a v-if="se_muestra(empresa.Whatsapp_cel)" :href="empresa.link_whatsapp_send" class="social-circle p-2"> <i class="fab fa-whatsapp"></i></a>
+          
+          <div class="contenedor-columna-footer">
+            <h3 class="titulo-columna-foote">Redes sociales</h3>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.twitter_url)">
+                <div class="contiene-lena-columna-icono">
+                  <span class="icon-twitter"></span>
+                </div>
+                <a :href="empresa.twitter_url" class="contiene-lena-columna-texto"> Twitter</a> 
+            </div>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.facebook_url)">
+                <div class="contiene-lena-columna-icono">
+                  <span class="icon-facebook"></span>
+                </div>
+                <a :href="empresa.facebook_url" class="contiene-lena-columna-texto"> Facebook</a> 
+            </div>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.instagram_url)">
+                <div class="contiene-lena-columna-icono">
+                  <span class="icon-instagram"></span>
+                </div>
+                <a :href="empresa.instagram_url" class="contiene-lena-columna-texto"> Instagram</a> 
+            </div>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.youtube_url)">
+                <div class="contiene-lena-columna-icono">
+                  <span class="icon-youtube"></span>
+                </div>
+                <a :href="empresa.youtube_url" class="contiene-lena-columna-texto"> Youtube</a> 
+            </div>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.linkedin_url)">
+                <div class="contiene-lena-columna-icono">
+                  <span class="icon-linkedin"></span>
+                </div>
+                <a :href="empresa.linkedin_url" class="contiene-lena-columna-texto"> LinkedIn</a> 
+            </div>
+            <div class="contiene-lena-columna" v-if="se_muestra(empresa.Whatsapp_cel)">
+                <div class="contiene-lena-columna-icono">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <a :href="empresa.link_whatsapp_send" class="contiene-lena-columna-texto"> Whatsapp</a> 
+            </div>
+
+
+
+
+
+
+
+
+           
+            
+            
+            
+           
+            
           </div>
-        </div>
+        
         @yield('iconos-compartir')
        
       </div>
