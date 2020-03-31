@@ -1,12 +1,12 @@
 .section-contacto-class{
-  height:100vh;
+  min-height:100vh;
   position:relative;
 }
 
   .section-contacto-img-background{
     display: block;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     object-fit: cover;
   }
 
