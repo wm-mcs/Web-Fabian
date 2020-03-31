@@ -270,7 +270,7 @@
           </div>
           <div class="contiene-cada-div-presentacion">
             <p class="contiene-p-presentacion color-text-white">
-              Si este es tu caso deberías saber que, desde la expedición de la orden de desalojo, tienes un <strong>plazo de 10 días hábiles</strong> para presentar tu defensa. Si ya transcurrio ese periodo, no desesperes, aún podemos ayudarte. 
+              Si este es tu caso deberías saber que, desde la expedición de la orden de desalojo, tienes un <strong>plazo de 10 días hábiles</strong> para presentar tu defensa. Si ya transcurrió ese período, no desesperes, aún podemos ayudarte. 
             </p>
 
           </div>
@@ -284,12 +284,11 @@
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
        <div class="presentacion-imagen-secundaria-paralax"></div>
-         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-       
+         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">       
       </div> 
 
 
-       <div  class="site-section BackgroundGris" id="sobre-mi">
+    <div  class="site-section py-4 BackgroundGris" id="sobre-mi">
       <div class="container">
         <div class="row" >
          <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
@@ -310,6 +309,11 @@
         </div>
       </div>
     </div>
+    {{-- Imagen con logo para mostrar por el medio --}}
+      <div class="contiene-todo-image-centrada">
+       <div class="presentacion-imagen-secundaria-paralax-pais"></div>
+         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">       
+      </div> 
 
     
 
