@@ -19,10 +19,11 @@
     @include flex-direction(column);
     @include align-items(center); 
     @include justify-content(space-around);
+    padding: 8px;
    }
 
    .contacto-contenido-wraper{
-    width:98%;
+    width:100%;
    }
 
 
@@ -73,9 +74,9 @@
 }
 
   .contacto-pregunta{
-    font-size:30px;
+    font-size:25px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: $color-white;
     font-family: $font-primary;
   }
@@ -96,7 +97,7 @@
      .contacto-opciones{
       width: 49%;
       font-family: $font-secondary;
-      font-size: 22px;
+      font-size: 16px;
       padding:5px 35px;
       text-align: center;      
       color:$color-white;
@@ -118,7 +119,7 @@
 
     .boton-contacto-class{
       font-family: $font-primary;
-      font-size: 40px;
+      font-size: 25px;
       padding:5px 35px;
       text-align: center;      
       color:$color-white;
@@ -184,11 +185,24 @@
 
    .contacto-contenido-wraper{
     width:50%;
+    padding: 20px;
    } 
 
   .contacto-titulo{
    font-size:45px;
   }
+
+   .contacto-pregunta{
+    font-size:30px;
+    margin-bottom: 20px;
+    
+  }
+
+  .contacto-opciones{
+      
+      font-size: 22px;
+      
+    }
 
 
 .formulario-contacto-wraper{
