@@ -197,6 +197,11 @@ template:'
         
       </div>
     </div>
+    <div v-else class="row">
+      <div  class="col-md-6">
+         <div v-else class="boton-contacto-class-disabled" >Enviar</div>
+      </div>
+    </div>
     
   </div>
 </div>

@@ -132,6 +132,16 @@
       
     }
 
+    .boton-contacto-class-disabled{
+      font-family: $font-primary;
+      font-size: 25px;
+      padding:5px 35px;
+      text-align: center;      
+      color:$color-gris-text;
+      border:solid 2px $color-gris-text;
+      cursor: pointer;
+    }
+
 
 
 
