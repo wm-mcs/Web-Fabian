@@ -30,6 +30,7 @@
     font-weight: bold;
     margin-bottom: 15px;
     letter-spacing: -3;
+    color: $color-white;
    }
 
     .contiene-lena-columna{
@@ -37,12 +38,12 @@
       @include flexbox;       
       @include flex-direction(row);
       @include align-items(center);
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
 
      .contiene-lena-columna-icono{
       font-size: 22px;
-      margin-left: 10px;
+      margin-right:  15px;
       color: $color-white;
      }
 
