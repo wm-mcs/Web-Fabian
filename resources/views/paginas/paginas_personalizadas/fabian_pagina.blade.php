@@ -149,8 +149,8 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
          <div class="contiene-botones-slider">
-           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></span> 
-           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></span>
+           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
+           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
          </div>
        </div>
       </div>
@@ -163,7 +163,7 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">¿Recibiste una orden de desalojo?</h2>
          <p class="texto-detalle-slider">No hay tiempo que perder, debemos actuar estratégicamente y cuanto antes.</p>
-         <a href="#contact-section" class="contiene-botones-slider">
+         <a href="#section-4" class="contiene-botones-slider">
            <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Ayuda</div></span> 
            
          </a>
@@ -255,12 +255,12 @@
       
 
 
-      <div  class="site-section BackgroundOscuro" id="sobre-mi">
+      <div  class="site-section BackgroundOscuro" id="section-4">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h1 class="contiene-h1-presentacion color-text-white">Desalojos de inmuebles</h1>
+            <h2 class="contiene-h1-presentacion color-text-white">¿Serás tú el desalojado?</h2>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
@@ -270,7 +270,7 @@
           </div>
           <div class="contiene-cada-div-presentacion">
             <p class="contiene-p-presentacion color-text-white">
-              Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
+              Si este es tu caso deberías saber que, desde la expedición de la orden de desalojo, tienes un <strong>plazo de 10 días hábiles</strong> para presentar tu defensa. Si ya transcurrio ese periodo, no desesperes, aún podemos ayudarte. 
             </p>
 
           </div>
@@ -294,9 +294,9 @@
         <div class="row" >
          <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
           <div class="col-lg-6 order-2">
-            <h1 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h1>
+            <h2 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h2>
             <p class="contiene-p-presentacion color-text-black">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
-            </p>
+            </p> 
 
           </div>
           <div class="col-lg-6 order-1 pl-lg-5 ">
