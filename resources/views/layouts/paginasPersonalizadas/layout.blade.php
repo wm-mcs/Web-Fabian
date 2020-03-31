@@ -77,19 +77,22 @@
           </div>
              <div class="contenedor-columna-footer">
                 <h3 class="titulo-columna-footer">Rutas de interés</h3>
-                <ul class="list-unstyled">
 
-                  @yield('rutas_de_interes')
-                  
-                  <li><a href="#contact-section" >Contacto</a></li>
-                   @if(Auth::guest())
-                    <li><a href="{{route('auth_login_get')}}" >Iniciar sesión</a></li>
-
-                   @else
-                    <li><a href="{{route('get_datos_corporativos')}}" >Administrar</a></li>
-                    <li><a href="{{route('logout')}}" >Salir</a></li>
+                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
+                   <a href="#contact-section" class="contiene-lena-columna-texto"> @{{empresa.telefono}}</a>  
+                  </div>
+                  @if(Auth::guest())
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('auth_login_get')}}" class="contiene-lena-columna-texto"> Iniciar sesión</a>  
+                  </div>
+                  @else
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('get_datos_corporativos')}}" class="contiene-lena-columna-texto">Administrar</a>  
+                  </div>
+                   <div class="contiene-lena-columna" >
+                   <a href="{{route('logout')}}" class="contiene-lena-columna-texto">Salir</a>  
+                  </div>
                    @endif
-                </ul>
               </div>   
 
 
