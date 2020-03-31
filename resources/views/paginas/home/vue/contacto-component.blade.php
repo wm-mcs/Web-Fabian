@@ -138,10 +138,10 @@ template:'
       <p class="contacto-pregunta ">¿Cuál es tu caso?</p>
       <div class="contacto-contiene-opciones">
         
-        <div v-model="arrendador" :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
-        <div v-model="arrendatario" :class="style_clase(arrendatario)" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
-        <div v-model="propietario" :class="style_clase(propietario)" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
-        <div v-model="ocupante" :class="style_clase(ocupante)" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
+        <div  :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
+        <div  :class="style_clase(arrendatario)" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
+        <div  :class="style_clase(propietario)" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
+        <div  :class="style_clase(ocupante)" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
         
       </div>
     </div>
@@ -191,9 +191,9 @@ template:'
         <div v-for="error in errores">@{{error}}</div>
       </div>
 
-      <div v-if="mostrar_boton" class="col-md-6">
+      <div  class="col-md-6">
         <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
-        <div v-else class="boton-contacto-class"  v-on:click="enviarMensaje">Enviar</div>
+        <div v-else class="boton-contacto-class" v-on:click="enviarMensaje">Enviar</div>
         
       </div>
     </div>
