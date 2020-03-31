@@ -71,15 +71,16 @@
         
           <div class="contenedor-columna-footer">
             <h3 class="titulo-columna-footer">@{{empresa.name}}</h3>
-            <div class="contiene-lena-columna"></div>
-            <p  v-if="se_muestra(empresa.home_footer_sobre_mi)">@{{empresa.home_footer_sobre_mi}}</p>
-            <p  v-if="se_muestra(empresa.direccion_empresa)"><span class="d-inline-block d-md-block">@{{empresa.direccion_empresa}}</p>
+            <div class="contiene-lena-columna" >
+               <a href="#" class="contiene-lena-columna-texto"> Home</a>  
+            </div>
+           
           </div>
              <div class="contenedor-columna-footer">
                 <h3 class="titulo-columna-footer">Rutas de interés</h3>
 
-                  <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
-                   <a href="#contact-section" class="contiene-lena-columna-texto"> @{{empresa.telefono}}</a>  
+                  <div class="contiene-lena-columna" >
+                   <a href="#contact-section" class="contiene-lena-columna-texto"> Contacto</a>  
                   </div>
                   @if(Auth::guest())
                   <div class="contiene-lena-columna" >
@@ -137,7 +138,7 @@
           
           
           <div class="contenedor-columna-footer">
-            <h3 class="titulo-columna-foote">Redes sociales</h3>
+            <h3 class="titulo-columna-footer">Redes sociales</h3>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.twitter_url)">
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-twitter"></span>
