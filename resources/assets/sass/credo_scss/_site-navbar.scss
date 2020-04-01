@@ -176,7 +176,7 @@
 	right: 0;
 	z-index: 2000;
 	padding-top: 20px;
-	background: $white;
+	background: $GrisClaro_1;
 	height: calc(100vh);
 	
 	transform: translateX(110%);
@@ -365,12 +365,12 @@
 		.site-menu-toggle {
 			color: $white;
 			.icon-menu {
-				color: $color-white;
+				color: $GrisClaro_1;
 			}
 		}
 		.site-logo {
 			a {
-				color: $white;
+				color: $GrisClaro_1;
 			}
 		}
 		.site-menu {
@@ -387,13 +387,13 @@
 	&.is-sticky {
 		
 		.site-navbar {
-			background: $GrisOscuro_2;
+			background: $GrisOscuro_1;
 			border-bottom: 1px solid transparent;
 			box-shadow: 4px 0 20px -5px rgba(0,0,0,.1);
 			.site-menu-toggle {
-				color: $white;
+				color: $GrisClaro_1;
 				.icon-menu {
-					color: $white;
+					color: $GrisClaro_1;
 				}
 			}
 			.site-logo {
@@ -404,7 +404,7 @@
 			.site-menu {
 				> li {
 					> a {
-						color: $color-gris-text!important;
+						color: $GrisClaro_1!important;
 						&:hover, &.active {
 							color: $white!important;
 						}
