@@ -391,9 +391,9 @@
 			border-bottom: 1px solid transparent;
 			box-shadow: 4px 0 20px -5px rgba(0,0,0,.1);
 			.site-menu-toggle {
-				color: $black;
+				color: $white;
 				.icon-menu {
-					color: $black;
+					color: $white;
 				}
 			}
 			.site-logo {
@@ -406,7 +406,7 @@
 					> a {
 						color: $color-gris-text!important;
 						&:hover, &.active {
-							color: $primary!important;
+							color: $white!important;
 						}
 					}
 				}
