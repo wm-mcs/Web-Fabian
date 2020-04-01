@@ -249,7 +249,7 @@
      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
        <div class="presentacion-imagen-paralax"></div>
-         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+         {{-- <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez"> --}}
        
       </div> 
       
