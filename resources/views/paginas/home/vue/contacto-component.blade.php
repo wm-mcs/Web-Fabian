@@ -160,7 +160,7 @@ template:'
 
 
 
-    <div v-if="mostrar_campos" class="row mb-2">
+    <div  class="row mb-2">
       
       <div class="form-group col-6  col-sm-4">
         <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
@@ -180,7 +180,7 @@ template:'
    
     
    
-    <div v-if="mostrar_campos" class="row mb-4">
+    <div  class="row mb-4">
 
       
       <div class="form-group col-sm-12">
