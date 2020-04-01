@@ -126,6 +126,7 @@ computed:{
   
 },
 template:'
+<span>
  <section class="section-contacto-class" id="contact-section">
  
 
@@ -214,6 +215,34 @@ template:'
 </div>
 </div>
 </section>
+<div  class="site-section py-4 BackgroundGris" id="sobre-mi">
+      <div class="container">
+        <div class="row" >
+         <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
+          <div class="col-lg-6 order-2">
+            <h2 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h2>
+            <p class="contiene-p-presentacion color-text-black">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
+            </p> 
+
+          </div>
+          <div class="col-lg-6 order-1 pl-lg-5 ">
+            <img src="{{url()}}/imagenes/PaginasPersonalizadas/uruguay-mapa.png" alt="Image" class="img-fluid mb-4 helper-border-radius-16">
+          </div>
+          
+          
+           
+         </div>
+          
+        </div>
+      </div>
+    </div>
+    {{-- Imagen con logo para mostrar por el medio --}}
+      <div class="contiene-todo-image-centrada">
+       <div class="presentacion-imagen-secundaria-paralax-pais"></div>
+         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">       
+      </div> 
+
+      </span>
 
 
 
