@@ -19,7 +19,6 @@ $color-3hyperlight:$color-3-primary_hover;
 
 $color-gris-text:#b4b4b4 ;
 $color-gris-background: #cecdcc;
-
 $color-gris-lineas: #ffefef;
 
 /* COLORES GENERALES */
@@ -28,6 +27,13 @@ $color-grey0:#f8f8f8; /*gris SUPER claro (solo para líneas divisoras de relevan
 $color-grey1:#CCCCCC; /*gris más claro (para párrafos y otras cosas)*/
 $color-grey2:#1A1A1A; /*gris medio (para títulos por ejemplo)*/
 $color-grey3:#4D4D4D; /*gris más oscuro (para backgrounds por ejemplo)*/
+
+/* Grises Fabian */
+$GrisOscuro_1:#4D4D4D ;
+$GrisOscuro_2:#1A1A1A ;
+
+$GrisClaro_1:#F2F2F2;
+$GrisClaro_2:#CCCCCC;
 
 $color-white:#F2F2F2; /*usamos esto en lugar de "white" por si decidimos cambiarlo todos los blancos más adelante*/
 $color-black:#101111; /*misma razón, pero para el negro */
