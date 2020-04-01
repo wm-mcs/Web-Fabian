@@ -26,7 +26,8 @@ class Empresa extends Model
                            'img_logo_cuadrado',
                            'img_logo_horizontal',
                            'img_logo_horizontal_blanco',
-                           'img_logo_horizontal_v2'];
+                           'img_logo_horizontal_v2',
+                           'img_logo_horizontal_v2_blanco'];
 
     /**
      * para verificar si no es null o no es cadena vacia
@@ -84,6 +85,14 @@ class Empresa extends Model
         
         return url().'/imagenes/Empresa/logo-rectangular-fabian-delpino-v2.png';
     }
+
+    public function getImgLogoHorizontalV2BlancoAttribute()
+    {
+        
+        return url().'/imagenes/Empresa/logo-rectangular-fabian-delpino-v2-blanco.png';
+    }
+
+    
 
     public function getImgLogoVerticalAttribute()
     {

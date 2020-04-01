@@ -87,8 +87,8 @@
               <ul class="site-menu main-menu  mr-auto ">
                 <li>
                     <a v-show="mostrar_logo_nav" href="{{url()}}" class="nav-link">
-                      <img v-if="mostrar_para_grande" style="height: 30px;" :src="empresa.img_logo_horizontal">
-                      <img v-else style="height: 40px;" :src="empresa.img_logo_horizontal_v2">
+                      <img v-if="mostrar_para_grande" style="height: 30px;" :src="empresa.img_logo_horizontal_blanco">
+                      <img v-else style="height: 40px;" :src="empresa.img_logo_horizontal_v2_blanco">
                       
                     </a>
                 </li>
