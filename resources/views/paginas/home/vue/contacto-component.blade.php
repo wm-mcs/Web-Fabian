@@ -236,7 +236,7 @@ template:'
   </div>
      
 
-       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+       
   </div>
    
       
