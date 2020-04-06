@@ -20,10 +20,10 @@ data:function(){
       inquilino:'inquilino',
       ocupante:'ocupante',
       cargando:false,
-      arrendador:'arrendador',
-      arrendatario:'arrendatario',
-      propietario:'propietario',
-      ocupante:'ocupante'
+      arrendador:'Arrendador',
+      arrendatario:'Arrendatario',
+      propietario:'Propietario',
+      ocupante:'Otros'
     }
 }, 
 
@@ -136,13 +136,13 @@ template:'
   <div class="row">
     <div class="col-12 mb-3 position-relative">
       <h2 class="contacto-titulo">Puedes consultar sin compromiso</h2>
-      <p class="contacto-pregunta ">¿Cuál es tu caso?</p>
+      <p class="contacto-pregunta ">¿Cuál es su situación?</p>
       <div class="contacto-contiene-opciones">
         
-        <div  :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)">Soy @{{arrendador}}</div>
-        <div  :class="style_clase(arrendatario)" v-on:click="cambiar_opcion(arrendatario)">Soy @{{arrendatario}}</div>
-        <div  :class="style_clase(propietario)" v-on:click="cambiar_opcion(propietario)">Soy @{{propietario}}</div>
-        <div  :class="style_clase(ocupante)" v-on:click="cambiar_opcion(ocupante)">Soy @{{ocupante}}</div>
+        <div  :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)"> @{{arrendador}}</div>
+        <div  :class="style_clase(arrendatario)" v-on:click="cambiar_opcion(arrendatario)"> @{{arrendatario}}</div>
+        <div  :class="style_clase(propietario)" v-on:click="cambiar_opcion(propietario)"> @{{propietario}}</div>
+        <div  :class="style_clase(ocupante)" v-on:click="cambiar_opcion(ocupante)"> @{{ocupante}}</div>
         
       </div>
     </div>
@@ -162,18 +162,16 @@ template:'
 
     <div  class="row mb-2">
       
-      <div class="form-group col-6  col-sm-4">
-        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Escribe tu nombre">
+      <div class="form-group col-6  col-sm-6">
+        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre completo">
       </div>
 
       
 
-      <div class="form-group col-6 col-sm-4">
-        <input v-model="data_enviar.celular"  type="text"  class="form-control" placeholder="Escribe tu celular">
-      </div>
+     
 
-      <div class="form-group  col-sm-4">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Escribe tu email ">
+      <div class="form-group  col-sm-6">
+        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
       </div>
     </div>
 
@@ -184,7 +182,7 @@ template:'
 
       
       <div class="form-group col-sm-12">
-        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Escribe un mensaje (opcional)">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Mensaje">
       </div>
     </div>
 
