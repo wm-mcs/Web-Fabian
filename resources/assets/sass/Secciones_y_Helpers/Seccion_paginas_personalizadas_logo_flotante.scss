@@ -41,13 +41,14 @@
     }
 
     .boton-contactar-presentacion{
-      font-family: $font-primary;
+      font-family: $font-secondary;
       font-size: 22px;
       padding:5px 35px;
       text-align: center;      
       color:$color-grey3;
       border:solid 2px $color-grey3;
       cursor: pointer;
+      letter-spacing: 2px;
     }
     .boton-contactar-presentacion:hover{
       background-color: $color-3;
@@ -57,13 +58,14 @@
     }
 
     .boton-contactar-presentacion-blanco{
-      font-family: $font-primary;
+      font-family: $font-secondary;
       font-size: 22px;
       padding:5px 35px;
       text-align: center;      
       color:$color-white;
       border:solid 2px $color-white;
       cursor: pointer;
+      letter-spacing: 2px;
     }
     .boton-contactar-presentacion-blanco:hover{
       background-color: $color-white;
