@@ -55,10 +55,7 @@
 
 
 
-    <contacto-component :empresa="empresa" >
-     
-
-    </contacto-component>
+    
 
 
 

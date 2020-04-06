@@ -239,7 +239,10 @@
           </div>
           <div class="contiene-cada-div-presentacion">
             <p class="contiene-p-presentacion color-text-black">
-              Brindamos  <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
+              Brindamos <strong>soluciones eficaces</strong> , a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong> , a medida de cada necesidad.
+            </p>
+            <p class="contiene-p-presentacion color-text-black">
+              Para ver un listado completo de nuestros servicios <a href="#">haga click aquí</a> .
             </p>
 
           </div>
@@ -265,7 +268,8 @@
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h2 class="contiene-h1-presentacion color-text-white">¿Serás tú el desalojado?</h2>
+            <h2 class="contiene-h1-presentacion color-text-white">Patrocinio
+de inquilinos</h2>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
@@ -275,7 +279,7 @@
           </div>
           <div class="contiene-cada-div-presentacion">
             <p class="contiene-p-presentacion color-text-white">
-              Si este es tu caso deberías saber que, desde la expedición de la orden de desalojo, tienes un <strong>plazo de 10 días hábiles</strong> para presentar tu defensa. Si ya transcurrió ese período, no desesperes, aún podemos ayudarte. 
+              No dude en contactarnos si necesita asistencia relacionada a cualquier conflicto que esté experimentando con su arrendador. Si ha recibido una orden de desalojo, debería saber que, desde que fue notificado , tiene un plazo de <strong>10 días hábiles</strong>  para presentar su defensa. Si ya transcurrió dicho plazo, no desespere, aún podemos ayudarle.
             </p>
 
           </div>
@@ -286,11 +290,21 @@
       </div>
     </div>
 
-     {{-- Imagen con logo para mostrar por el medio --}}
-     {{--  <div class="contiene-todo-image-centrada">
-       <div class="presentacion-imagen-secundaria-paralax"></div>
-         <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">       
-      </div>  --}}
+
+
+    <contacto-component :empresa="empresa"></contacto-component>
+    
+
+    {{-- Alcance Nacional --}}
+    <div  class="site-section py-4 BackgroundGris presentacion-imagen-secundaria-paralax-pais" id="sobre-mi">
+      <div class="presentacion-imagen-secundaria-paralax-pais-capa">
+          <div class="contiene-alcance-nacional-texto">
+            <h2 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h2>
+            <p class="contiene-p-presentacion color-text-black">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
+            </p> 
+           </div>
+       </div>
+    </div>
 
 
    

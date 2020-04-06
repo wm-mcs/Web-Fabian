@@ -215,29 +215,7 @@ template:'
 </div>
 </div>
 </section>
-<div  class="site-section py-4 BackgroundGris presentacion-imagen-secundaria-paralax-pais" id="sobre-mi">
-  <div class="presentacion-imagen-secundaria-paralax-pais-capa">
-    
-        
-          <div class="contiene-alcance-nacional-texto">
-            <h2 class="contiene-h1-presentacion color-text-black text-left">Alcance nacional</h2>
-            <p class="contiene-p-presentacion color-text-black">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
-            </p> 
-          </div>
-         
-          
-           
-         
-          
-        
-     
-    
 
-  </div>
-     
-
-       
-  </div>
    
       
                
