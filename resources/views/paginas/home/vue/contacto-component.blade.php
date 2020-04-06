@@ -216,7 +216,7 @@ template:'
 </div>
 </section>
 <div  class="site-section py-4 BackgroundGris presentacion-imagen-secundaria-paralax-pais" id="sobre-mi">
-  <div class="">
+  <div class="presentacion-imagen-secundaria-paralax-pais-capa">
      <div class="container">
         <div class="row" >
          <div class="col-12 mb-4 d-flex justify-content-around flex-wrap align-items-center">
