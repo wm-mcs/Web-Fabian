@@ -128,12 +128,12 @@
 }
 
 .presentacion-imagen-secundaria-paralax-pais-capa{
- background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-uruguay-uruguay-mapa-back.png");
+ background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-uruguay-uruguay-mapa-back-mobil.png");
  position:absolute;
  top: 0;
  height: 100vh;
  width: 100%;
- background-position: right center;
+ background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  @include flexbox;       
@@ -144,7 +144,7 @@
 }
 
    .contiene-alcance-nacional-texto{
-    width: 95%;
+    width: 85%;
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(flex-start);
@@ -241,9 +241,6 @@
  top: 0;
  height: 350px;
  width: 100%;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
  @include flexbox;       
  @include flex-direction(column);
  @include align-items(flex-end);
