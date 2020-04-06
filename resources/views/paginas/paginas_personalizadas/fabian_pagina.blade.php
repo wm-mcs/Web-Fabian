@@ -79,7 +79,7 @@
 @section('header')
 <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
 
-      <div class="container-fluid"  style="padding: 0 30px; max-width: 1250px;">
+      <div class="container-fluid"  style="padding: 0 30px; max-width:1200px;">
         <div class="row align-items-center justify-content-between">
           
           <div class="">
