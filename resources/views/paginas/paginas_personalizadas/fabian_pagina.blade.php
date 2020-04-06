@@ -116,7 +116,7 @@
 
 
             <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
-              <a href="#" class="h3">INICIO</a>
+              <a v-show="mostrar_logo_nav" href="#" class="h3">INICIO</a>
               <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
 
             </div>
