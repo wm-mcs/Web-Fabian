@@ -104,7 +104,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
-                <li><a href="#" class="nav-link">INICIO</a></li>             
+                <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
                 <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
                 <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
@@ -116,7 +116,7 @@
 
 
             <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;">
-              <a v-show="mostrar_logo_nav" href="#" class="h3">INICIO</a>
+              <a v-show="mostrar_logo_nav" href="{{url()}}" class="h3">INICIO</a>
               <a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
 
             </div>
