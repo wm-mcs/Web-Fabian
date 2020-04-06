@@ -104,7 +104,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
-                <li><a href="#header" class="nav-link">INICIO</a></li>             
+                <li><a href="#" class="nav-link">INICIO</a></li>             
                 <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
                 <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
