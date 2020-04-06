@@ -1,8 +1,11 @@
   .inicio-class-al-lado-de-boton{
     font-family: $font-secondary;
     padding: 4px 20px;
-    color:$color-white;
+    color:$GrisClaro_2;
     font-size: 16px;
+  }
+  .inicio-class-al-lado-de-boton:hover{
+    color:$color-white;
   }
 
   .logo-float-easy-socio-portada{
