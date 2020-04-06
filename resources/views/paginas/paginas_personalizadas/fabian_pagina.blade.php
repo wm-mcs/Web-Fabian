@@ -77,7 +77,7 @@
 @stop
 
 @section('header')
-<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner" id="header">
 
       <div class="container-fluid"  style="padding: 0 30px; max-width:1650px;">
         <div class="row align-items-center justify-content-between">
@@ -104,7 +104,7 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
-                <li><a href="#" class="nav-link">INICIO</a></li>             
+                <li><a href="#header" class="nav-link">INICIO</a></li>             
                 <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
                 <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
