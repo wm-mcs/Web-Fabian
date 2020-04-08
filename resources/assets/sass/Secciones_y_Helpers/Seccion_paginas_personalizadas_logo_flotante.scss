@@ -128,7 +128,8 @@
   background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-realstate.jpg");
 
   /* Set a specific height */
-  height: 700px;
+  height: 200vh;
+  
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -246,6 +247,11 @@
     
     
     }
+
+.presentacion-imagen-secundaria-paralax-pais{
+  height: 700px;
+}
+    
 
   .presentacion-imagen-secundaria-paralax-pais-capa{
  background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-uruguay-uruguay-mapa-back.png");
