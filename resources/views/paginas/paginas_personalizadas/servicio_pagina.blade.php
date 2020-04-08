@@ -3,14 +3,14 @@
 
 
 
-{{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
+{{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/Servicios/Delpino-website-lawshelf-header.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
-{{--*/ $Titulo                = 'Delpino & Asociados | Abogados especialistas en desalojos' /*--}} 
+{{--*/ $Titulo                = 'Servicios | Delpino & Asociados ' /*--}} 
 {{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
 .
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
-{{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
+{{--*/ $UrlDeLaPagina         = route('get_servicios') /*--}}
 
 @section('og-tags')
  <meta property="og:type"               content="website" />
@@ -144,10 +144,11 @@
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
       <div class="Slider-wraper-contenido-de-textos-y-botones ">
        <div class="Slider-contenido-de-textos-y-botones">
-         <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
+         <h2 class="texto-titulo-slider">Servicios</h2>
+         <p class="texto-detalle-slider">Cubrimos todos los aspectos asociados a desalojos, arrendamientos y bienes raíces.</p>
          <div class="contiene-botones-slider">
-           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
-           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
+           <a href="#Abogacia" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Abogacía</div></a> 
+           <a href="#Escribania" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Escribanía</div></a>
          </div>
        </div>
       </div>
@@ -175,25 +176,22 @@
 
 
 
-  <div  class="site-section " id="sobre-mi">
+       <div  class="site-section BackgroundOscuro" id="Abogacia">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h1 class="contiene-h1-presentacion  color-text-black">Recuperación de inmuebles</h1>
+            <h2 class="contiene-h1-presentacion color-text-white">Derecho civil</h2>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion">Contactar</a>
+            <a href="#contact-section" class="boton-contactar-presentacion-blanco">Consultar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">
-            <p class="contiene-p-presentacion color-text-black">
-              Brindamos <strong>soluciones eficaces</strong> , a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong> , a medida de cada necesidad.
-            </p>
-            <p class="contiene-p-presentacion color-text-black">
-              Para ver un listado completo de nuestros servicios <strong> <a href="#">haga click aquí</a> </strong>.
+            <p class="contiene-p-presentacion color-text-white">
+              No dude en contactarnos si necesita asistencia relacionada a cualquier conflicto que esté experimentando con su arrendador. Si ha recibido una orden de desalojo, debería saber que, desde que fue notificado , tiene un plazo de <strong>10 días hábiles</strong>  para presentar su defensa. Si ya transcurrió dicho plazo, no desespere, aún podemos ayudarle.
             </p>
 
           </div>
