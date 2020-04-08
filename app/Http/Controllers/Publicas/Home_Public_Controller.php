@@ -31,16 +31,18 @@ class Home_Public_Controller extends Controller
     }
 
     public function get_home(Request $Request)
-    {
-        
-           
+    {           
         $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
-
-        
         $blogs          = $this->NoticiasRepo->getUltimosBlogs();
-        
-
         return view('paginas.paginas_personalizadas.fabian_pagina', compact('Empresa','blogs'));
+    }
+
+
+    public function get_servicios(Request $Request)
+    {
+        $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        return view('paginas.paginas_personalizadas.servicio_pagina', compact('Empresa','blogs'));
     }
 
 
