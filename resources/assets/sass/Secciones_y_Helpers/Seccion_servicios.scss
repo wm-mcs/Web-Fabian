@@ -34,6 +34,18 @@
       margin-bottom: 0;
     }
 
+    .contiene-servicio-li-list-icono::before{
+      content: "\2022";      
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+
+    .contiene-ul-lista-sub-servicios{
+      list-style: none;
+    }
+
 
 .border-color-servicio-white{
   border-color:$GrisClaro_2;

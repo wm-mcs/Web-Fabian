@@ -193,6 +193,7 @@
 
 
             <div class="Contiene-lista-de-servicios">
+              {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-white">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Redacción
@@ -200,14 +201,47 @@
                 <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
                   Redacción y negociación de contratos de arrendamientos o comodato.
                 </h4>
-
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-white">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Intimación
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Intimación de pago de deuda.
+                </h4>
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-white">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Desalojos
+                </h3>
+                <ul class="contiene-ul-lista-sub-servicios">
+                   <li class="contiene-cada-servicio-descripcion servicio-text-color-white contiene-servicio-li-list-icono">
+                     Arrendatarios y subarrendatarios (casa-habitación, local comercial, alquileres por temporadas)
+                   </li>
+                   <li class="contiene-cada-servicio-descripcion servicio-text-color-white contiene-servicio-li-list-icono">
+                     Comodatorios (con plazo, ocupantes precarios)
+                   </li>
+                   <li class="contiene-cada-servicio-descripcion servicio-text-color-white contiene-servicio-li-list-icono">
+                     Huéspedes en pensiones
+                   </li>
+                   
+                </ul>
                 
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-white">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Redacción
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Redacción y negociación de contratos de arrendamientos o comodato.
+                </h4>
               </div>
               
             </div>
-            <p class="contiene-p-presentacion servicio-text-color-white">
-              No dude en contactarnos si necesita asistencia relacionada a cualquier conflicto que esté experimentando con su arrendador. Si ha recibido una orden de desalojo, debería saber que, desde que fue notificado , tiene un plazo de <strong>10 días hábiles</strong>  para presentar su defensa. Si ya transcurrió dicho plazo, no desespere, aún podemos ayudarle.
-            </p>
+           
 
           </div>
            
