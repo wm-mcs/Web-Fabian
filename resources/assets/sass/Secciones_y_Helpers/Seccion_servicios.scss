@@ -3,6 +3,7 @@
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(flex-end);
+    margin-top: 30px;
 }
 
 
@@ -79,7 +80,10 @@
 
  @media (min-width: $BrackPoint-Secundario){
 
-     
+    .Contiene-lista-de-servicios{
+    
+    margin-top: 0px;
+}
   
 }
 

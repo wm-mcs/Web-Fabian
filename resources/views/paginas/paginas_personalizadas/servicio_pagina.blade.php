@@ -181,7 +181,7 @@
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h2 class="contiene-h1-presentacion servicio-text-color-white">Derecho civil</h2>
+            <h2 class="contiene-h1-presentacion servicio-text-color-white">Derecho Civil</h2>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
@@ -257,6 +257,46 @@
                   Asesoramiento a inmobiliarias y pensiones.
                 </h4>
               </div>
+              
+            </div>
+           
+
+          </div>
+           
+         </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+     <div  class="site-section BackgroundOscuro" id="Abogacia-DerechoPenal">
+      <div class="container">
+        <div class="row" >
+         <div class="contiene-presentacion">
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <h2 class="contiene-h1-presentacion servicio-text-color-white">Derecho Penal</h2>
+
+          </div>
+          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
+
+          </div>
+          <div class="contiene-cada-div-presentacion">
+
+
+            <div class="Contiene-lista-de-servicios">
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Delito de usurpación
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Asistencia legal a víctimas de delito de usurpación.
+                </h4>
+              </div>
+             
               
             </div>
            
