@@ -163,8 +163,8 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
       border-bottom: 2px solid $GrisOscuro_1 !important;
     }
 .inut-contacto-black{
-  font-weight: bold;
-  color:$GrisOscuro_1;
+  font-weight: bold !important;
+  color:$GrisClaro_2 !important;
 }
 .inut-contacto-black::placeholder {
  color:$GrisClaro_2  !important;
