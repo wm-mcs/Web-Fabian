@@ -158,9 +158,13 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
     }
 
 
-    .contacto-borde-style-color{
-      border-color:$GrisOscuro_1;
+    .form-2 .form-control{
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid $GrisOscuro_1;
     }
+
+   
 
 
 

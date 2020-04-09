@@ -206,16 +206,16 @@ template:'
   </div>
 
 
-  <div action="#" class="form">
+  <div action="#" class="form-2">
     <div  class="row mb-2">
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.name" type="text" class="form-control contacto-borde-style-color" placeholder="Nombre completo">
+        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre completo">
       </div>
       <div class="form-group  col-6  col-sm-6">
-        <input v-model="data_enviar.email" type="email" class="form-control contacto-borde-style-color" placeholder="Email">
+        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
       </div>
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.celular" type="text" class="form-control contacto-borde-style-color" placeholder="Celular">
+        <input v-model="data_enviar.celular" type="text" class="form-control" placeholder="Celular">
       </div>
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.departamento" type="text" class="form-control" placeholder="Departamento">
@@ -225,7 +225,7 @@ template:'
    
     <div  class="row mb-4">      
       <div class="form-group col-sm-12">
-        <input  v-model="data_enviar.mensaje" type="text" class="form-control contacto-borde-style-color" placeholder="Mensaje">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Mensaje">
       </div>
     </div>
     <div v-if="mostrar_boton"  class="row">
