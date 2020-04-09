@@ -397,7 +397,7 @@
                 </ul>
                 
               </div>
-              </div>
+              
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
@@ -407,7 +407,7 @@
                   Añadir breve descripción.
                 </h4>
               </div>
-              </div>
+              
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
@@ -417,7 +417,7 @@
                   Añadir breve descripción.
                 </h4>
               </div>
-              </div>
+              
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
