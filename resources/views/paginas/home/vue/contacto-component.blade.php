@@ -194,7 +194,7 @@ template:'
 </div>
 </div>
 </section>
-<section v-else class="section-contacto-class contacto-imagen-contacto" id="contact-section">
+<section v-else class="section-contacto-class contacto-imagen-contacto" id="Formulario">
 <div class="contacto-absolut-wraper">
 <div class="contacto-contenido-wraper">
 <div v-if="!se_envio" class="container">
