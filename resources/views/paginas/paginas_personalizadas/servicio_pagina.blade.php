@@ -335,7 +335,7 @@
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion">Contactar</a>
+            <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">
