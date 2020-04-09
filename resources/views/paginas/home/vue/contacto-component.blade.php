@@ -200,8 +200,8 @@ template:'
 <div v-if="!se_envio" class="container">
   <div class="row">
     <div class="col-12 mb-3 position-relative">
-      <h2 class="contacto-titulo">Formulario de contacto</h2>
-      <p class="contacto-pregunta ">Complete todos los campos del formulario y al recibir su consulta, nos comunicaremos a la brevedad.</p>
+      <h2 class="contacto-titulo color-text-black">Formulario de contacto</h2>
+      <p class="contacto-pregunta color-text-black">Complete todos los campos del formulario y al recibir su consulta, nos comunicaremos a la brevedad.</p>
     </div>
   </div>
 
@@ -209,13 +209,13 @@ template:'
   <div action="#" class="form">
     <div  class="row mb-2">
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre completo">
+        <input v-model="data_enviar.name" type="text" class="form-control contacto-borde-style-color" placeholder="Nombre completo">
       </div>
       <div class="form-group  col-6  col-sm-6">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
+        <input v-model="data_enviar.email" type="email" class="form-control contacto-borde-style-color" placeholder="Email">
       </div>
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.celular" type="text" class="form-control" placeholder="Celular">
+        <input v-model="data_enviar.celular" type="text" class="form-control contacto-borde-style-color" placeholder="Celular">
       </div>
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.departamento" type="text" class="form-control" placeholder="Departamento">
@@ -225,7 +225,7 @@ template:'
    
     <div  class="row mb-4">      
       <div class="form-group col-sm-12">
-        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Mensaje">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control contacto-borde-style-color" placeholder="Mensaje">
       </div>
     </div>
     <div v-if="mostrar_boton"  class="row">
@@ -234,12 +234,12 @@ template:'
       </div>
       <div  class="col-md-6">
         <div v-if="cargando" class="btn btn-dark"> <div class="cssload-tube-tunnel"></div></div>
-        <div v-else class="boton-contacto-class" v-on:click="enviarMensaje">Enviar</div>
+        <div v-else class="boton-contactar-presentacion" v-on:click="enviarMensaje">Enviar</div>
       </div>
     </div>
     <div v-else class="row">
       <div  class="col-md-6">
-         <div class="boton-contacto-class-disabled" >Enviar</div>
+         <div class="boton-contactar-presentacion" >Enviar</div>
       </div>
     </div>
   </div>
