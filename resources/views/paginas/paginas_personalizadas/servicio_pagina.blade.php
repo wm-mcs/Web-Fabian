@@ -317,6 +317,148 @@
       </div> 
 
 
+
+        <div  class="site-section " id="Escribania">
+      <div class="container">
+        <div class="row" >
+         <div class="contiene-presentacion">
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <h1 class="contiene-h1-presentacion  color-text-black">Escribanía</h1>
+
+          </div>
+          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
+          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
+            <a href="#contact-section" class="boton-contactar-presentacion">Contactar</a>
+
+          </div>
+          <div class="contiene-cada-div-presentacion">
+
+             <div class="Contiene-lista-de-servicios">
+
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Compra / Venta
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Compra/venta de inmuebles y automotores.
+                </h4>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Promesa
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Promesa de compra/venta de inmuebles y automotores.
+                </h4>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Leasing
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Leasing de automotores.
+                </h4>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Hipotecas
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Añadir breve descripción.
+                </h4>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Prendas
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Añadir breve descripción.
+                </h4>
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Certificados notariales
+                </h3>
+                <ul class="contiene-ul-lista-sub-servicios">
+                   <li class="contiene-cada-servicio-descripcion color-text-black contiene-servicio-li-list-icono">
+                     Añadir breve descripción.
+                   </li>
+                   <li class="contiene-cada-servicio-descripcion color-text-black contiene-servicio-li-list-icono">
+                     Añadir breve descripción.
+                   </li>
+                  
+                   
+                </ul>
+                
+              </div>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Testimonios por exibición
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Añadir breve descripción.
+                </h4>
+              </div>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Poderes
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Añadir breve descripción.
+                </h4>
+              </div>
+              </div>
+               {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo color-text-black">
+                  Testamentos
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Añadir breve descripción.
+                </h4>
+              </div>
+
+
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <p class="contiene-p-presentacion color-text-black">
+              Brindamos <strong>soluciones eficaces</strong> , a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong> , a medida de cada necesidad.
+            </p>
+            <p class="contiene-p-presentacion color-text-black">
+              Para ver un listado completo de nuestros servicios <strong> <a href="#">haga click aquí</a> </strong>.
+            </p>
+
+          </div>
+           
+         </div>
+          
+        </div>
+      </div>
+    </div>
+
+
     
 
 
