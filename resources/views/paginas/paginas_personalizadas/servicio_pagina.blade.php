@@ -272,7 +272,7 @@
 
      <div  class="site-section BackgroundOscuro position-relative" id="Abogacia-DerechoPenal">
 
-      <img src="{{url()}}/Imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
+      <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
 
       <div class="container">
         <div class="row" >
@@ -322,7 +322,7 @@
 
 
         <div  class="site-section position-relative" id="Escribania">
-          <img src="{{url()}}/Imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
+          <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
