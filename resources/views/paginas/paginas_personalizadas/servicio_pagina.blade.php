@@ -194,7 +194,7 @@
 
             <div class="Contiene-lista-de-servicios">
               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-white">
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Redacción
                 </h3>
@@ -203,7 +203,7 @@
                 </h4>
               </div>
               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-white">
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Intimación
                 </h3>
@@ -212,7 +212,7 @@
                 </h4>
               </div>
               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-white">
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Desalojos
                 </h3>
@@ -231,12 +231,30 @@
                 
               </div>
               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-white">
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Redacción
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
                   Redacción y negociación de contratos de arrendamientos o comodato.
+                </h4>
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Responsabilidad
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Responsabilidad contractual - Daños y perjuicios.
+                </h4>
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Asesoramiento
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Asesoramiento a inmobiliarias y pensiones.
                 </h4>
               </div>
               
