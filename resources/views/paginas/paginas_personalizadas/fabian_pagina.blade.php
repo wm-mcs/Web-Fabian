@@ -268,17 +268,17 @@
         <div class="row" >
          <div class="contiene-presentacion">
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h2 class="contiene-h1-presentacion color-text-white">Patrocinio
+            <h2 class="contiene-h1-presentacion servicio-text-color-white">Patrocinio
 de inquilinos</h2>
 
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion-blanco">Contactar</a>
+            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Contactar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">
-            <p class="contiene-p-presentacion color-text-white">
+            <p class="contiene-p-presentacion servicio-text-color-white">
               No dude en contactarnos si necesita asistencia relacionada a cualquier conflicto que esté experimentando con su arrendador. Si ha recibido una orden de desalojo, debería saber que, desde que fue notificado , tiene un plazo de <strong>10 días hábiles</strong>  para presentar su defensa. Si ya transcurrió dicho plazo, no desespere, aún podemos ayudarle.
             </p>
 
