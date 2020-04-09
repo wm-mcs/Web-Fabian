@@ -1,3 +1,7 @@
+.icono-logo-section-servicios{
+  display: none;
+}
+
 .Contiene-lista-de-servicios{
     width: 100%;
     @include flexbox;       
@@ -98,6 +102,13 @@
 
  @media (min-width: $BrackPoint-Secundario){
 
+    .icono-logo-section-servicios{
+     display: block;
+     width: 100%;
+     position:absolute;
+     bottom:0;
+     left: 0;
+    }
     .Contiene-lista-de-servicios{
      margin-top: 0px;
     }

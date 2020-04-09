@@ -270,7 +270,10 @@
     </div>
 
 
-     <div  class="site-section BackgroundOscuro" id="Abogacia-DerechoPenal">
+     <div  class="site-section BackgroundOscuro position-relative" id="Abogacia-DerechoPenal">
+
+      <img src="{{url()}}/Imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
+
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
@@ -318,7 +321,8 @@
 
 
 
-        <div  class="site-section " id="Escribania">
+        <div  class="site-section position-relative" id="Escribania">
+          <img src="{{url()}}/Imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
