@@ -190,6 +190,21 @@
 
           </div>
           <div class="contiene-cada-div-presentacion">
+
+
+            <div class="Contiene-lista-de-servicios">
+              <div class="contiene-cada-servicio border-color-servicio-white">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Redacción
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Redacción y negociación de contratos de arrendamientos o comodato.
+                </h4>
+
+                
+              </div>
+              
+            </div>
             <p class="contiene-p-presentacion color-text-white">
               No dude en contactarnos si necesita asistencia relacionada a cualquier conflicto que esté experimentando con su arrendador. Si ha recibido una orden de desalojo, debería saber que, desde que fue notificado , tiene un plazo de <strong>10 días hábiles</strong>  para presentar su defensa. Si ya transcurrió dicho plazo, no desespere, aún podemos ayudarle.
             </p>
