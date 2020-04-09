@@ -378,7 +378,7 @@
 				> a {
 					color: $GrisClaro_1 !important;
 					&:hover, &.active {
-						color:  $GrisClaro_2 ;
+						color:  $GrisClaro_2 !important;
 					}
 				}
 			}
