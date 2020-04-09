@@ -156,12 +156,37 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
       letter-spacing: 2px;
     }
 
+/*  I c o n o s  */
+.contacto-pagina-contiene-iconos{
+    @include flexbox;       
+    @include flex-direction(row);
+    @include align-items(flex-start);
+    margin-bottom:20px;
 
-    .form-2 .form-control{
-      border: none;
-      border-radius: 0;
-      border-bottom: 2px solid $GrisOscuro_1 !important;
-    }
+}    
+  .contacto-pagina-iconos{
+    margin-right:4px;
+  }
+
+  .contiene-datos-contacto{
+     @include flexbox;       
+     @include flex-direction(column);
+     @include align-items(flex-start);
+  }
+
+     .contiene-datos-contacto-datos{
+      font-family:$font-primary;
+      margin-bottom:4px;
+      font-size:16px;
+      letter-spacing:1.3px;
+     }
+
+/*  P a r t e   d e l   f o r m u l a r i o  */
+.form-2 .form-control{
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid $GrisOscuro_1 !important;
+}
 .inut-contacto-black{
   font-weight: bold !important;
   color:$GrisOscuro_2 !important;
@@ -276,5 +301,12 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
   .contacto_img{
   width: 300px;
 }
+
+
+.contacto-pagina-contiene-iconos{
+    
+    margin-bottom:0px;
+
+} 
   
 }

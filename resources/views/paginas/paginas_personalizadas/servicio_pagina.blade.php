@@ -104,7 +104,10 @@
 
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
-                <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
+                <li><a href="{{url()}}" class="nav-link">INICIO</a></li> 
+                <li><a href="{{route('get_contacto')}}" class="nav-link">CONTACTO</a></li>   
+
+                         
                 
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">ADMINISTRAR</a></li>
@@ -186,7 +189,7 @@
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
+            <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">
@@ -283,7 +286,7 @@
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
+            <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">

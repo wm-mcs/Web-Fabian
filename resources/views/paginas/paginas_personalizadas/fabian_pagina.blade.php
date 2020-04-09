@@ -106,6 +106,7 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
                 <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
                 <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
+                <li><a href="{{route('get_servicios')}}" class="nav-link">SERVICIOS</a></li> 
                 <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">ADMINISTRAR</a></li>
@@ -242,7 +243,7 @@
               Brindamos <strong>soluciones eficaces</strong> , a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong> , a medida de cada necesidad.
             </p>
             <p class="contiene-p-presentacion color-text-black">
-              Para ver un listado completo de nuestros servicios <strong> <a href="#">haga click aquí</a> </strong>.
+              Para ver un listado completo de nuestros servicios <strong> <a href="{{route('get_servicios')}}">haga click aquí</a> </strong>.
             </p>
 
           </div>

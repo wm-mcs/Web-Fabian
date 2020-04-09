@@ -18,13 +18,13 @@ Route::get('/' , [
 
 
 // S e r v i c i o s
-Route::get('/get_servicios' , [                    
+Route::get('/Servicios' , [                    
   'uses' => 'Publicas\Home_Public_Controller@get_servicios',
   'as'   => 'get_servicios']
 );
 
 // C o n t a c t o
-Route::get('/get_contacto' , [                    
+Route::get('/Contacto' , [                    
   'uses' => 'Publicas\Home_Public_Controller@get_contacto',
   'as'   => 'get_contacto']
 );

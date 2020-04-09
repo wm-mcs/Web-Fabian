@@ -77,7 +77,10 @@
                 <h3 class="titulo-columna-footer">Rutas de interés</h3>
 
                   <div class="contiene-lena-columna" >
-                   <a href="#contact-section" class="contiene-lena-columna-texto"> Contacto</a>  
+                   <a href="{{route('get_servicios')}}" class="contiene-lena-columna-texto"> Servicios</a>  
+                  </div>
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('get_contacto')}}" class="contiene-lena-columna-texto"> Contacto</a>  
                   </div>
                   @if(Auth::guest())
                   <div class="contiene-lena-columna" >

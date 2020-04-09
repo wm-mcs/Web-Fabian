@@ -6,11 +6,11 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/Delpino-website-contactf-header-(thomas-lefebvre).jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
 {{--*/ $Titulo                = 'Contacto | Delpino & Asociados ' /*--}} 
-{{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+{{--*/ $DescriptionEtiqueta   = '¿Quiere desalojar a alguien?, ¿Su inquilino no se quiere ir?, Le han ocupado su casa sin su permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
 .
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
-{{--*/ $UrlDeLaPagina         = route('get_servicios') /*--}}
+{{--*/ $UrlDeLaPagina         = route('get_contacto') /*--}}
 
 @section('og-tags')
  <meta property="og:type"               content="website" />
@@ -186,14 +186,23 @@
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Consultar</a>
+
+            <div class="contacto-pagina-contiene-iconos">
+             <img src="{{url()}}/imagenes/PaginasPersonalizadas/Contacto-Delpino-Email.png" class="contacto-pagina-iconos">
+             <img src="{{url()}}/imagenes/PaginasPersonalizadas/Contacto-Delpino-Tel.png" class="contacto-pagina-iconos">
+              
+            </div>
+            
 
           </div>
           <div class="contiene-cada-div-presentacion">
 
 
-           
-              Email: @{{empresa.email}}
+           <div class="contiene-datos-contacto">
+             <span class="contiene-datos-contacto-datos servicio-text-color-white">@{{empresa.email}}</span>
+             <span class="contiene-datos-contacto-datos servicio-text-color-white">@{{empresa.celular}}</span>
+           </div>
+              
           
            
 
