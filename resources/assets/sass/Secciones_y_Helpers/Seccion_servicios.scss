@@ -14,8 +14,8 @@
     width: 100%;
     cursor: pointer;
     border-left:solid 3px transparent;
-    padding: 0 0 20px 0;
-    margin-top: 10px;
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 10px;
 }
 .contiene-cada-servicio:hover{
   width: 95%;
@@ -23,13 +23,14 @@
 
 
     .contiene-cada-servicio-titulo{
-      font-size: 24px;
+      font-size: 28px;
       font-family:$font-primary;
-      margin-bottom: 5px;
+      margin-bottom: 2px;
+      letter-spacing: 1.2px;
     }
 
     .contiene-cada-servicio-descripcion{
-      font-size: 12px;
+      font-size: 14px;
     }
 
 
