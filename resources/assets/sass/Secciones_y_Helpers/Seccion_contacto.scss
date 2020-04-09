@@ -80,8 +80,7 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
   font-size:35px;
   letter-spacing: -3px;
   width: 100%;
-  margin-bottom: 10px;
-  color: $color-white;
+  margin-bottom: 10px;  
   font-family: $font-primary;
   font-weight: bold;
 }
@@ -89,9 +88,9 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
   .contacto-pregunta{
     font-size:25px;
     width: 100%;
-    margin-bottom: 10px;
-    color: $color-white;
+    margin-bottom: 10px;    
     font-family: $font-primary;
+    line-height: 1;
   }
 
 
