@@ -193,7 +193,7 @@
 
 
            
-              
+              Email: @{{empresa.email}}
           
            
 
