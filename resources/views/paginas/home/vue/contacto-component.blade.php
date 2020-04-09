@@ -215,7 +215,7 @@ template:'
         <input v-model="data_enviar.email" type="email" class="form-control inut-contacto-black" placeholder="Email">
       </div>
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.celular" type="text" class="form-control" inut-contacto-black placeholder="Celular">
+        <input v-model="data_enviar.celular" type="text" class="form-control inut-contacto-black"  placeholder="Celular">
       </div>
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.departamento" type="text" class="form-control inut-contacto-black" placeholder="Departamento">
