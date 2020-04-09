@@ -9,6 +9,7 @@ data:function(){
                    email:'',
                    mensaje:'',
                    celular:'',
+                   departamento:'Montevideo',
                    inquilino_ocupante:'',
                    problema:''
       
@@ -137,7 +138,7 @@ computed:{
 },
 template:'
 <span>
-<section v-if="es_home" class="section-contacto-class" id="contact-section">
+<section v-if="es_home" class="section-contacto-class contacto-imagen-home" id="contact-section">
 <div class="contacto-absolut-wraper">
 <div class="contacto-contenido-wraper">
 <div v-if="!se_envio" class="container">
@@ -193,14 +194,14 @@ template:'
 </div>
 </div>
 </section>
-<section v-else class="section-contacto-class" id="contact-section">
+<section v-else class="section-contacto-class contacto-imagen-contacto" id="contact-section">
 <div class="contacto-absolut-wraper">
 <div class="contacto-contenido-wraper">
 <div v-if="!se_envio" class="container">
   <div class="row">
     <div class="col-12 mb-3 position-relative">
-      <h2 class="contacto-titulo">Puedes consultar sin compromiso</h2>
-      <p class="contacto-pregunta ">¿Cuál es su situación?</p>
+      <h2 class="contacto-titulo">Formulario de contacto</h2>
+      <p class="contacto-pregunta ">Complete todos los campos del formulario y al recibir su consulta, nos comunicaremos a la brevedad.</p>
     </div>
   </div>
 
@@ -210,12 +211,16 @@ template:'
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre completo">
       </div>
+      <div class="form-group  col-6  col-sm-6">
+        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
+      </div>
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.celular" type="text" class="form-control" placeholder="Celular">
       </div>
-      <div class="form-group  col-12">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
+      <div class="form-group col-6  col-sm-6">
+        <input v-model="data_enviar.departamento" type="text" class="form-control" placeholder="Departamento">
       </div>
+      
     </div>
    
     <div  class="row mb-4">      

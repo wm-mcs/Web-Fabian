@@ -1,12 +1,20 @@
 .section-contacto-class{
   width: 100%;
-  background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-contact.jpg"); /* The image used */
+  
   background-color: #cccccc; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   padding: 10px 0;
   
+}
+
+.contacto-imagen-home{
+background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-contact.jpg"); /* The image used */
+}
+
+.contacto-imagen-contacto{
+  background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-contact-2.jpg"); /* The image used */
 }
 
   .section-contacto-img-background{

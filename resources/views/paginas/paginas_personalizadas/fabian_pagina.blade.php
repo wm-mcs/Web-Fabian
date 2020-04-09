@@ -292,7 +292,7 @@ de inquilinos</h2>
 
 
 
-    <contacto-component :empresa="empresa"></contacto-component>
+    <contacto-component :empresa="empresa" seccion="seccion_home"></contacto-component>
     
 
     {{-- Alcance Nacional --}}
