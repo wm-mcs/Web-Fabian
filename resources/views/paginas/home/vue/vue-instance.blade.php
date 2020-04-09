@@ -10,6 +10,8 @@
       cargando:false,
       scrolled:false,
       windowWidth: window.innerWidth,
+      seccion_home:'seccion_home',
+      seccion_contacto:'seccion_contacto',
 
       
 
