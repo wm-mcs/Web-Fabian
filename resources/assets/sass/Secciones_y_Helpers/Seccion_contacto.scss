@@ -160,8 +160,28 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
     .form-2 .form-control{
       border: none;
       border-radius: 0;
-      border-bottom: 1px solid $GrisOscuro_1;
+      border-bottom: 2px solid $GrisOscuro_1 !important;
     }
+.inut-contacto-black{
+  font-weight: bold;
+  color:$GrisOscuro_1;
+}
+.inut-contacto-black::placeholder {
+ color:$GrisClaro_2  !important;
+}
+
+.inut-contacto-black::-webkit-input-placeholder {
+  color: $GrisClaro_2  !important;
+}
+.inut-contacto-black::-moz-placeholder {
+  color: $GrisClaro_2 !important ;
+}
+.inut-contacto-black:-ms-input-placeholder {
+  color: $GrisClaro_2 !important ;
+}
+.inut-contacto-black:-moz-placeholder {
+  color: $GrisClaro_2 !important ;
+}
 
    
 

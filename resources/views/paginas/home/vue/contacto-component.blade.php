@@ -209,23 +209,23 @@ template:'
   <div action="#" class="form-2">
     <div  class="row mb-2">
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.name" type="text" class="form-control" placeholder="Nombre completo">
+        <input v-model="data_enviar.name" type="text" class="form-control inut-contacto-black" placeholder="Nombre completo">
       </div>
       <div class="form-group  col-6  col-sm-6">
-        <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
+        <input v-model="data_enviar.email" type="email" class="form-control inut-contacto-black" placeholder="Email">
       </div>
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.celular" type="text" class="form-control" placeholder="Celular">
+        <input v-model="data_enviar.celular" type="text" class="form-control" inut-contacto-black placeholder="Celular">
       </div>
       <div class="form-group col-6  col-sm-6">
-        <input v-model="data_enviar.departamento" type="text" class="form-control" placeholder="Departamento">
+        <input v-model="data_enviar.departamento" type="text" class="form-control inut-contacto-black" placeholder="Departamento">
       </div>
       
     </div>
    
     <div  class="row mb-4">      
       <div class="form-group col-sm-12">
-        <input  v-model="data_enviar.mensaje" type="text" class="form-control" placeholder="Mensaje">
+        <input  v-model="data_enviar.mensaje" type="text" class="form-control inut-contacto-black" placeholder="Mensaje">
       </div>
     </div>
     <div v-if="mostrar_boton"  class="row">
