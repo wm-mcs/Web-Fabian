@@ -45,5 +45,12 @@ class Home_Public_Controller extends Controller
         return view('paginas.paginas_personalizadas.servicio_pagina', compact('Empresa','blogs'));
     }
 
+    public function get_contacto(Request $Request)
+    {
+        $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        return view('paginas.paginas_personalizadas.contacto_pagina', compact('Empresa','blogs'));
+    }
+
 
 }

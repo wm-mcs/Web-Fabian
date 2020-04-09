@@ -17,15 +17,21 @@ Route::get('/' , [
 );
 
 
-//Servicios
+// S e r v i c i o s
 Route::get('/get_servicios' , [                    
   'uses' => 'Publicas\Home_Public_Controller@get_servicios',
   'as'   => 'get_servicios']
 );
 
+// C o n t a c t o
+Route::get('/get_contacto' , [                    
+  'uses' => 'Publicas\Home_Public_Controller@get_contacto',
+  'as'   => 'get_contacto']
+);
+
 
 //Contacto
-Route::get('/Contacto' , [                    
+Route::get('/Contactodfdfd' , [                    
   'uses' => 'Publicas\Paginas_Controller@get_pagina_contacto',
   'as'   => 'get_pagina_contacto']
 );
