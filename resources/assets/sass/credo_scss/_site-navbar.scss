@@ -376,9 +376,9 @@
 		.site-menu {
 			> li {
 				> a {
-					color: $color-gris-text!important;
+					color: $GrisClaro_1 !important;
 					&:hover, &.active {
-						color: $color-white;
+						color:  $GrisClaro_2 ;
 					}
 				}
 			}
@@ -404,9 +404,9 @@
 			.site-menu {
 				> li {
 					> a {
-						color: $GrisClaro_2!important;
+						color: $GrisClaro_1!important;
 						&:hover, &.active {
-							color: $white!important;
+							color: $GrisClaro_2!important;
 						}
 					}
 				}
