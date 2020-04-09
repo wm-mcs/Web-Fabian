@@ -213,7 +213,7 @@ template:'
       <div class="form-group col-6  col-sm-6">
         <input v-model="data_enviar.celular" type="text" class="form-control" placeholder="Celular">
       </div>
-      <div class="form-group  col-sm-6">
+      <div class="form-group  col-12">
         <input v-model="data_enviar.email" type="email" class="form-control" placeholder="Email">
       </div>
     </div>
