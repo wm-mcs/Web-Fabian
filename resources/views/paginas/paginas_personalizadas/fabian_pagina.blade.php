@@ -107,7 +107,7 @@
                 <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
                 <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
                 <li><a href="{{route('get_servicios')}}" class="nav-link">SERVICIOS</a></li> 
-                <li><a href="#contact-section" class="nav-link">CONTACTO</a></li>
+                <li><a href="{{route('get_contacto')}}" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">ADMINISTRAR</a></li>
                   <li><a href="{{route('logout')}}" class="nav-link">SALIR</a></li>
@@ -155,7 +155,7 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
          <div class="contiene-botones-slider">
-           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
+           <a href="#sobre-mi" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
            <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
          </div>
        </div>
@@ -169,7 +169,7 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">¿Recibiste una orden de desalojo?</h2>
          <p class="texto-detalle-slider">No hay tiempo que perder, debemos actuar estratégicamente y cuanto antes.</p>
-         <a href="#section-4" class="contiene-botones-slider">
+         <a href="#contact-section" class="contiene-botones-slider">
            <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Ayuda</div></span> 
            
          </a>
