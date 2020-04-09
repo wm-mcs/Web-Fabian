@@ -310,6 +310,13 @@
     </div>
 
 
+
+     {{-- Imagen con logo para mostrar por el medio --}}
+      <div class="contiene-todo-image-centrada">
+       <div class="presentacion-imagen-paralax-servicios"></div>
+      </div> 
+
+
     
 
 
