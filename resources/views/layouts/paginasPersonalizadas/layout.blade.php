@@ -70,18 +70,19 @@
 
 
           <div class="contenedor-columna-footer">
-                <h3 class="titulo-columna-footer">Contacto directo</h3>                  
+                <h3 class="titulo-columna-footer">Contacto directo</h3>   
+
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
                    <div class="contiene-lena-columna-icono">
                      <i class="fas fa-phone-square"></i>
                     </div>
-                   <span class="contiene-lena-columna-texto">@{{empresa.telefono}}</span>  
+                   <span class="contiene-lena-columna-texto"> @{{empresa.telefono}}</span>  
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.celular)" >
                     <div class="contiene-lena-columna-icono">
                       <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <span class="contiene-lena-columna-texto">@{{empresa.celular}}</span>  
+                    <span class="contiene-lena-columna-texto">(+598) @{{empresa.celular}}</span>  
                     
                   </div>
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.direccion)">
