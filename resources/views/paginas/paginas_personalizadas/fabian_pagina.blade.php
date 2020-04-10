@@ -143,7 +143,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    
     
     
   </ol>
@@ -162,6 +162,23 @@
       </div>
       
     </div>
+     <div class="carousel-item  Slider-contenedor">
+      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-buildings-header.jpg" alt="Fabian Delpino"> 
+      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
+      <div class="Slider-wraper-contenido-de-textos-y-botones ">
+       <div class="Slider-contenido-de-textos-y-botones">
+         <h2 class="texto-titulo-slider">¿Recibiste una orden de desalojo?</h2>
+         <p class="texto-detalle-slider">No hay tiempo que perder, podemos ayudarte.</p>
+         <a href="{{route('get_contacto')}}" class="contiene-botones-slider">
+           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Contactar</div></span> 
+           
+         </a>
+       </div>
+      </div>
+    </div>
+
+   
+
     <div class="carousel-item  Slider-contenedor">
       <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-strategy-header.jpg" alt="Fabian Delpino"> 
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
@@ -177,36 +194,7 @@
       </div>
     </div>
 
-    <div class="carousel-item  Slider-contenedor">
-      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-buildings-header.jpg" alt="Fabian Delpino"> 
-      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-      <div class="Slider-wraper-contenido-de-textos-y-botones ">
-       <div class="Slider-contenido-de-textos-y-botones">
-         <h2 class="texto-titulo-slider">¿Recibiste una orden de desalojo?</h2>
-         <p class="texto-detalle-slider">No hay tiempo que perder, podemos ayudarte.</p>
-         <a href="#contact-section" class="contiene-botones-slider">
-           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Contactar</div></span> 
-           
-         </a>
-       </div>
-      </div>
-    </div>
-
-    <div class="carousel-item  Slider-contenedor">
-      <img class="post-img-slider-size Slider-img"  src="{{url()}}/imagenes/PaginasPersonalizadas/Delpino-website-cuestaarriba-header.jpg" alt="Fabian Delpino"> 
-      <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
-      <div class="Slider-wraper-contenido-de-textos-y-botones ">
-       <div class="Slider-contenido-de-textos-y-botones">
-         <h2 class="texto-titulo-slider">Asesoramiento a inmobiliarias y pensiones</h2>
-        
-         <a href="#contact-section" class="contiene-botones-slider">
-           <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Contactar</div></span> 
-           
-         </a>
-       </div>
-      </div>
-    </div>
-
+   
 
     
     
