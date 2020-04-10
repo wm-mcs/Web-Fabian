@@ -66,13 +66,7 @@
     <footer class="site-section  contenedor-footer">
       <div class="sub-contenedor-footer">
         
-          <div class="contenedor-columna-footer">
-            <h3 class="titulo-columna-footer">@{{empresa.name}}</h3>
-            <div class="contiene-lena-columna" >
-               <a href="#" class="contiene-lena-columna-texto"> Home</a>  
-            </div>
-           
-          </div>
+      
 
 
           <div class="contenedor-columna-footer">
@@ -181,11 +175,11 @@
 
             <div class="footer-parrafo-test">
               Identidad Corporativa, Comunicación Visual y Diseño Web de Interfaz:<br>
-              Ernesto Calvo | <a class="footer-link" href="">Simbionte</a>
+              Ernesto Calvo | <a class="footer-link text-bold" href="">Simbionte</a>
             </div>
             <div class="footer-parrafo-test">
               Coding y Desarrollo Web:<br>
-              Mauricio Costanzo | <a class="footer-link" href="">Mwebs</a>
+              Mauricio Costanzo | <a class="footer-link text-bold" href="">Mwebs</a>
             </div>
             
            
