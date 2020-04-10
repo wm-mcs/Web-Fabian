@@ -31,7 +31,7 @@
     text-align: left;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     letter-spacing: -3;
     color: $color-white;
    }
@@ -51,13 +51,20 @@
      }
 
      .contiene-lena-columna-texto{
-      color:$color-grey1;
-      font-size: 14px;
+      color:$GrisClaro_2;
+      font-size: 12px;
       font-family: $font-secondary;
       cursor:pointer;
      }
      .contiene-lena-columna-texto:hover{
-      color:$color-grey0;
+      color:$GrisClaro_1;
+     }
+
+     .footer-parrafo-test{
+      font-family:$font-secondary;
+      color:$GrisClaro_2;
+      font-size:12px;
+      margin-bottom:20px;
      }
 
 

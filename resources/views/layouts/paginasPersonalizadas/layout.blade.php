@@ -73,36 +73,10 @@
             </div>
            
           </div>
-             <div class="contenedor-columna-footer">
-                <h3 class="titulo-columna-footer">Rutas de interés</h3>
-
-                  <div class="contiene-lena-columna" >
-                   <a href="{{route('get_servicios')}}" class="contiene-lena-columna-texto"> Servicios</a>  
-                  </div>
-                  <div class="contiene-lena-columna" >
-                   <a href="{{route('get_contacto')}}" class="contiene-lena-columna-texto"> Contacto</a>  
-                  </div>
-                  @if(Auth::guest())
-                  <div class="contiene-lena-columna" >
-                   <a href="{{route('auth_login_get')}}" class="contiene-lena-columna-texto"> Iniciar sesión</a>  
-                  </div>
-                  @else
-                  <div class="contiene-lena-columna" >
-                   <a href="{{route('get_datos_corporativos')}}" class="contiene-lena-columna-texto">Administrar</a>  
-                  </div>
-                   <div class="contiene-lena-columna" >
-                   <a href="{{route('logout')}}" class="contiene-lena-columna-texto">Salir</a>  
-                  </div>
-                   @endif
-              </div>   
 
 
-
-               <div class="contenedor-columna-footer">
-                <h3 class="titulo-columna-footer">Datos de contacto</h3>
-                
-
-                  
+          <div class="contenedor-columna-footer">
+                <h3 class="titulo-columna-footer">Contacto directo</h3>                  
                   <div class="contiene-lena-columna" v-if="se_muestra(empresa.telefono)">
                    <div class="contiene-lena-columna-icono"><i class="fas fa-phone-square"></i></div>
                    <span class="contiene-lena-columna-texto">@{{empresa.telefono}}</span>  
@@ -126,11 +100,33 @@
                     <div class="contiene-lena-columna-icono"><i class="fas fa-envelope"></i></div>
                     <span class="contiene-lena-columna-texto">@{{empresa.email}}</span> 
                   </div>
+            </div>
+             {{-- <div class="contenedor-columna-footer">
+                <h3 class="titulo-columna-footer">Rutas de interés</h3>
 
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('get_servicios')}}" class="contiene-lena-columna-texto"> Servicios</a>  
+                  </div>
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('get_contacto')}}" class="contiene-lena-columna-texto"> Contacto</a>  
+                  </div>
+                  @if(Auth::guest())
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('auth_login_get')}}" class="contiene-lena-columna-texto"> Iniciar sesión</a>  
+                  </div>
+                  @else
+                  <div class="contiene-lena-columna" >
+                   <a href="{{route('get_datos_corporativos')}}" class="contiene-lena-columna-texto">Administrar</a>  
+                  </div>
+                   <div class="contiene-lena-columna" >
+                   <a href="{{route('logout')}}" class="contiene-lena-columna-texto">Salir</a>  
+                  </div>
+                   @endif
+              </div>   
+ --}}
 
 
                 
-              </div> 
         
                
              
@@ -175,20 +171,31 @@
                 </div>
                 <a :href="empresa.link_whatsapp_send" class="contiene-lena-columna-texto"> Whatsapp</a> 
             </div>
-
-
-
-
-
-
-
-
            
             
-            
+          </div>
+
+           <div class="contenedor-columna-footer">
+            <h3 class="titulo-columna-footer">Créditos</h3>
+
+
+            <div class="footer-parrafo-test">
+              Identidad Corporativa, Comunicación Visual y Diseño Web de Interfaz:<br>
+              Ernesto Calvo | <a class="footer-link" href="">Simbionte</a>
+            </div>
+            <div class="footer-parrafo-test">
+              Coding y Desarrollo Web:<br>
+              Mauricio Costanzo | <a class="footer-link" href="">Mwebs</a>
+            </div>
             
            
-            
+          </div>
+           <div class="contenedor-columna-footer">
+            <h3 class="titulo-columna-footer">Fotografía</h3>
+            <div class="footer-parrafo-test">
+              Alex Knight, Aaron Burden, Bill Oxford, Clarisse Meyer, Helloquence, Jan Vasek, Razvan Chisu, Patrick Fore, Thomas Lefebvre.
+            </div>
+           
           </div>
         
         @yield('iconos-compartir')
