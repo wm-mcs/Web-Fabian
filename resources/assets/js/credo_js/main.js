@@ -254,7 +254,15 @@ jQuery(document).ready(function($) {
 
   //carrusel
   $('.home_slider').carousel({
-    interval: 5000
+    interval: 5000,
+    pause: "hover"
   });
+
+
+  $('.Slider-contenido-de-textos-y-botones').hover(function(){
+   $(".home_slider").carousel('pause');
+},function(){
+   $(".home_slider").carousel('cycle');
+});
 
 });
