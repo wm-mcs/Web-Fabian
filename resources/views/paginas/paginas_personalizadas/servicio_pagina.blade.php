@@ -232,15 +232,7 @@
                 </ul>
                 
               </div>
-              {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
-                  Redacción
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
-                  Redacción y negociación de contratos de arrendamientos o comodato.
-                </h4>
-              </div>
+             
               {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
