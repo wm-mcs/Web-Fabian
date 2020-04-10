@@ -105,7 +105,9 @@
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
                 <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
-                
+                <li><a href="#sobre-mi" class="nav-link">QUIENES SOMOS</a></li>
+                <li><a href="{{route('get_servicios')}}" class="nav-link">SERVICIOS</a></li> 
+                <li><a href="{{route('get_contacto')}}" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
                   <li><a href="{{route('get_datos_corporativos')}}" class="nav-link">ADMINISTRAR</a></li>
                   <li><a href="{{route('logout')}}" class="nav-link">SALIR</a></li>
