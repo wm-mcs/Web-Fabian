@@ -155,7 +155,7 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
          <div class="contiene-botones-slider">
-           <a href="#sobre-mi" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
+           <a href="#Arrendador" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
            <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
          </div>
        </div>
@@ -213,7 +213,7 @@
 
 
 
-  <div  class="site-section " id="sobre-mi">
+  <div  class="site-section " id="Arrendador">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
