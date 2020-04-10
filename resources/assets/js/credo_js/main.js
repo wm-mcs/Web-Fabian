@@ -255,7 +255,7 @@ jQuery(document).ready(function($) {
   //carrusel
   $('.home_slider').carousel({
     interval: 5000,
-    pause: "hover"
+    pause: false
   });
 
 
