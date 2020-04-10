@@ -72,11 +72,24 @@ $Color-Texto-Warning:#aa8749;
 $Color-Verde-Google: #006621;
 
 
+/*Fuente HelveticaWorld*/
+@font-face {
+font-family: 'HelveticaWorld';
+   src: url('fonts/HelveticaWorld/Regular/HelveticaWorld-Regular.eot');
+   src: url('fonts/HelveticaWorld/Regular/HelveticaWorld-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/HelveticaWorld/Regular/HelveticaWorld-Regular.woff') format('woff'),
+        url('fonts/HelveticaWorld/Regular/HelveticaWorld-Regular.ttf') format('truetype'),
+        url('fonts/HelveticaWorld/Regular/HelveticaWorld-Regular.svg#adlerRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 
 /* $font-primary:'Merriweather', 'Helvetica Neue', Arial, sans-serif ; */
 $font-primary: Cambria, Georgia, serif;  
-$font-secondary: 'Helvetica Neue', Arial, sans-serif;
+$font-secondary: 'HelveticaWorld', Arial, sans-serif;
 
 
 
