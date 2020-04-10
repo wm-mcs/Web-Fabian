@@ -41,7 +41,7 @@
       @include flexbox;       
       @include flex-direction(row);
       @include align-items(center);
-      margin-bottom: 6px;
+      margin-bottom: 2px;
     }
 
      .contiene-lena-columna-icono{
@@ -69,7 +69,7 @@
       color:$GrisClaro_2;
       font-size:12px;
       margin-bottom:20px;
-      line-height: 0.8;
+      line-height: 1;
      }
 
      .footer-link{
