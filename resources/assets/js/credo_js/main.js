@@ -259,7 +259,7 @@ jQuery(document).ready(function($) {
   });
 
 
-  $('.Slider-contenido-de-textos-y-botones').hover(function(){
+  $('.contiene-botones-slider, .texto-detalle-slider, .texto-titulo-slider').hover(function(){
    $(".home_slider").carousel('pause');
 },function(){
    $(".home_slider").carousel('cycle');
