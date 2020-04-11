@@ -58,6 +58,8 @@
       font-size: 14px;
       font-family: $font-secondary;
       cursor:pointer;
+      white-space: pre-line;
+      line-height: 0.2;
      }
      .contiene-lena-columna-texto:hover{
       color:$GrisClaro_1;
@@ -68,8 +70,8 @@
       color:$GrisClaro_2;
       font-size:14px;
       margin-bottom:20px;
-      line-height: 0.7;
-      letter-spacing: 1.5px;
+      line-height: 1.1;
+      letter-spacing: 0.3px;
      }
 
      .footer-link{
