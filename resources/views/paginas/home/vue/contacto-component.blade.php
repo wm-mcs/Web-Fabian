@@ -119,7 +119,7 @@ computed:{
     }
    },
    mostrar_boton:function(){
-   if(this.mostrar_campos && this.data_enviar.name != '' && this.data_enviar.email != '' && this.data_enviar.celular != '')
+   if(this.mostrar_campos && this.data_enviar.name != '' && this.data_enviar.email != '')
    {
      return true;
    }
