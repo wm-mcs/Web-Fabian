@@ -201,9 +201,9 @@
        
       </div>
     </footer>
-    <div class="BackgroundGris get_width_100 p-5 ">
+    <div class="Footer-final-container p-5 ">
       <div class="container">
-        <div>
+        <div class="row">
           <div class="col-4 flex-row-center flex-justifice-space-around">
             <div class="Footer-final-text">Hola golala</div>
           </div>
