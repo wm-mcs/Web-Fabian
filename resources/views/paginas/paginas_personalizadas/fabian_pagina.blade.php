@@ -184,7 +184,7 @@
       <img class="logo-float-easy-socio-portada" :src="empresa.img_logo_horizontal_blanco" alt="Estudio Delpino y Sanchez">
       <div class="Slider-wraper-contenido-de-textos-y-botones ">
        <div class="Slider-contenido-de-textos-y-botones">
-         <h2 class="texto-titulo-slider">¿Recibiste una orden de desalojo?</h2>
+         <h2 class="texto-titulo-slider">¿Recibió una orden de desalojo?</h2>
          <p class="texto-detalle-slider">No hay tiempo que perder, debemos actuar estratégicamente y cuanto antes.</p>
          <a href="#contact-section" class="contiene-botones-slider">
            <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Ayuda</div></span> 
@@ -228,7 +228,7 @@
           </div>
           <div class="contiene-cada-div-presentacion">
             <p class="contiene-p-presentacion color-text-black">
-              Brindamos <strong>soluciones eficaces</strong> , a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong> , a medida de cada necesidad.
+              Brindamos <strong>soluciones eficaces</strong>, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de <strong>aranceles accesibles</strong>, a medida de cada necesidad.
             </p>
             <p class="contiene-p-presentacion color-text-black">
               Para ver un listado completo de nuestros servicios  <a href="{{route('get_servicios')}}" class="font-italic text-underline">haga click aquí</a>.
@@ -288,8 +288,8 @@ de inquilinos</h2>
     <div  class="site-section py-4  presentacion-imagen-secundaria-paralax-pais" id="sobre-mi">
       <div class="presentacion-imagen-secundaria-paralax-pais-capa">
           <div class="contiene-alcance-nacional-texto">
-            <h2 class="contiene-h1-presentacion color-text-black-2 text-left">Alcance nacional</h2>
-            <br>
+            <h2 class="contiene-h1-presentacion color-text-black-2 text-left" style="margin-bottom: 30px;">Alcance nacional</h2>
+            
             <p class="contiene-p-presentacion color-text-black-2">Nuestro servicio integral crece permanentemente y ahora se extiende a todo el territorio nacional, siendo el único estudio especializado en desalojos.
             </p> 
            </div>

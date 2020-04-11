@@ -144,7 +144,7 @@ template:'
 <div v-if="!se_envio" class="container">
   <div class="row">
     <div class="col-12 mb-3 position-relative">
-      <h2 class="contacto-titulo color-text-white">Puedes consultar sin compromiso</h2>
+      <h2 class="contacto-titulo color-text-white">Puede consultar sin compromiso</h2>
       <p class="contacto-pregunta color-text-white">¿Cuál es su situación?</p>
       <div class="contacto-contiene-opciones">
         <div  :class="style_clase(arrendador)" v-on:click="cambiar_opcion(arrendador)"> @{{arrendador}}</div>
