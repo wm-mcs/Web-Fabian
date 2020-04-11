@@ -21,14 +21,15 @@
     border-left:solid 3px transparent;
     padding: 0px 0px 0px 20px;
     margin-bottom: 10px;
-}
-.contiene-cada-servicio:hover{
-  width: 95%;
-  transition: width 0.3s linear; /* vendorless fallback */
+    transition: width 0.3s linear; /* vendorless fallback */
   -o-transition: width 0.3s linear; /* opera */
   -ms-transition: width 0.3s linear; /* IE 10 */
   -moz-transition: width 0.3s linear; /* Firefox */
   -webkit-transition: width 0.3s linear; /*safari and chrome */
+}
+.contiene-cada-servicio:hover{
+  width: 95%;
+  
 
 }
 
