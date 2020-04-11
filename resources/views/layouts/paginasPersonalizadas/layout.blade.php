@@ -64,7 +64,7 @@
 
 
     <footer class="site-section  contenedor-footer">
-      <div class="sub-contenedor-footer">
+      <div class="sub-contenedor-footer container">
         
       
 
@@ -138,37 +138,37 @@
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-twitter"></span>
                 </div>
-                <a :href="empresa.twitter_url" class="contiene-lena-columna-texto"> Twitter</a> 
+                <a :href="empresa.twitter_url" class="contiene-lena-columna-texto footer-link"> Twitter</a> 
             </div>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.facebook_url)">
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-facebook"></span>
                 </div>
-                <a :href="empresa.facebook_url" class="contiene-lena-columna-texto"> Facebook</a> 
+                <a :href="empresa.facebook_url" class="contiene-lena-columna-texto footer-link"> Facebook</a> 
             </div>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.instagram_url)">
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-instagram"></span>
                 </div>
-                <a :href="empresa.instagram_url" class="contiene-lena-columna-texto"> Instagram</a> 
+                <a :href="empresa.instagram_url" class="contiene-lena-columna-texto footer-link"> Instagram</a> 
             </div>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.youtube_url)">
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-youtube"></span>
                 </div>
-                <a :href="empresa.youtube_url" class="contiene-lena-columna-texto"> Youtube</a> 
+                <a :href="empresa.youtube_url" class="contiene-lena-columna-texto footer-link"> Youtube</a> 
             </div>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.linkedin_url)">
                 <div class="contiene-lena-columna-icono">
                   <span class="icon-linkedin"></span>
                 </div>
-                <a :href="empresa.linkedin_url" class="contiene-lena-columna-texto"> LinkedIn</a> 
+                <a :href="empresa.linkedin_url" class="contiene-lena-columna-texto footer-link"> LinkedIn</a> 
             </div>
             <div class="contiene-lena-columna" v-if="se_muestra(empresa.Whatsapp_cel)">
                 <div class="contiene-lena-columna-icono">
                   <i class="fab fa-whatsapp"></i>
                 </div>
-                <a :href="empresa.link_whatsapp_send" class="contiene-lena-columna-texto"> Whatsapp</a> 
+                <a :href="empresa.link_whatsapp_send" class="contiene-lena-columna-texto footer-link"> Whatsapp</a> 
             </div>
            
             
@@ -201,6 +201,16 @@
        
       </div>
     </footer>
+    <div class="">
+      <div class="container">
+        
+        <div class="col"></div>
+        <div class="col-6"></div>
+        <div class="col"></div>
+
+      </div>
+      
+    </div>
 
   </div> 
 
