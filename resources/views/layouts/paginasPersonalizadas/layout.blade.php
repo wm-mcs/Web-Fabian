@@ -204,17 +204,17 @@
     <div class="Footer-final-container">
       <div class="container">
         <div class="row">
-          <div class="col-4 flex-row-center flex-justifice-space-around">
-            <div class="Footer-final-text">Hola golala</div>
+          <div class="col flex-row-center flex-justifice-space-around">
+            <div class="Footer-final-text">2020 © Delpino&Asociados. Todos los derechos reservados.</div>
           </div>
           <div class="col-md-6 flex-row-center flex-justifice-space-around">
-            <div class="flex-row-center get_width_100">
-              <img style="height:50px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
-              <img  style="height:50px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
+            <div class="flex-row-center ">
+              <img style="height:70px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
+              <img  style="height:70px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
             </div>
           </div>
-          <div class="col-4 flex-row-center flex-justifice-space-around">
-            <div class="Footer-final-text">Hola golala</div>
+          <div class="col flex-row-center flex-justifice-space-around">
+            <div class="Footer-final-text">Montevideo, Uruguay.</div>
           </div>
         </div>
       </div>
