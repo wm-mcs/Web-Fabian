@@ -201,7 +201,7 @@
        
       </div>
     </footer>
-    <div class="Footer-final-container p-5 ">
+    <div class="Footer-final-container">
       <div class="container">
         <div class="row">
           <div class="col-4 flex-row-center flex-justifice-space-around">
@@ -209,8 +209,8 @@
           </div>
           <div class="col-md-6 flex-row-center flex-justifice-space-around">
             <div class="flex-row-center get_width_100">
-              <img src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
-              <img src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
+              <img style="height:50px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
+              <img  style="height:50px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
             </div>
           </div>
           <div class="col-4 flex-row-center flex-justifice-space-around">
