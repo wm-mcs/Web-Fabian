@@ -201,13 +201,22 @@
        
       </div>
     </footer>
-    <div class="">
+    <div class="BackgroundGris get_width_100 p-5 ">
       <div class="container">
-        
-        <div class="col"></div>
-        <div class="col-6"></div>
-        <div class="col"></div>
-
+        <div>
+          <div class="col-4 flex-row-center flex-justifice-space-around">
+            <div class="Footer-final-text">Hola golala</div>
+          </div>
+          <div class="col-md-6 flex-row-center flex-justifice-space-around">
+            <div class="flex-row-center get_width_100">
+              <img src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
+              <img src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
+            </div>
+          </div>
+          <div class="col-4 flex-row-center flex-justifice-space-around">
+            <div class="Footer-final-text">Hola golala</div>
+          </div>
+        </div>
       </div>
       
     </div>
