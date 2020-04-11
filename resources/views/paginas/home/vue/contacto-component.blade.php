@@ -119,7 +119,7 @@ computed:{
     }
    },
    mostrar_boton:function(){
-   if( this.data_enviar.name != '' && this.data_enviar.email != '')
+   if( this.data_enviar.name != '' && this.data_enviar.email != '' && this.data_enviar.mensaje != '')
    {
      return true;
    }
