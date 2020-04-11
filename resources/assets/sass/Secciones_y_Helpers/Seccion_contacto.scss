@@ -151,10 +151,11 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
       font-size: 25px;
       padding:5px 35px;
       text-align: center;      
-      color:$GrisClaro_2;
-      border:solid 2px $GrisClaro_2;
+      color:$GrisClaro_1;
+      border:solid 2px $GrisClaro_1;
       cursor: pointer;
       letter-spacing: 2px;
+      cursor: not-allowed;
     }
 
 /*  I c o n o s  */
