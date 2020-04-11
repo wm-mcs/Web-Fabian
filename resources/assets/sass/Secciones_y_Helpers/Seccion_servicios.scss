@@ -24,8 +24,12 @@
 }
 .contiene-cada-servicio:hover{
   width: 95%;
-  transition: width 0.3s; 
-  transition-timing-function: ease;
+  transition: width 0.3s linear; /* vendorless fallback */
+  -o-transition: width 0.3s linear; /* opera */
+  -ms-transition: width 0.3s linear; /* IE 10 */
+  -moz-transition: width 0.3s linear; /* Firefox */
+  -webkit-transition: width 0.3s linear; /*safari and chrome */
+
 }
 
 
