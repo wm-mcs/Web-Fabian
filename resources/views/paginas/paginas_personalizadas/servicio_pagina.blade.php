@@ -216,6 +216,15 @@
               {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
+                  Juicio
+                </h3>
+                <h4 class="contiene-cada-servicio-descripcion servicio-text-color-white">
+                  Juicio ejecutivo para cobro de alquileres, gastos comunes y otras expensas.
+                </h4>
+              </div>
+              {{-- Servicio --}}
+              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
+                <h3 class="contiene-cada-servicio-titulo servicio-text-color-white">
                   Desalojos
                 </h3>
                 <ul class="contiene-ul-lista-sub-servicios">
@@ -266,7 +275,7 @@
 
      <div  class="site-section BackgroundOscuro position-relative" id="Abogacia-DerechoPenal">
 
-      <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
+      <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
 
       <div class="container">
         <div class="row" >
@@ -316,7 +325,7 @@
 
 
         <div  class="site-section position-relative" id="Escribania">
-          <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
+          <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
       <div class="container">
         <div class="row" >
          <div class="contiene-presentacion">
