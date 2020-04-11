@@ -209,8 +209,8 @@
           </div>
           <div class="col-md-6 flex-row-center flex-justifice-space-around">
             <div class="flex-row-center ">
-              <img style="height:70px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
-              <img  style="height:70px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
+              <img style="height:80px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png">
+              <img  style="height:80px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png">
             </div>
           </div>
           <div class="col flex-row-center flex-justifice-space-around">
