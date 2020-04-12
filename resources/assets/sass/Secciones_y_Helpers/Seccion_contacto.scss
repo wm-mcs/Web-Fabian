@@ -158,6 +158,10 @@ background-image: url("/imagenes/PaginasPersonalizadas/Delpino-website-typo-cont
       cursor: not-allowed;
     }
 
+    .disabled{
+      cursor: not-allowed;
+    }
+
 /*  I c o n o s  */
 .contacto-pagina-contiene-iconos{
     @include flexbox;       
