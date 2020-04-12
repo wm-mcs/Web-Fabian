@@ -348,7 +348,7 @@
                   Compra / Venta
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Compra/venta de inmuebles y automotores.
+                  Compra-Venta de inmuebles.
                 </h4>
               </div>
                {{-- Servicio --}}
@@ -357,61 +357,48 @@
                   Promesa
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Promesa de compra/venta de inmuebles y automotores.
+                  Promesa de Compra-Venta de inmuebles.
                 </h4>
               </div>
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Leasing
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Leasing de automotores.
-                </h4>
-              </div>
+              
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
                   Hipotecas
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Añadir breve descripción.
+                  Redacción de préstamos hipotecarios con Bancos o entre particulares para la adquisición de bienes inmuebles como para construcción o reforma de los mismos.
+
                 </h4>
               </div>
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Prendas
+                  Reglamento de copropiedad
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Añadir breve descripción.
+                  Redacción de reglamentos de copropiedad. Asesoramiento jurídico.
+
                 </h4>
               </div>
               {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Certificados notariales
+                  Certificados notariales 
                 </h3>
-                <ul class="contiene-ul-lista-sub-servicios">
-                   <li class="contiene-cada-servicio-descripcion color-text-black contiene-servicio-li-list-icono">
-                     Añadir breve descripción.
-                   </li>
-                   <li class="contiene-cada-servicio-descripcion color-text-black contiene-servicio-li-list-icono">
-                     Añadir breve descripción.
-                   </li>
-                  
-                   
-                </ul>
-                
+                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
+                  Para presentar ante ANDA, Contaduría General de la Nación, Porto Seguro, Ministerio de Vivienda, Bancos, Organismos Públicos y Oficinas Privadas.
+                </h4>  
               </div>
               
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Testimonios por exibición
+                  Testimonio
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Añadir breve descripción.
+                  Testimonio por exhibición de documentos públicos y/o privados.
+
                 </h4>
               </div>
               
@@ -421,17 +408,19 @@
                   Poderes
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Añadir breve descripción.
+                  Redacción de poderes generales y especiales.
                 </h4>
               </div>
               
                {{-- Servicio --}}
               <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
                 <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Testamentos
+                  Otros servicios
+
                 </h3>
                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Añadir breve descripción.
+                  No dude en consultar respecto a otros servicios de escribanía.
+
                 </h4>
               </div>
 
