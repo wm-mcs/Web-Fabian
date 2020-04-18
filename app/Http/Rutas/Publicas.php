@@ -30,8 +30,8 @@ Route::get('/Contacto' , [
 );
 
 //Q u i e n e s   s o m o s 
-Route::get('/get_quienes_somos' , [                    
-  'uses' => 'Publicas\Paginas_Controller@get_quienes_somos',
+Route::get('/Quiénes-somos' , [                    
+  'uses' => 'Publicas\Home_Public_Controller@get_quienes_somos',
   'as'   => 'get_quienes_somos']
 );
 
