@@ -188,7 +188,7 @@
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <img src="{{url()}}/imagenes/PaginasPersonalizadas/Quienes_somos/Logo-Delpino-ISO.png">
+            <img class="quienes-somos-logo" src="{{url()}}/imagenes/PaginasPersonalizadas/Quienes_somos/Logo-Delpino-ISO.png">
           </div>
           <div class="contiene-cada-div-presentacion">
            <h3 class=" color-text-black">Orígenes</h3>

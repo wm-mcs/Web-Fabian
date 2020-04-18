@@ -90,6 +90,7 @@
       width:100%;
       font-family: $font-primary;
       margin-top:25px;
+      margin-bottom:2px;
     }
 
     .contiene-p-presentacion{
@@ -168,12 +169,17 @@
   position:relative;
 }
 
-   .contiene-alcance-nacional-texto{
-    width: 85%;
-    @include flexbox;       
-    @include flex-direction(column);
-    @include align-items(flex-start);
-   }
+  .quienes-somos-logo{
+    height:165px;
+    margin-bottom:30px;
+  }
+
+.contiene-alcance-nacional-texto{
+width: 85%;
+@include flexbox;       
+@include flex-direction(column);
+@include align-items(flex-start);
+}
 
 
 
