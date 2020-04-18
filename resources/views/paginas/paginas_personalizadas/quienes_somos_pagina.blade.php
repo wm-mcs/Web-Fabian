@@ -191,12 +191,12 @@
             <img class="quienes-somos-logo" src="{{url()}}/imagenes/PaginasPersonalizadas/Quienes_somos/Logo-Delpino-ISO.png">
           </div>
           <div class="contiene-cada-div-presentacion">
-           <h3 class=" color-text-black">Orígenes</h3>
+           <h3 class="contiene-h3-presentacion color-text-black">Orígenes</h3>
            <p class="contiene-p-presentacion color-text-black">
              Somos una empresa joven fundada por el Doctor en Derecho y Ciencias Sociales Fabián Delpino; una asociación de formados profesionales que, individualmente, tienen una trayectoria de años dentro de la especialización del rubro.
            </p>
 
-           <h3 class=" color-text-black">Leit-motif</h3>
+           <h3 class="contiene-h3-presentacion color-text-black">Leit-motif</h3>
            <p class="contiene-p-presentacion color-text-black">
              Somos una empresa joven fundada por el Doctor en Derecho y Ciencias Sociales Fabián Delpino; una asociación de formados profesionales que, individualmente, tienen una trayectoria de años dentro de la especialización del rubro.
            </p>
