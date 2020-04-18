@@ -84,12 +84,20 @@
       
     }
 
+
+    .contiene-h3-presentacion{
+      font-size:22px;
+      width:100%;
+      font-family: $font-primary;
+      margin-top:25px;
+    }
+
     .contiene-p-presentacion{
       font-size: 14px;
       letter-spacing: 1px;
       width: 100%;
       line-height: 1.5;
-      margin-top: 40px;
+      margin-top: 25px;
       font-family: $font-primary;
       text-align:justify;
 
@@ -97,27 +105,21 @@
 
 
 .presentacion-imagen-paralax{
-/* The image used */
+  /* The image used */
   background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-buildings-estudio-de-abogados.jpg");
-
   /* Set a specific height */
   height: 600px;
-
   /* Create the parallax scrolling effect */
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .presentacion-imagen-secundaria-paralax{
   /* The image used */
   background-image: url("../../imagenes/PaginasPersonalizadas/fabian-delpino-abogado-de-uruguay.jpg");
-
   /* Set a specific height */
   height: 500px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -128,18 +130,14 @@
 .presentacion-imagen-secundaria-paralax-pais{
   /* The image used */
   background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-realstate.jpg");
-
   /* Set a specific height */
   height: 200vh;
-  
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
-  
 }
 
 .presentacion-imagen-secundaria-paralax-pais-capa{
@@ -155,7 +153,19 @@
  @include flex-direction(row);
  @include align-items(center);
  @include justify-content(space-around); 
+}
 
+
+.presentacion-imagen-paralax-quienes-somos{
+  background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-work1-(helloquence).jpg");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
 }
 
    .contiene-alcance-nacional-texto{
@@ -163,7 +173,6 @@
     @include flexbox;       
     @include flex-direction(column);
     @include align-items(flex-start);
-
    }
 
 
@@ -246,8 +255,10 @@
     .contiene-p-presentacion{    
     margin-top: 0px;
     width: 70%;
-    
-    
+    }
+
+    .contiene-h3-presentacion{
+      margin-top:0;
     }
 
 .presentacion-imagen-secundaria-paralax-pais{
@@ -255,7 +266,7 @@
 }
     
 
-  .presentacion-imagen-secundaria-paralax-pais-capa{
+.presentacion-imagen-secundaria-paralax-pais-capa{
  background-image: url("../../imagenes/PaginasPersonalizadas/Delpino-website-uruguay-uruguay-mapa-back.png");
  position:absolute;
  top: 0;

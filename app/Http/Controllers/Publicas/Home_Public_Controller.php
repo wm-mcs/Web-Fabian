@@ -52,5 +52,12 @@ class Home_Public_Controller extends Controller
         return view('paginas.paginas_personalizadas.contacto_pagina', compact('Empresa','blogs'));
     }
 
+    public function get_quienes_somos(Request $Request)
+    {
+        $Empresa        = $this->EmpresaRepo->getEmpresaDatos(); 
+        $blogs          = $this->NoticiasRepo->getUltimosBlogs();
+        return view('paginas.paginas_personalizadas.quienes_somos_pagina', compact('Empresa','blogs'));
+    }
+
 
 }

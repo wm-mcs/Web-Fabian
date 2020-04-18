@@ -29,6 +29,12 @@ Route::get('/Contacto' , [
   'as'   => 'get_contacto']
 );
 
+//Q u i e n e s   s o m o s 
+Route::get('/get_quienes_somos' , [                    
+  'uses' => 'Publicas\Paginas_Controller@get_quienes_somos',
+  'as'   => 'get_quienes_somos']
+);
+
 
 //Contacto
 Route::get('/Contactodfdfd' , [                    
@@ -47,6 +53,9 @@ Route::get('/sss' , [
   'uses' => 'Publicas\Paginas_Controller@get_pagina_servicios',
   'as'   => 'get_pagina_servicios']
 );
+
+
+
 
 
 
