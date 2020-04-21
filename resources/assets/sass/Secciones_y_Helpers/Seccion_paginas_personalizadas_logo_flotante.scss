@@ -170,7 +170,7 @@
 }
 
 .presentacion-imagen-paralax-quienes-somos-libro{
-  background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-work1-(helloquence).jpg");
+  background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-realstate-(by-beatriz-perez-moya)1-responsive.jpg");
   /* Set a specific height */
   height: 500px;  
   background-position: center;
@@ -246,6 +246,15 @@ width: 85%;
 
 
 @media (min-width: $BrackPoint-Secundario){
+  
+
+
+
+
+
+
+
+
   .logo-float-easy-socio-portada{
   
   position: absolute;  
@@ -292,8 +301,11 @@ width: 85%;
  @include flex-direction(column);
  @include align-items(flex-end);
  @include justify-content(space-around); 
-
 }  
+
+.presentacion-imagen-paralax-quienes-somos-libro{
+  background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-realstate-(by-beatriz-perez-moya)1.jpg");
+}
 
   .contiene-alcance-nacional-texto{
     width: 50%;
