@@ -218,132 +218,35 @@
 
 
 
-     {{-- Imagen con logo para mostrar por el medio --}}
+      {{-- Imagen con logo para mostrar por el medio --}}
       <div class="contiene-todo-image-centrada">
        <div class="presentacion-imagen-paralax-quienes-somos"></div>
       </div> 
 
 
-
-        <div  class="site-section position-relative" id="Escribania">
-          <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-claro.png" class="icono-logo-section-servicios">
+      {{-- Parte de filosofía empresarial --}}
+      <div  class="site-section position-relative presentacion-imagen-paralax-quienes-somos-libro" id="Filosofía">
+         
       <div class="container">
-        <div class="row" >
-         <div class="contiene-presentacion">
-          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <h1 class="contiene-h1-presentacion  color-text-black">Escribanía</h1>
 
+        <div class="row " >
+          <div class="contacto-contenido-wraper">
+           <h1 class="contiene-h1-presentacion  color-text-black">Filosfía empresarial</h1>
+           <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
+           <p class="contiene-p-presentacion color-text-black">
+             Explicar cosas aquí
+           </p>
+           <h3 class="contiene-h3-presentacion color-text-black">Aranceles accesibles</h3>
+           <p class="contiene-p-presentacion color-text-black">
+             Explicar cosas aquí
+           </p>
+          <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
+            
           </div>
-          <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
-          <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
-
-          </div>
-          <div class="contiene-cada-div-presentacion">
-
-             <div class="Contiene-lista-de-servicios">
-
-              {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Compra / Venta
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Compra-Venta de inmuebles.
-                </h4>
-              </div>
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Promesa
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Promesa de Compra-Venta de inmuebles.
-                </h4>
-              </div>
-              
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Hipotecas
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Redacción de préstamos hipotecarios con Bancos o entre particulares para la adquisición de bienes inmuebles como para construcción o reforma de los mismos.
-
-                </h4>
-              </div>
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Reglamento de copropiedad
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Redacción de reglamentos de copropiedad. Asesoramiento jurídico.
-
-                </h4>
-              </div>
-              {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Certificados notariales 
-                </h3>
-                 <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Para presentar ante ANDA, Contaduría General de la Nación, Porto Seguro, Ministerio de Vivienda, Bancos, Organismos Públicos y Oficinas Privadas.
-                </h4>  
-              </div>
-              
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Testimonio
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Testimonio por exhibición de documentos públicos y/o privados.
-
-                </h4>
-              </div>
-              
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Poderes
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  Redacción de poderes generales y especiales.
-                </h4>
-              </div>
-              
-               {{-- Servicio --}}
-              <div class="contiene-cada-servicio border-color-servicio-oscuro-claro">
-                <h3 class="contiene-cada-servicio-titulo color-text-black">
-                  Otros servicios
-
-                </h3>
-                <h4 class="contiene-cada-servicio-descripcion color-text-black">
-                  No dude en consultar respecto a otros servicios de escribanía.
-
-                </h4>
-              </div>
+          
 
 
-             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          </div>
-           
-         </div>
+       
           
         </div>
       </div>
