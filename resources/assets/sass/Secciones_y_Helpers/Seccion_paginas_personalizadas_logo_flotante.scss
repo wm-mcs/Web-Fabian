@@ -177,6 +177,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
+  @include flexbox;       
+ @include flex-direction(row);
+ @include align-items(center);
+ @include justify-content(space-around);
 }
 
   .quienes-somos-logo{
@@ -305,6 +309,10 @@ width: 85%;
 
 .presentacion-imagen-paralax-quienes-somos-libro{
   background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-realstate-(by-beatriz-perez-moya)1.jpg");
+  @include flexbox;       
+  @include flex-direction(column);
+  @include align-items(flex-end);
+  @include justify-content(space-around); 
 }
 
   .contiene-alcance-nacional-texto{

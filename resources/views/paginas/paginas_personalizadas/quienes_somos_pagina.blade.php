@@ -227,11 +227,11 @@
       {{-- Parte de filosofía empresarial --}}
       <div  class="site-section position-relative presentacion-imagen-paralax-quienes-somos-libro" id="Filosofía">
          
-      <div class="container">
+     
 
-        <div class="row " >
+        
           <div class="contacto-contenido-wraper">
-           <h1 class="contiene-h1-presentacion  color-text-black">Filosfía empresarial</h1>
+           <h1 class="contiene-h1-presentacion  color-text-black text-left">Filosfía empresarial</h1>
            <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
            <p class="contiene-p-presentacion color-text-black">
              Explicar cosas aquí
@@ -248,8 +248,7 @@
 
        
           
-        </div>
-      </div>
+       
     </div>
 
 
