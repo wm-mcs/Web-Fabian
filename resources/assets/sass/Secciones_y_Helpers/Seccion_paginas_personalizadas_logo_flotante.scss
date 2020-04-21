@@ -183,6 +183,11 @@
  @include justify-content(space-around);
 }
 
+
+  .filosofia-contenido-wrape{
+    width:  98%;
+  }
+
   .quienes-somos-logo{
     height:135px;
     margin-bottom:30px;
@@ -314,6 +319,10 @@ width: 85%;
   @include align-items(flex-end);
   @include justify-content(space-around); 
 }
+
+.filosofia-contenido-wrape{
+    width:  50%;
+  }
 
   .contiene-alcance-nacional-texto{
     width: 50%;
