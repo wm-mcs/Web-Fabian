@@ -54,7 +54,7 @@ class Envio_Formularios_Controller extends Controller
 
 
 
-      dd($Data);
+      
 
       $manager            = new envio_contacto_manager( null, $Request->all());
 
