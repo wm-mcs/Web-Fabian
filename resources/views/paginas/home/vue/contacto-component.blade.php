@@ -244,8 +244,8 @@ template:'
     </div>
   </div>
 </div>
-<div v-else class="section-title text-center text-white mb-5">
-  <h2 class="section-title text-center text-white mb-5">@{{mensaje_se_envio}}</h2>
+<div v-else class="section-title text-center  mb-5">
+  <h2 class="section-title text-center  mb-5">@{{mensaje_se_envio}}</h2>
 </div>
     
 </div>
