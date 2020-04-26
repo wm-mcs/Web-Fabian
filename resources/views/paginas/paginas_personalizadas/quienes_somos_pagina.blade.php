@@ -182,8 +182,13 @@
         
           
           <div class="container">
+
+
+          <div class="d-flex flex-column align-items-center align-items-lg-end">
+            
+          
           <div class="filosofia-contenido-wraper">
-          <div class="row">
+         
 
            <h1 class="contiene-h1-presentacion  color-text-black text-left">Filosfía empresarial</h1>
            <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
@@ -201,6 +206,7 @@
 
           </div>
           </div>
+          
             
           </div>
           
