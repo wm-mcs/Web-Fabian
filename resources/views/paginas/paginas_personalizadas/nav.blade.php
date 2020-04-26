@@ -26,7 +26,7 @@
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">  
                 <li><a href="{{url()}}" class="nav-link">INICIO</a></li>             
-                <li><a href="#sobre-mi" class="nav-link">QUIÉNES SOMOS</a></li>
+                <li><a href="{{route('get_quienes_somos')}}" class="nav-link">QUIÉNES SOMOS</a></li>
                 <li><a href="{{route('get_servicios')}}" class="nav-link">SERVICIOS</a></li> 
                 <li><a href="{{route('get_contacto')}}" class="nav-link">CONTACTO</a></li>
                 @if(!Auth::guest())
