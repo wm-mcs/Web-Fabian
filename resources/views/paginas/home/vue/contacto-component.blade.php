@@ -73,7 +73,7 @@ enviarMensaje:function(){
 
             if(data.Validacion == true)
             {  
-               this.cargando = false;
+               vue.cargando = false;
                gtag('event', 'contacto');
                vue.se_envio = true; 
                vue.mensaje_se_envio = data.Validacion_mensaje; 
@@ -81,7 +81,7 @@ enviarMensaje:function(){
             }
             else
             {
-              this.cargando = false;
+              vue.cargando = false;
               vue.errores = data.Errores;
               $.notify(response.data.Validacion_mensaje, "error",{ position:"right bottom" });
               
@@ -172,7 +172,7 @@ template:'
       </div>
     </div>
     <div v-if="mostrar_boton"  class="row">
-      <div v-if="errores" >
+      <div v-if="errores" class="col-md-12">
         <div v-for="error in errores">@{{error}}</div>
       </div>
       <div  class="col-md-6">
@@ -229,7 +229,7 @@ template:'
       </div>
     </div>
     <div v-if="mostrar_boton"  class="row">
-      <div v-if="errores" >
+      <div v-if="errores"  class="col-md-12">
         <div v-for="error in errores">@{{error}}</div>
       </div>
       <div  class="col-md-6">
