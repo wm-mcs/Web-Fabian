@@ -35,7 +35,7 @@ class Envio_Formularios_Controller extends Controller
       
       $Nombre_de_empresa    = $this->EmpresaRepo->getEmpresaDatos()->name;
        
-      $name                 = $Request->get('nombre');
+      $name                 = $Request->get('name');
       $email                = $Request->get('email');
       $mensaje              = $Request->get('mensaje');
       $celular              = $Request->get('celular');
