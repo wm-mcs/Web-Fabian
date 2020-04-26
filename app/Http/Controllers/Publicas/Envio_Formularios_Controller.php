@@ -33,13 +33,29 @@ class Envio_Formularios_Controller extends Controller
     {
 
       
-      $Nombre_de_empresa  = $this->EmpresaRepo->getEmpresaDatos()->name;
-       //valores del request
-      $name               = $Request->get('nombre');
-      $email              = $Request->get('email');
-      $mensaje            = $Request->get('mensaje');
+      $Nombre_de_empresa    = $this->EmpresaRepo->getEmpresaDatos()->name;
+       
+      $name                 = $Request->get('nombre');
+      $email                = $Request->get('email');
+      $mensaje              = $Request->get('mensaje');
+      $celular              = $Request->get('celular');
+      $departamento         = $Request->get('departamento');
+      $inquilino_ocupante   = $Request->get('inquilino_ocupante');
+      $problema             = $Request->get('problema');
+
+
+
+
+      $Data = compact('name','email','mensaje','celular','departamento','inquilino_ocupante','problema');
+
+
       $Email_al_que_envia = $this->EmpresaRepo->getEmpresaDatos()->email;
-      $Titulo_de_email    = 'Contacto por Webs o Easy';
+      $Titulo_de_email    = 'Solicitud de contacto | ' . $email ;
+
+
+
+
+
       $manager            = new envio_contacto_manager( null, $Request->all());
 
 
@@ -55,11 +71,11 @@ class Envio_Formularios_Controller extends Controller
 
             if($Validacion == true)
             {
-                $this->EmailsRepo->EnvioEmailDeContacto($name, $email, $mensaje,$Email_al_que_envia, $Nombre_de_empresa,$Titulo_de_email);    
+                $this->EmailsRepo->EnvioEmailDeContacto($Data,$Email_al_que_envia, $Nombre_de_empresa,$Titulo_de_email);    
 
                  return   [ 
                    'Validacion'            => $Validacion,
-                   'Validacion_mensaje'    => 'Mensaje enviado correctamente. En breve te estaré respondiendo a '.$email    
+                   'Validacion_mensaje'    => 'Mensaje enviado correctamente. En breve le responderemos a '.$email    
                      ];
 
                       
@@ -68,7 +84,7 @@ class Envio_Formularios_Controller extends Controller
             {
               return [ 
                    'Validacion'            => $Validacion,
-                   'Validacion_mensaje'    => 'Upssssss! algo está mal',
+                   'Validacion_mensaje'    => 'En este momento el servicio de mensajes está con problemas. Intente nuevamente en unas horas.',
                    'Errores'    => $manager->getErrors()    
                      ];
             }
