@@ -178,9 +178,9 @@
   background-size: cover;
   position:relative;
   @include flexbox;       
- @include flex-direction(row);
- @include align-items(center);
- @include justify-content(space-around);
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(space-around);
 }
 
 
@@ -320,7 +320,7 @@ width: 85%;
   @include justify-content(space-around); 
 }
 
-.filosofia-contenido-wrape{
+.filosofia-contenido-wraper{
     width:  50%;
   }
 
