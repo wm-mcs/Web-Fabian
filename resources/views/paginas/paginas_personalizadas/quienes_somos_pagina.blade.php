@@ -180,11 +180,15 @@
      
 
         
-          <div class="filosofia-contenido-wraper">
+          
           <div class="container">
-          <div class="row">
-              
-           
+
+
+          <div class="d-flex flex-column align-items-center align-items-lg-end">
+            
+          
+          <div class="filosofia-contenido-wraper">
+         
 
            <h1 class="contiene-h1-presentacion  color-text-black text-left">Filosfía empresarial</h1>
            <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
@@ -195,10 +199,14 @@
            <p class="contiene-p-presentacion color-text-black">
              Explicar cosas aquí
            </p>
-          <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
+           <div>
+             <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
+           </div>
+          
 
           </div>
           </div>
+          
             
           </div>
           

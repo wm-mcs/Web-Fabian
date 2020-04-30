@@ -64,15 +64,17 @@ class EmailsRepo
      /**
      * Email De Contacto
      */
-    public function EnvioEmailDeContacto($nombre,$email,$mensaje,$email_de_empresa,$nombre_empresa,$titulo_email)               
+    public function EnvioEmailDeContacto($data,$email_de_empresa,$nombre_empresa,$titulo_email)               
     {
-        
+         $nombre  = $data['name'];
+         $email   = $data['email'];
+         $mensaje = $data['mensaje'];
          
 
          Mail::send('emails.solicitud_contacto' ,
 
                    //con esta funcion le envia los datos a la vista.
-                   compact('nombre' , 'email','mensaje','titulo_email')       ,
+                   compact('data','titulo_email')       ,
                    function($m) use ($nombre,$email,$email_de_empresa,$nombre_empresa,$titulo_email) 
                    {
 

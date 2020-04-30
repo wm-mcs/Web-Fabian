@@ -192,7 +192,7 @@
            <div class="contenedor-columna-footer">
             <h3 class="titulo-columna-footer">Fotografía</h3>
             <div class="footer-parrafo-test">
-              Alex Knight, Aaron Burden, Bill Oxford, Clarisse Meyer, Helloquence, Jan Vasek, Razvan Chisu, Patrick Fore, Thomas Lefebvre.
+              Alex Knight, Aaron Burden, Beatriz Perez Moya, Bill Oxford, Clarisse Meyer, Helloquence, Hunters Race, Jan Vašek, Razvan Chisu, Patrick Fore, Thomas Lefebvre.
             </div>
            
           </div>

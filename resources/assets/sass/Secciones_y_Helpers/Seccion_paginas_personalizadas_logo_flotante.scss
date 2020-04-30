@@ -177,15 +177,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
-  @include flexbox;       
- @include flex-direction(row);
- @include align-items(center);
- @include justify-content(space-around);
+  
 }
 
 
-  .filosofia-contenido-wrape{
-    width:  98%;
+  .filosofia-contenido-wraper{
+    width:  100%;
   }
 
   .quienes-somos-logo{
@@ -320,7 +317,7 @@ width: 85%;
   @include justify-content(space-around); 
 }
 
-.filosofia-contenido-wrape{
+.filosofia-contenido-wraper{
     width:  50%;
   }
 
