@@ -143,13 +143,14 @@
           <div class="contiene-cada-div-presentacion">
            <h3 class="contiene-h3-presentacion color-text-black">Orígenes</h3>
            <p class="contiene-p-presentacion color-text-black">
-             Somos una empresa joven fundada por el Doctor en Derecho y Ciencias Sociales Fabián Delpino; una asociación de formados profesionales que, individualmente, tienen una trayectoria de años dentro de la especialización del rubro.
+             Delpino&amp;Asociados es una empresa de profesionales universitarios asociados  con la inquietud
+             de dar origen a  un estudio jurídico pionero que brinde, de forma exclusiva, asesoramiento y
+             defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional.
+             Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y
+             eficiencia.
            </p>
 
-           <h3 class="contiene-h3-presentacion color-text-black">Leit-motif</h3>
-           <p class="contiene-p-presentacion color-text-black">
-             Somos una empresa joven fundada por el Doctor en Derecho y Ciencias Sociales Fabián Delpino; una asociación de formados profesionales que, individualmente, tienen una trayectoria de años dentro de la especialización del rubro.
-           </p>
+          
 
 
           
@@ -175,39 +176,34 @@
 
 
       {{-- Parte de filosofía empresarial --}}
-      <div  class="site-section position-relative presentacion-imagen-paralax-quienes-somos-libro" id="Filosofía">
+<div  class="site-section position-relative presentacion-imagen-paralax-quienes-somos-libro" id="Filosofía">
          
      
 
         
           
           <div class="container">
-
-
-          <div class="d-flex flex-column align-items-center align-items-lg-end">
+            <div class="d-flex flex-column align-items-center align-items-lg-end">
+              
             
-          
-          <div class="filosofia-contenido-wraper">
-         
+            <div class="col-12 col-lg-6">
+           
 
-           <h1 class="contiene-h1-presentacion  color-text-black text-left">Filosfía empresarial</h1>
-           <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
-           <p class="contiene-p-presentacion color-text-black">
-             Explicar cosas aquí
-           </p>
-           <h3 class="contiene-h3-presentacion color-text-black">Aranceles accesibles</h3>
-           <p class="contiene-p-presentacion color-text-black">
-             Explicar cosas aquí
-           </p>
-           <div>
-             <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
-           </div>
-          
+             <h1 class="contiene-h1-presentacion  color-text-black text-left">Filosfía empresarial</h1>
+             <h3 class="contiene-h3-presentacion color-text-black">Compromiso</h3>
+             <p class="contiene-p-presentacion color-text-black"> 
+               El cliente es lo más importante para nosotros. La honestidad, equidad, ética profesional,
+               responsabilidad, compromiso y excelencia son pilares fundamentales de nuestro equipo en la
+               práctica del derecho; posibilitando mediante un trato personalizado y dedicado, un vínculo de
+               confianza y satisfacción en la relación con nuestros clientes.
+             </p>
+             
+             <div>
+               <a href="{{route('get_contacto')}}" class="boton-contactar-presentacion">Contactar</a>
+             </div>           
 
-          </div>
-          </div>
-          
-            
+            </div>
+            </div>
           </div>
           
 
@@ -215,7 +211,7 @@
        
           
        
-    </div>
+</div>
 
 
     
