@@ -174,7 +174,7 @@
   /* Set a specific height */
   height: 500px;  
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   position:relative;
   
@@ -310,7 +310,7 @@ width: 85%;
 }  
 
 .presentacion-imagen-paralax-quienes-somos-libro{
-  background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-realstate-(by-beatriz-perez-moya)1.jpg");
+  /* background-image: url("../../imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-realstate-(by-beatriz-perez-moya)1.jpg"); */
   @include flexbox;       
   @include flex-direction(column);
   @include align-items(flex-end);
