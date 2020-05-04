@@ -217,10 +217,10 @@
     <div class="container ">
      <div class="d-flex flex-column align-items-end">
         
-          <div class=" col-11 col-lg-11 mb-3 text-right texto-detalle-slider text-white font-italic"> 
+          <div class=" col-11 col-lg-11 mb-3 text-right subtitulos-text color-text-white-2 font-italic"> 
           “Tu deber es luchar por el derecho: pero el día que encuentres en conflicto el derecho con la justicia, lucha por la justicia.”
           </div>
-          <div class=" col-11 col-lg-11 text-right text-white">---Eduardo Couture.
+          <div class=" col-11 col-lg-11 text-right color-text-white-2">---Eduardo Couture.
           </div>
         
       </div>

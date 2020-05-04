@@ -151,8 +151,8 @@
 
 
            <div class="contiene-datos-contacto">
-             <span class="contiene-datos-contacto-datos servicio-text-color-white">@{{empresa.email}}</span>
-             <span class="contiene-datos-contacto-datos servicio-text-color-white">@{{empresa.celular}}</span>
+             <span class="subtitulos-text mb-2 servicio-text-color-white">@{{empresa.email}}</span>
+             <span class="subtitulos-text mb-2 servicio-text-color-white">@{{empresa.celular}}</span>
            </div>
               
           

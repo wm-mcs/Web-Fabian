@@ -46,9 +46,15 @@
       width: 100%;
       font-size: 45px;
       font-weight: bold;
-      line-height:1;
-      
+      line-height:1;     
 
+    }
+
+    .subtitulos-text{
+      font-size:20px;      
+      font-family: $font-primary;
+      line-height: 1;
+      letter-spacing: -1px;
     }
 
     .boton-contactar-presentacion{
@@ -293,6 +299,10 @@ width: 85%;
   text-align: right;  
   width: 70%;
  }
+
+ .subtitulos-text{
+    font-size:28px;
+  }
 
  .ajuste-de-posicion-para-presentacion{    
     @include align-items(flex-end);
