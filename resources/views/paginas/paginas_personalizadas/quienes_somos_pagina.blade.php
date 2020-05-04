@@ -212,6 +212,16 @@
           
        
 </div>
+<div class="quienes-somos-cita-contenedor">
+   <img src="{{url()}}/imagenes/PaginasPersonalizadas/Servicios/Logo-Delpino-oscuro.png" class="icono-logo-section-servicios">
+    <div class="container d-flex flex-column align-items-center align-items-lg-end">
+     <div class="col-10">
+       <div class="mb-3 text-right texto-detalle-slider text-white font-italic"> “Tu deber es luchar por el derecho: pero el día que encuentres en conflicto el derecho
+                 con la justicia, lucha por la justicia.”</div>
+       <div class="text-right text-white">---Eduardo Couture.</div>
+     </div>
+    </div>
+</div>
 
 
     
