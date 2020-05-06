@@ -189,9 +189,9 @@
 
 
 <div class="site-section position-relative presentacion-imagen-paralax-quienes-somos-libro">
- <div class="presentacion-imagen-paralax-quienes-somos-mujer">
-   
- </div>
+ 
+<img class="presentacion-imagen-paralax-quienes-somos-mujer" src="{{url()}}/imagenes/PaginasPersonalizadas/Quienes_somos/business-card-parallax-woman2.png">
+ 
   
 </div>
 
