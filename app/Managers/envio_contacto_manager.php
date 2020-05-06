@@ -14,7 +14,7 @@ class envio_contacto_manager extends ManagerBase
   public function getRules()
   {
     $rules = [
-      'name'      => 'required|string',
+      'name'      => 'required|alpha',
       'email'     => 'required|email',
       'mensaje'   => 'required'
              ];
