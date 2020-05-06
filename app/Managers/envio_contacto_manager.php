@@ -14,7 +14,7 @@ class envio_contacto_manager extends ManagerBase
   public function getRules()
   {
     $rules = [
-      'name'      => 'required',
+      'name'      => 'required|regex:/^[A-Za-zÑñÁáÉéÍíÓóÚúÜü ]{1,50}$/',
       'email'     => 'required|email',
       'mensaje'   => 'required'
              ];
