@@ -150,13 +150,13 @@
              eficiencia.
            </p>
            <h3 class="contiene-h3-presentacion color-text-black">Staff</h3>
-           <p class="contiene-p-presentacion color-text-black mb-5">
-            <p class="mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
-            <p class="mb-2">Dra. María Inés Sánchez – Abogada asociada.</p> 
-            <p class="mb-2">Esc. Virginia González- Escribana asociada.</p> 
+           
+            <p class="contiene-p-presentacion color-text-black mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
+            <p class="contiene-p-presentacion color-text-black mb-2">Dra. María Inés Sánchez – Abogada asociada.</p> 
+            <p class="contiene-p-presentacion color-text-black mb-2">Esc. Virginia González- Escribana asociada.</p> 
              
              
-           </p>
+           
 
           
 
