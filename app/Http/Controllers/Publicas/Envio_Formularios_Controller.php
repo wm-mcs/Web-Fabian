@@ -84,7 +84,7 @@ class Envio_Formularios_Controller extends Controller
             {
               return [ 
                    'Validacion'            => $Validacion,
-                   'Validacion_mensaje'    => 'En este momento el servicio de mensajes está con problemas. Intente nuevamente en unas horas.',
+                   'Validacion_mensaje'    => 'Verefica los datos e intenta de nuevo.',
                    'Errores'    => $manager->getErrors()    
                      ];
             }
