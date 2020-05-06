@@ -142,12 +142,20 @@
           </div>
           <div class="contiene-cada-div-presentacion">
            <h3 class="contiene-h3-presentacion color-text-black">Orígenes</h3>
-           <p class="contiene-p-presentacion color-text-black">
+           <p class="contiene-p-presentacion color-text-black mb-5">
              Delpino&amp;Asociados es una empresa de profesionales universitarios asociados  con la inquietud
              de dar origen a  un estudio jurídico pionero que brinde, de forma exclusiva, asesoramiento y
              defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional.
              Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y
              eficiencia.
+           </p>
+           <h3 class="contiene-h3-presentacion color-text-black">Staff</h3>
+           <p class="contiene-p-presentacion color-text-black mb-5">
+            <p class="mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
+            <p class="mb-2">Dra. María Inés Sánchez – Abogada asociada.</p> 
+            <p class="mb-2">Esc. Virginia González- Escribana asociada.</p> 
+             
+             
            </p>
 
           
