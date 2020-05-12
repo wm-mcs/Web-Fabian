@@ -6,7 +6,11 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/Quienes_somos/Delpino-website-professionals-header-(hunters-race)2.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
 {{--*/ $Titulo                = 'Quiénes somos | Delpino & Asociados ' /*--}} 
-{{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+{{--*/ $DescriptionEtiqueta   = 'Delpino&amp;Asociados es una empresa de profesionales universitarios asociados  con la inquietud
+       de dar origen a  un estudio jurídico pionero que brinde, de forma exclusiva, asesoramiento y
+       defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional.
+       Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y
+       eficiencia. 
 .
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}

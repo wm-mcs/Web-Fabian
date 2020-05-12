@@ -6,7 +6,7 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/Delpino-website-contactf-header-(thomas-lefebvre).jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
 {{--*/ $Titulo                = 'Contacto | Delpino & Asociados ' /*--}} 
-{{--*/ $DescriptionEtiqueta   = '¿Quiere desalojar a alguien?, ¿Su inquilino no se quiere ir?, Le han ocupado su casa sin su permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
+{{--*/ $DescriptionEtiqueta   = 'Puede comunicarse con nosotros directamente por teléfono, correo electrónico o rellenar el formulario de contacto. 
 .
  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}

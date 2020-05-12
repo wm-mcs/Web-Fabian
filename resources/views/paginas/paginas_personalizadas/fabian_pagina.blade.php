@@ -5,10 +5,8 @@
 
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
-{{--*/ $Titulo                = 'Delpino & Asociados | Abogados especialistas en desalojos' /*--}} 
-{{--*/ $DescriptionEtiqueta   = '¿Quieres desalojar a alguien?, ¿tu inquilino no se quiere ir?, ¿Te han ocupado tu casa sin tu permiso?, soy Fabian Delpino abogado experto en desalojos en Uruguay. 
-.
- ' /*--}}
+{{--*/ $Titulo                = 'Delpino & Asociados | Asistencia en arrendamientos y Recuperación de inmuebles ' /*--}} 
+{{--*/ $DescriptionEtiqueta   = 'Brindamos soluciones eficaces, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de aranceles accesibles, a medida de cada necesidad.  ' /*--}}
 {{--*/ $PalabrasClaves        = '' /*--}}
 {{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
 
