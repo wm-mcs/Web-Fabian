@@ -1,3 +1,12 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.delpinoyasociados.com.uy/$1 [R=301,L,NE] 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^delpinoyasociados.com.uy [NC]
+RewriteRule ^(.*)$ https://www.delpinoyasociados.com.uy/$1 [L,R=301]
+
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -15,13 +24,7 @@
 </IfModule>
 
 
-RewriteEngine On 
-RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://www.delpinoyasociados.com.uy/$1 [R=301,L,NE] 
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^delpinoyasociados.com.uy [NC]
-RewriteRule ^(.*)$ https://www.delpinoyasociados.com.uy/$1 [L,R=301]
 
 
 <IfModule mod_expires.c>
