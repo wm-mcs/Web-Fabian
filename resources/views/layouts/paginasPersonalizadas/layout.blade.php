@@ -180,7 +180,7 @@
 
             <div class="footer-parrafo-test">
               Identidad Corporativa, Comunicación Visual y Diseño Web de Interfaz:<br>
-              Ernesto Calvo | <a class="footer-link text-bold" href="">Simbionte</a>
+              Ernesto Calvo | <a class="footer-link text-bold" href="https://www.instagram.com/simbionte.creativo">Simbionte</a>
             </div>
             <div class="footer-parrafo-test">
               Coding y Desarrollo Web:<br>
@@ -209,8 +209,8 @@
           </div>
           <div class="col-md-6 flex-row-center flex-justifice-space-around">
             <div class="flex-row-center ">
-              <a href="https://mauricio.mwebs.com.uy/"> <img style="height:80px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png"></a>
-              <a href=""> <img  style="height:80px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png"></a>
+              <a href="https://mauricio.mwebs.com.uy/" class="mr-lg-3"> <img style="height:80px; width: auto; " src="{{url()}}/imagenes/PaginasPersonalizadas/footer-mwebs-logo-A.png"></a>
+              <a href="https://www.instagram.com/simbionte.creativo"> <img  style="height:80px; width: auto; "src="{{url()}}/imagenes/PaginasPersonalizadas/footer-simbionte-logo-A.png"></a>
             </div>
           </div>
           <div class="col flex-row-center flex-justifice-space-around">
