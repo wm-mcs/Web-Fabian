@@ -123,11 +123,7 @@
     <div class="contiene-cada-div-presentacion">
      <h3 class="contiene-h3-presentacion color-text-black">Orígenes</h3>
      <p class="contiene-p-presentacion color-text-black mb-5">
-       Delpino&amp;Asociados es una empresa de profesionales universitarios asociados  con la inquietud
-       de dar origen a  un estudio jurídico pionero que brinde, de forma exclusiva, asesoramiento y
-       defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional.
-       Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y
-       eficiencia.
+              Delpino&Asociados, es una empresa de profesionales universitarios que comparten la inquietud de crear un estudio jurídico pionero,  que brinde de forma exclusiva, asesoramiento y defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional. Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y eficiencia.
      </p>
      <h3 class="contiene-h3-presentacion color-text-black">Staff</h3>           
       <p class="contiene-p-presentacion color-text-black mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
