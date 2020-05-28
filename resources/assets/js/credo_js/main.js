@@ -207,7 +207,7 @@ jQuery(document).ready(function($) {
 	// navigation
   var OnePageNavigation = function() {
     var navToggler = $('.site-menu-toggle');
-   	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function(e) {
+   	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .link-to ,.site-mobile-menu .site-nav-wrap li a[href^='#']", function(e) {
       e.preventDefault();
 
       var hash = this.hash;

@@ -99,8 +99,8 @@
          <h2 class="texto-titulo-slider">Contacto</h2>
          <p class="texto-detalle-slider">Puede comunicarse con nosotros directamente por teléfono, correo electrónico o rellenar el formulario de contacto.</p>
          <div class="contiene-botones-slider">
-           <a href="#Datos" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Datos</div></a> 
-           <a href="#Formulario" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Formulario</div></a>
+           <a href="#Datos" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Datos</div></a> 
+           <a href="#Formulario" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Formulario</div></a>
          </div>
        </div>
       </div>

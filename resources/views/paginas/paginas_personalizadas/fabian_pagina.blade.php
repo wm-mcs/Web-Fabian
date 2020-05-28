@@ -102,8 +102,8 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">Asistencia en arrendamientos</h2>
          <div class="contiene-botones-slider">
-           <a href="#Arrendador" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
-           <a href="#section-4" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
+           <a href="#Arrendador" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendador</div></a> 
+           <a href="#section-4" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Arrendatario</div></a>
          </div>
        </div>
       </div>
@@ -133,7 +133,7 @@
        <div class="Slider-contenido-de-textos-y-botones">
          <h2 class="texto-titulo-slider">¿Recibió una orden de desalojo?</h2>
          <p class="texto-detalle-slider">No hay tiempo que perder, debemos actuar estratégicamente y cuanto antes.</p>
-         <a href="#contact-section" class="contiene-botones-slider">
+         <a href="#contact-section" class="contiene-botones-slider link-to">
            <span class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Ayuda</div></span> 
            
          </a>
@@ -210,7 +210,7 @@ de inquilinos</h2>
           </div>
           <div class="contiene-cada-div-presentacion no-mostrar-solo-mobil"></div>
           <div class="contiene-cada-div-presentacion ajuste-de-posicion-para-presentacion">
-            <a href="#contact-section" class="boton-contactar-presentacion-blanco border-color-servicio-white servicio-text-color-white">Contactar</a>
+            <a href="#contact-section" class="boton-contactar-presentacion-blanco link-to border-color-servicio-white servicio-text-color-white">Contactar</a>
 
           </div>
           <div class="contiene-cada-div-presentacion">

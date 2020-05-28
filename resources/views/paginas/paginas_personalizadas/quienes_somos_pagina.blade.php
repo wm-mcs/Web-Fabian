@@ -99,8 +99,8 @@
          <h2 class="texto-titulo-slider">Quiénes somos</h2>
          <p class="texto-detalle-slider">Acerca de nosotros y nuestros valores.</p>
          <div class="contiene-botones-slider">
-           <a href="#SeccionA" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Orígenes</div></a> 
-           <a href="#Filosofia" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Filosofía</div></a>
+           <a href="#SeccionA" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Orígenes</div></a> 
+           <a href="#Filosofia" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Filosofía</div></a>
          </div>
        </div>
       </div>      

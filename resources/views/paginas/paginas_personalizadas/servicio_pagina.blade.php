@@ -99,8 +99,8 @@
          <h2 class="texto-titulo-slider">Servicios</h2>
          <p class="texto-detalle-slider">Cubrimos todos los aspectos asociados a desalojos, arrendamientos y bienes raíces.</p>
          <div class="contiene-botones-slider">
-           <a href="#Abogacia" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Abogacía</div></a> 
-           <a href="#Escribania" class="wraper-boton-slider"><div class="boton-contactar-presentacion-blanco get_width_100">Escribanía</div></a>
+           <a href="#Abogacia" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Abogacía</div></a> 
+           <a href="#Escribania" class="wraper-boton-slider link-to"><div class="boton-contactar-presentacion-blanco get_width_100">Escribanía</div></a>
          </div>
        </div>
       </div>
