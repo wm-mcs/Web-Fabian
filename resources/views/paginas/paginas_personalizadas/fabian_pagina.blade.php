@@ -6,8 +6,8 @@
 {{--*/ $ImagenPortada         = url() . '/imagenes/PaginasPersonalizadas/fabian-delpino-abogado-especialista-en-desalojos-en-uruguay.jpg'/*--}}
 {{--*/ $ImagenParaTaG         = url() . '/imagenes/Empresa/logo_cuadrado.png' /*--}}
 {{--*/ $Titulo                = 'Delpino & Asociados | Asistencia en arrendamientos y Recuperación de inmuebles ' /*--}} 
-{{--*/ $DescriptionEtiqueta   = 'Brindamos soluciones eficaces, a los efectos de una pronta recuperación de inmuebles arrendados u ocupados, para complacer así las necesidades de nuestros clientes de forma segura y con la mayor celeridad posible. Ofrecemos un servicio personalizado, de aranceles accesibles, a medida de cada necesidad.  ' /*--}}
-{{--*/ $PalabrasClaves        = '' /*--}}
+{{--*/ $DescriptionEtiqueta   = 'Estudio de abogados especializados en desalojos; asistencia a arrendadores, arrendatarios, y asesoramiento a pensiones e inmobiliarias en Uruguay.  ' /*--}}
+{{--*/ $PalabrasClaves        = 'desalojos, mal pagador, arrendador, arrendatario, inmobiliaria, pensión, comodato, íntimación, abogado, escribano' /*--}}
 {{--*/ $UrlDeLaPagina         = route('get_home') /*--}}
 
 @section('og-tags')
