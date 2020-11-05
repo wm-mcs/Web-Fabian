@@ -126,9 +126,9 @@
               Delpino&Asociados, es una empresa de profesionales universitarios que comparten la inquietud de crear un estudio jurídico pionero,  que brinde de forma exclusiva, asesoramiento y defensa judicial en materia arrendaticia y de desalojos en todo el territorio nacional. Constituida por un equipo altamente calificado y devoto en la búsqueda de la excelencia y eficiencia.
      </p>
      <h3 class="contiene-h3-presentacion color-text-black">Staff</h3>           
-      <p class="contiene-p-presentacion color-text-black mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
+      {{--  <p class="contiene-p-presentacion color-text-black mb-2">Dr. Fabián Delpino – Abogado Fundador/Director.</p> 
       <p class="contiene-p-presentacion color-text-black mb-2">Dra. María Inés Sánchez – Abogada asociada.</p> 
-      <p class="contiene-p-presentacion color-text-black mb-2">Esc. Virginia González- Escribana asociada.</p> 
+      <p class="contiene-p-presentacion color-text-black mb-2">Esc. Virginia González- Escribana asociada.</p>   --}}
     </div>           
    </div>          
   </div>
@@ -178,9 +178,9 @@
      <div class="d-flex flex-column align-items-end">
         
           <div class=" col-11 col-lg-11 mb-3 text-right subtitulos-text color-text-white-2 font-italic"> 
-          “Tu deber es luchar por el derecho: pero el día que encuentres en conflicto el derecho con la justicia, lucha por la justicia.”
+          “Tu deber es luchar por el derecho; pero el día que encuentres en conflicto el derecho con la justicia, lucha por la justicia.”
           </div>
-          <div class=" col-11 col-lg-11 text-right color-text-white-2">---Eduardo Couture.
+          <div class=" col-11 col-lg-11 text-right color-text-white-2">Eduardo Couture.
           </div>
         
       </div>
